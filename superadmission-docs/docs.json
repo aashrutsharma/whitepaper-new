@@ -1,0 +1,240 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
+  "name": "Superadmission Documentation",
+  "colors": {
+    "primary": "#000000",
+    "light": "#FBFBFB",
+    "dark": "#C1C1C1"
+  },
+  "logo": {
+    "light": "/images/superadmission-whnitepaper.svg",
+    "dark": "/images/superadmission-whnitepaper_dark.svg"
+  },
+  "favicon": {
+    "light": "/images/1B_SVG_ICONONLY_PRAVESH.svg",
+    "dark": "/images/SVG_ICONONLY_PRAVESH_WHITE.png"
+  },
+  "appearance": {
+    "default": "light",
+    "strict": false
+  },
+  "background": {
+    "color": {
+      "dark": "#191919"
+    }
+  },
+  "fonts": {
+    "heading": {
+      "family": "Inter",
+      "weight": 600
+    }
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "contextual": {
+    "options": [
+      "chatgpt",
+      "claude",
+      "grok",
+      "download-pdf"
+    ],
+    "display": "header"
+  },
+  "search": {
+    "prompt": "Search..."
+  },
+  "navbar": {
+    "links": [
+      {
+        "icon": "house",
+        "href": "/",
+        "label": ""
+      },
+      {
+        "icon": "x-twitter",
+        "href": "https://x.com/aashruts",
+        "label": ""
+      },
+      {
+        "icon": "linkedin",
+        "href": "https://www.linkedin.com/company/superadmission/",
+        "label": ""
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Talk to Founders",
+      "href": "https://cal.com/aashrut/talk-to-founders"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Understanding Admissions",
+        "icon": "graduation-cap",
+        "groups": [
+          {
+            "group": "Understanding Admissions",
+            "pages": [
+              "understanding-admissions/how-admissions-in-india-actually-work",
+              "understanding-admissions/what-is-counselling",
+              "understanding-admissions/history-of-admissions-in-india",
+              "understanding-admissions/admission-systems-and-institutions",
+              "understanding-admissions/education-policy-and-digital-india",
+              "understanding-admissions/global-perspective",
+              "understanding-admissions/glossary"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Superadmission",
+        "icon": "layers",
+        "groups": [
+          {
+            "group": "The Vision",
+            "pages": [
+              "superadmission/what-is-superadmission",
+              "superadmission/why-india-needs-superadmission",
+              "superadmission/the-thought-behind-superadmission",
+              "superadmission/our-mission-and-vision",
+              "superadmission/superadmission-as-digital-public-infrastructure"
+            ]
+          },
+          {
+            "group": "How It Works",
+            "pages": [
+              "superadmission/the-superadmission-platform",
+              "superadmission/praveshai",
+              "superadmission/manifest",
+              "superadmission/digital-spot-round-environment",
+              "superadmission/unified-profile-and-documents",
+              "superadmission/unified-dashboard",
+              "superadmission/counselling-and-seat-allocation"
+            ]
+          },
+          {
+            "group": "For Institutions",
+            "pages": [
+              "superadmission/how-colleges-use-superadmission",
+              "superadmission/how-counselling-authorities-use-superadmission",
+              "superadmission/institutional-onboarding",
+              "superadmission/managing-admissions",
+              "superadmission/monitoring-admissions"
+            ]
+          },
+          {
+            "group": "Trust and Privacy",
+            "pages": [
+              "superadmission/how-superadmission-handles-student-data",
+              "superadmission/data-ownership-and-consent",
+              "superadmission/security-and-privacy",
+              "superadmission/digital-infrastructure-and-integrations"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "FAQs",
+        "icon": "message-circle-question",
+        "groups": [
+          {
+            "group": "FAQs",
+            "pages": [
+              "faqs/for-students",
+              "faqs/for-parents",
+              "faqs/for-counselling-authorities",
+              "faqs/for-universities-and-colleges",
+              "faqs/for-government",
+              "faqs/general-faqs"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Newsstand",
+        "icon": "newspaper",
+        "pages": [
+          "newsstand"
+        ]
+      },
+      {
+        "tab": "Playground",
+        "icon": "play",
+        "href": "https://superadmission.com/pravesh"
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/aashruts",
+      "linkedin": "https://www.linkedin.com/company/superadmission"
+    },
+    "links": [
+      {
+        "header": "Documentation",
+        "items": [
+          {
+            "label": "Understanding Admissions",
+            "href": "/understanding-admissions/how-admissions-in-india-actually-work"
+          },
+          {
+            "label": "Superadmission",
+            "href": "/superadmission/what-is-superadmission"
+          },
+          {
+            "label": "PraveshAI",
+            "href": "/superadmission/praveshai"
+          },
+          {
+            "label": "Manifest",
+            "href": "/superadmission/manifest"
+          },
+          {
+            "label": "FAQs",
+            "href": "/faqs/general-faqs"
+          }
+        ]
+      },
+      {
+        "header": "Company",
+        "items": [
+          {
+            "label": "Talk to Founders",
+            "href": "https://cal.com/aashrut/talk-to-founders"
+          },
+          {
+            "label": "X / Twitter",
+            "href": "https://x.com/aashruts"
+          },
+          {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/company/superadmission"
+          }
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "metatags": {
+      "description": "Superadmission is a proposed unified admissions infrastructure for India that connects students, institutions and counselling authorities through Aadhaar, DigiLocker, APAAR and interoperable admissions workflows.",
+      "keywords": "Superadmission, PraveshAI, Aidra LLP, Unified Admissions Infrastructure, National Admissions Infrastructure, Admissions Operating System, Higher Education Infrastructure, India Admissions Infrastructure, Admissions Platform, Admissions Portal, Admissions Dashboard, Student Portal, Student Dashboard, Student Workspace, Institution Dashboard, University Dashboard, College Dashboard, Counselling Authority Dashboard, Admission Management System, Admission Operations Platform, Admission Workflow Platform, Admission Lifecycle Management, Admission Automation Platform, Student Identity Platform, Unified Student Profile, Enrollment Management System, Seat Allocation Platform, Counselling Platform, Counselling Management System, Centralized Counselling System, Student Admissions Platform, Institution Operations Platform, University Admissions Platform, College Admissions Platform, Higher Education Admissions, Aadhaar Authentication, Aadhaar Verification, DigiLocker, DigiLocker Integration, APAAR, APAAR ID, Academic Bank of Credits, ABC, Digital Public Infrastructure, India Stack, Education Infrastructure, Education Governance, Education Digitization, NEP 2020, DPDP Act, Admission Compliance, Student Verification, Document Verification, Digital Spot Round, Admissions Intelligence Layer, Admission Orchestration Platform, Unified Student Records, Student Enrollment Platform, Education Technology India, Admission Tracking System, Seat Allocation Engine, Student Journey Platform, Pravesh, AI, University, Colleges, Rank, CRL, Category, Cutoff",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "author": "Fairhold Corporation Private Limited",
+      "application-name": "Superadmission",
+      "category": "Education Technology",
+      "classification": "Higher Education Admissions Infrastructure"
+    }
+  }
+}
