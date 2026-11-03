@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
+  "theme": "mint",
   "name": "Superadmission Documentation",
   "colors": {
     "primary": "#000000",
@@ -57,11 +57,6 @@
   "navbar": {
     "links": [
       {
-        "icon": "house",
-        "href": "/",
-        "label": ""
-      },
-      {
         "icon": "x-twitter",
         "href": "https://x.com/aashruts",
         "label": ""
@@ -81,13 +76,19 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Overview",
+        "icon": "house",
+        "pages": [
+          "index"
+        ]
+      },
+      {
         "tab": "Understanding Admissions",
         "icon": "graduation-cap",
         "groups": [
           {
             "group": "Understanding Admissions",
             "pages": [
-              "index",
               "understanding-admissions/how-admissions-in-india-actually-work",
               "understanding-admissions/what-is-counselling",
               "understanding-admissions/history-of-admissions-in-india",
@@ -102,9 +103,9 @@
       {
         "tab": "Superadmission",
         "icon": "layers",
-        "anchors": [
+        "groups": [
           {
-            "anchor": "The Vision",
+            "group": "The Vision",
             "pages": [
               "superadmission/what-is-superadmission",
               "superadmission/why-india-needs-superadmission",
@@ -114,7 +115,7 @@
             ]
           },
           {
-            "anchor": "How It Works",
+            "group": "How It Works",
             "pages": [
               "superadmission/the-superadmission-platform",
               "superadmission/praveshai",
@@ -126,7 +127,7 @@
             ]
           },
           {
-            "anchor": "For Institutions",
+            "group": "For Institutions",
             "pages": [
               "superadmission/how-colleges-use-superadmission",
               "superadmission/how-counselling-authorities-use-superadmission",
@@ -136,23 +137,12 @@
             ]
           },
           {
-            "anchor": "Trust and Privacy",
+            "group": "Trust and Privacy",
             "pages": [
               "superadmission/how-superadmission-handles-student-data",
               "superadmission/data-ownership-and-consent",
               "superadmission/security-and-privacy",
               "superadmission/digital-infrastructure-and-integrations"
-            ]
-          },
-          {
-            "anchor": "manifest",
-            "groups": [
-              {
-                "group": "manifest",
-                "pages": [
-                  "what-is-manifest"
-                ]
-              }
             ]
           }
         ]
