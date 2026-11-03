@@ -87,6 +87,7 @@
           {
             "group": "Understanding Admissions",
             "pages": [
+              "index",
               "understanding-admissions/how-admissions-in-india-actually-work",
               "understanding-admissions/what-is-counselling",
               "understanding-admissions/history-of-admissions-in-india",
@@ -147,7 +148,7 @@
       },
       {
         "tab": "FAQs",
-        "icon": "message-circle-question",
+        "icon": "message-circle",
         "groups": [
           {
             "group": "FAQs",

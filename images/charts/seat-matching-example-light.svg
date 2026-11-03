@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">A tiny example: 3 students, 2 seats</title><desc id="d">Seats go to the smallest rank number first</desc>
+<text x="24" y="38" font-size="21" font-weight="700" fill="#111113" text-anchor="start">A tiny example: 3 students, 2 seats</text>
+<text x="24" y="62" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="start">Everyone listed Computer Science first and Mechanical second</text>
+<rect x="30" y="100" width="250" height="70" rx="14" fill="#f6f6f8" stroke="#34a56f" stroke-width="2.5"/>
+<circle cx="66" cy="135" r="18" fill="#34a56f"/>
+<text x="66" y="141" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+<text x="96" y="131" font-size="18" font-weight="700" fill="#111113" text-anchor="start">Asha</text>
+<text x="96" y="153" font-size="14" font-weight="500" fill="#5c5c64" text-anchor="start">Rank 50</text>
+<rect x="30" y="195" width="250" height="70" rx="14" fill="#f6f6f8" stroke="#4d82e0" stroke-width="2.5"/>
+<circle cx="66" cy="230" r="18" fill="#4d82e0"/>
+<text x="66" y="236" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">U</text>
+<text x="96" y="226" font-size="18" font-weight="700" fill="#111113" text-anchor="start">Unnati</text>
+<text x="96" y="248" font-size="14" font-weight="500" fill="#5c5c64" text-anchor="start">Rank 450</text>
+<rect x="30" y="290" width="250" height="70" rx="14" fill="#f6f6f8" stroke="#8a8a94" stroke-width="2.5"/>
+<circle cx="66" cy="325" r="18" fill="#8a8a94"/>
+<text x="66" y="331" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+<text x="96" y="321" font-size="18" font-weight="700" fill="#111113" text-anchor="start">Ben</text>
+<text x="96" y="343" font-size="14" font-weight="500" fill="#5c5c64" text-anchor="start">Rank 900</text>
+<rect x="480" y="100" width="250" height="70" rx="14" fill="#f6f6f8" stroke="#34a56f" stroke-width="2.5"/>
+<text x="498" y="131" font-size="17" font-weight="700" fill="#111113" text-anchor="start">Computer Science seat</text>
+<text x="498" y="153" font-size="14" font-weight="500" fill="#5c5c64" text-anchor="start">Only 1 seat</text>
+<rect x="480" y="195" width="250" height="70" rx="14" fill="#f6f6f8" stroke="#4d82e0" stroke-width="2.5"/>
+<text x="498" y="226" font-size="17" font-weight="700" fill="#111113" text-anchor="start">Mechanical seat</text>
+<text x="498" y="248" font-size="14" font-weight="500" fill="#5c5c64" text-anchor="start">Only 1 seat</text>
+<rect x="480" y="290" width="250" height="70" rx="14" fill="#f6f6f8" stroke="#8a8a94" stroke-width="2.5" stroke-dasharray="6 5"/>
+<text x="498" y="321" font-size="17" font-weight="700" fill="#111113" text-anchor="start">No seat on the list</text>
+<text x="498" y="343" font-size="14" font-weight="500" fill="#5c5c64" text-anchor="start">Try the next round</text>
+<line x1="284" y1="135" x2="474" y2="135" stroke="#34a56f" stroke-width="3" stroke-linecap="round"/>
+<path d="M474,135 l-12,-7 l0,14 z" fill="#34a56f"/>
+<text x="379" y="125" font-size="14" font-weight="600" fill="#34a56f" text-anchor="middle">1st choice</text>
+<line x1="284" y1="230" x2="474" y2="230" stroke="#4d82e0" stroke-width="3" stroke-linecap="round"/>
+<path d="M474,230 l-12,-7 l0,14 z" fill="#4d82e0"/>
+<text x="379" y="220" font-size="14" font-weight="600" fill="#4d82e0" text-anchor="middle">2nd choice</text>
+<line x1="284" y1="325" x2="474" y2="325" stroke="#8a8a94" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 5"/>
+<path d="M474,325 l-12,-7 l0,14 z" fill="#8a8a94"/>
+<text x="379" y="315" font-size="14" font-weight="600" fill="#8a8a94" text-anchor="middle">no seat left</text>
+<text x="24" y="384" font-size="13" font-weight="400" fill="#5c5c64" text-anchor="start">A made-up example. Real counselling works the same way, with many more students and seats.</text>
+</svg>

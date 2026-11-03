@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" width="760" height="500" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">Consent comes in layers</title><desc id="d">Four consents from creating a profile to confirming an action. The first two can be withdrawn at any time.</desc>
+<text x="24" y="38" font-size="21" font-weight="700" fill="#f4f4f6" text-anchor="start">Consent comes in layers</text>
+<text x="24" y="62" font-size="14" font-weight="400" fill="#a9a9b2" text-anchor="start">Each layer is its own yes, and each can be taken back</text>
+<rect x="24" y="90" width="330" height="66" rx="14" fill="#1b1b20" stroke="#6f9cf0" stroke-width="2.5"/>
+<text x="189.0" y="119.5" font-size="15.5" font-weight="700" fill="#f4f4f6" text-anchor="middle">Agrees to create a profile</text>
+<text x="189.0" y="141.5" font-size="13.5" font-weight="400" fill="#a9a9b2" text-anchor="middle">and store basic data</text>
+<line x1="189" y1="158" x2="189" y2="180" stroke="#a9a9b2" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M189.0,180.0 L184.2,170.1 L193.8,170.1 Z" fill="#a9a9b2"/>
+<rect x="24" y="182" width="330" height="66" rx="14" fill="#1b1b20" stroke="#a58bff" stroke-width="2.5"/>
+<text x="189.0" y="211.5" font-size="15.5" font-weight="700" fill="#f4f4f6" text-anchor="middle">Agrees to connect a</text>
+<text x="189.0" y="233.5" font-size="13.5" font-weight="400" fill="#a9a9b2" text-anchor="middle">specific counselling system</text>
+<line x1="189" y1="250" x2="189" y2="272" stroke="#a9a9b2" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M189.0,272.0 L184.2,262.1 L193.8,262.1 Z" fill="#a9a9b2"/>
+<rect x="24" y="274" width="330" height="66" rx="14" fill="#1b1b20" stroke="#f7b955" stroke-width="2.5"/>
+<text x="189.0" y="303.5" font-size="15.5" font-weight="700" fill="#f4f4f6" text-anchor="middle">Agrees to share a</text>
+<text x="189.0" y="325.5" font-size="13.5" font-weight="400" fill="#a9a9b2" text-anchor="middle">specific document with it</text>
+<line x1="189" y1="342" x2="189" y2="364" stroke="#a9a9b2" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M189.0,364.0 L184.2,354.1 L193.8,354.1 Z" fill="#a9a9b2"/>
+<rect x="24" y="366" width="330" height="66" rx="14" fill="#1b1b20" stroke="#58cf97" stroke-width="2.5"/>
+<text x="189.0" y="395.5" font-size="15.5" font-weight="700" fill="#f4f4f6" text-anchor="middle">Confirms a specific action,</text>
+<text x="189.0" y="417.5" font-size="13.5" font-weight="400" fill="#a9a9b2" text-anchor="middle">like accepting a seat</text>
+<rect x="498" y="90" width="242" height="66" rx="14" fill="#1b1b20" stroke="#ff5b80" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="619.0" y="129.0" font-size="14.5" font-weight="700" fill="#f4f4f6" text-anchor="middle">Profile and data deleted</text>
+<rect x="498" y="182" width="242" height="66" rx="14" fill="#1b1b20" stroke="#ff5b80" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="619.0" y="211.5" font-size="14.5" font-weight="700" fill="#f4f4f6" text-anchor="middle">Disconnected from system</text>
+<text x="619.0" y="233.5" font-size="13" font-weight="400" fill="#a9a9b2" text-anchor="middle">Sharing with it stops</text>
+<line x1="358" y1="123" x2="494" y2="123" stroke="#ff5b80" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="6 4"/>
+<path d="M494.0,123.0 L484.1,127.8 L484.1,118.2 Z" fill="#ff5b80"/>
+<text x="426" y="108" font-size="12.5" font-weight="600" fill="#ff5b80" text-anchor="middle">Withdraw any time</text>
+<line x1="358" y1="215" x2="494" y2="215" stroke="#ff5b80" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="6 4"/>
+<path d="M494.0,215.0 L484.1,219.8 L484.1,210.2 Z" fill="#ff5b80"/>
+<text x="426" y="200" font-size="12.5" font-weight="600" fill="#ff5b80" text-anchor="middle">Withdraw any time</text>
+<text x="24" y="482" font-size="13.5" font-weight="400" fill="#a9a9b2" text-anchor="start">Each consent is specific, in plain language, and stamped with the exact time it was given.</text>
+</svg>

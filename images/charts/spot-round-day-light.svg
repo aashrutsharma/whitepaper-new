@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 572" width="760" height="572" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">A full spot round day, worked out</title><desc id="d">A realistic example, start to finish</desc>
+<text x="24" y="38" font-size="21" font-weight="700" fill="#111113" text-anchor="start">A full spot round day, worked out</text>
+<text x="24" y="62" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="start">A realistic example, start to finish</text>
+<line x1="152" y1="112" x2="152" y2="464" stroke="#dcdce2" stroke-width="3" stroke-linecap="round"/>
+<text x="130" y="126" font-size="17.5" font-weight="700" fill="#4d82e0" text-anchor="end">9:00 AM</text>
+<circle cx="152" cy="120" r="9" fill="#4d82e0"/>
+<circle cx="152" cy="120" r="4" fill="#f6f6f8"/>
+<text x="178" y="126" font-size="16.5" font-weight="500" fill="#111113" text-anchor="start">Round 1 opens</text>
+<text x="130" y="182" font-size="17.5" font-weight="700" fill="#34a56f" text-anchor="end">12:00 PM</text>
+<circle cx="152" cy="176" r="9" fill="#34a56f"/>
+<circle cx="152" cy="176" r="4" fill="#f6f6f8"/>
+<text x="178" y="182" font-size="16.5" font-weight="500" fill="#111113" text-anchor="start">Round 1 result published</text>
+<text x="130" y="238" font-size="17.5" font-weight="700" fill="#e63059" text-anchor="end">3:00 PM</text>
+<circle cx="152" cy="232" r="9" fill="#e63059"/>
+<circle cx="152" cy="232" r="4" fill="#f6f6f8"/>
+<text x="178" y="238" font-size="16.5" font-weight="500" fill="#111113" text-anchor="start">Accept and pay deadline</text>
+<text x="130" y="294" font-size="17.5" font-weight="700" fill="#ee9d2b" text-anchor="end">3 to 5 PM</text>
+<circle cx="152" cy="288" r="9" fill="#ee9d2b"/>
+<circle cx="152" cy="288" r="4" fill="#f6f6f8"/>
+<text x="178" y="294" font-size="16.5" font-weight="500" fill="#111113" text-anchor="start">Grievance and cool-down window</text>
+<text x="130" y="350" font-size="17.5" font-weight="700" fill="#4d82e0" text-anchor="end">5:00 PM</text>
+<circle cx="152" cy="344" r="9" fill="#4d82e0"/>
+<circle cx="152" cy="344" r="4" fill="#f6f6f8"/>
+<text x="178" y="350" font-size="16.5" font-weight="500" fill="#111113" text-anchor="start">Round 2 (mop-up) opens</text>
+<text x="130" y="406" font-size="17.5" font-weight="700" fill="#34a56f" text-anchor="end">8:00 PM</text>
+<circle cx="152" cy="400" r="9" fill="#34a56f"/>
+<circle cx="152" cy="400" r="4" fill="#f6f6f8"/>
+<text x="178" y="406" font-size="16.5" font-weight="500" fill="#111113" text-anchor="start">Round 2 result published</text>
+<text x="130" y="462" font-size="17.5" font-weight="700" fill="#e63059" text-anchor="end">12:00 AM</text>
+<circle cx="152" cy="456" r="9" fill="#e63059"/>
+<circle cx="152" cy="456" r="4" fill="#f6f6f8"/>
+<text x="178" y="462" font-size="16.5" font-weight="500" fill="#111113" text-anchor="start">Final accept and pay deadline</text>
+<circle cx="31" cy="498" r="7" fill="#4d82e0"/>
+<text x="46" y="503" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="start">Round opens</text>
+<circle cx="173.6" cy="498" r="7" fill="#34a56f"/>
+<text x="188.6" y="503" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="start">Result</text>
+<circle cx="273.2" cy="498" r="7" fill="#e63059"/>
+<text x="288.2" y="503" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="start">Deadline</text>
+<circle cx="390.0" cy="498" r="7" fill="#ee9d2b"/>
+<text x="405.0" y="503" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="start">Window</text>
+</svg>

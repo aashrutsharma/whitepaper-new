@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">What Manifest tracks</title><desc id="d">Donut chart of Manifest institutions: affiliated colleges 52,509, standalone 16,671, constituent colleges 2,467, universities 1,362.</desc>
+<text x="24" y="38" font-size="21" font-weight="700" fill="#f4f4f6" text-anchor="start">What Manifest tracks</text>
+<text x="24" y="62" font-size="14" font-weight="400" fill="#a9a9b2" text-anchor="start">Institutions by type, across 36 states and union territories</text>
+<path d="M190.84,95.00 A120,120 0 1 1 72.40,238.89 L117.48,229.73 A74,74 0 1 0 190.52,141.00 Z" fill="#6f9cf0"/>
+<path d="M72.08,237.24 A120,120 0 0 1 150.37,101.73 L165.56,145.15 A74,74 0 0 0 117.28,228.72 Z" fill="#f7b955"/>
+<path d="M151.96,101.19 A120,120 0 0 1 175.13,95.92 L180.83,141.57 A74,74 0 0 0 166.54,144.82 Z" fill="#58cf97"/>
+<path d="M176.80,95.73 A120,120 0 0 1 189.16,95.00 L189.48,141.00 A74,74 0 0 0 181.86,141.45 Z" fill="#a58bff"/>
+<text x="190" y="217" font-size="26" font-weight="700" fill="#f4f4f6" text-anchor="middle">70,000+</text>
+<text x="190" y="239" font-size="14" font-weight="400" fill="#a9a9b2" text-anchor="middle">institutions</text>
+<rect x="390" y="106" width="16" height="16" rx="4" fill="#6f9cf0"/>
+<text x="418" y="120" font-size="17" font-weight="600" fill="#f4f4f6" text-anchor="start">Affiliated colleges</text>
+<text x="418" y="141" font-size="14" font-weight="400" fill="#a9a9b2" text-anchor="start">52,509</text>
+<rect x="390" y="168" width="16" height="16" rx="4" fill="#f7b955"/>
+<text x="418" y="182" font-size="17" font-weight="600" fill="#f4f4f6" text-anchor="start">Standalone institutions</text>
+<text x="418" y="203" font-size="14" font-weight="400" fill="#a9a9b2" text-anchor="start">16,671</text>
+<rect x="390" y="230" width="16" height="16" rx="4" fill="#58cf97"/>
+<text x="418" y="244" font-size="17" font-weight="600" fill="#f4f4f6" text-anchor="start">Constituent colleges</text>
+<text x="418" y="265" font-size="14" font-weight="400" fill="#a9a9b2" text-anchor="start">2,467</text>
+<rect x="390" y="292" width="16" height="16" rx="4" fill="#a58bff"/>
+<text x="418" y="306" font-size="17" font-weight="600" fill="#f4f4f6" text-anchor="start">Universities</text>
+<text x="418" y="327" font-size="14" font-weight="400" fill="#a9a9b2" text-anchor="start">1,362</text>
+</svg>

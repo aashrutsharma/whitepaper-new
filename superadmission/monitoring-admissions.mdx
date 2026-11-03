@@ -1,5 +1,65 @@
 ---
 title: "Monitoring Admissions"
+description: "The live view of a round, alerts that need attention, and how a round compares with the last one."
+icon: "activity"
+mode: "wide"
 ---
 
-Content for this page is coming soon.
+<Info>
+An authority can see how a round is going **while it is open**, not only after it closes.
+</Info>
+
+<img src="/images/student w bino light.svg" alt="" style={{width: '96px', height: '96px'}} />
+
+## A live view of the round
+
+<Frame caption="A big gap between two stages shows where students are stalling.">
+  <img className="block dark:hidden" src="/images/charts/live-funnel-light.svg" alt="Stages: registered, documents verified, choices locked, allotted and reported." />
+  <img className="hidden dark:block" src="/images/charts/live-funnel-dark.svg" alt="Stages: registered, documents verified, choices locked, allotted and reported." />
+</Frame>
+
+At any point, the authority sees how many students are at each stage. A large gap between documents verified and choices locked is a visible signal. Students are stalling at one step, and the round is still open to do something about it.
+
+<img src="/images/tracking.svg" alt="" style={{width: '96px', height: '96px'}} />
+
+## Seat fill, by category and institute
+
+The authority sees how seats are filling in real time, by category and by institute. That makes it possible to notice mid-round that one category or one institute is under-filling. Without it, the problem shows up after the round closes and the options for fixing it are fewer.
+
+<img src="/images/alerts.svg" alt="" style={{width: '96px', height: '96px'}} />
+
+## Alerts when something needs attention
+
+<CardGroup cols={3}>
+  <Card title="An allocation run fails" icon="octagon-alert">
+    The authority is alerted within roughly 60 seconds.
+  </Card>
+  <Card title="The verification queue backs up" icon="inbox">
+    Flagged before it becomes a bottleneck at the deadline.
+  </Card>
+  <Card title="A deadline nears with a large gap" icon="calendar-clock">
+    If many registered students have not locked choices yet, the authority sees it ahead of time.
+  </Card>
+</CardGroup>
+
+## This round against the last one
+
+Every round leaves the same kind of data: how long verification took, how many grievances came in, and how close the fill rate got to full. Seeing this round next to the last one shows whether a change helped, like moving a deadline or adding reviewers.
+
+## Everything leaves a record
+
+<Accordion title="What is recorded" icon="file-clock">
+  Every meaningful action: a document cleared, a list locked, a result authorised. Each record says what happened, who or what triggered it, and when. For automated decisions, the inputs are kept too, like the cutoffs used or the score a document got.
+</Accordion>
+
+<Accordion title="Who can see what" icon="eye">
+  A student sees their own history. An authority sees the actions within its own process. A designated compliance officer can see the full log if something needs investigating.
+</Accordion>
+
+<Tip>
+Records cannot be edited. A correction adds a new record and the old one stays as it was. More on this in [Security and Privacy](/superadmission/security-and-privacy).
+</Tip>
+
+<Card title="Next: How Superadmission Handles Student Data" icon="shield-check" href="/superadmission/how-superadmission-handles-student-data" horizontal>
+  The laws behind everything a student shares.
+</Card>

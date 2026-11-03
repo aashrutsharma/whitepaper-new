@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">How many young people are in college?</title><desc id="d">Bar chart of gross enrolment ratio: 23.7 in 2014-15, 27.3, 28.4, 29.5, 30.0 in 2023-24, and a goal of 50 by 2035.</desc>
+<text x="24" y="38" font-size="21" font-weight="700" fill="#111113" text-anchor="start">How many young people are in college?</text>
+<text x="24" y="62" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="start">Out of every 100 people aged 18 to 23</text>
+<line x1="40" y1="350" x2="736" y2="350" stroke="#dcdce2" stroke-width="2" stroke-linecap="round"/>
+<rect x="62.04" y="246.58181818181816" width="71.92" height="103.41818181818182" rx="8" fill="#8a8a94"/>
+<text x="98.0" y="236.58181818181816" font-size="16" font-weight="700" fill="#111113" text-anchor="middle">23.7</text>
+<text x="98.0" y="374" font-size="13.5" font-weight="500" fill="#111113" text-anchor="middle">2014-15</text>
+<rect x="178.04" y="230.87272727272727" width="71.92" height="119.12727272727273" rx="8" fill="#4d82e0"/>
+<text x="214.0" y="220.87272727272727" font-size="16" font-weight="700" fill="#111113" text-anchor="middle">27.3</text>
+<text x="214.0" y="374" font-size="13.5" font-weight="500" fill="#111113" text-anchor="middle">2020-21</text>
+<rect x="294.04" y="226.07272727272726" width="71.92" height="123.92727272727272" rx="8" fill="#4d82e0"/>
+<text x="330.0" y="216.07272727272726" font-size="16" font-weight="700" fill="#111113" text-anchor="middle">28.4</text>
+<text x="330.0" y="374" font-size="13.5" font-weight="500" fill="#111113" text-anchor="middle">2021-22</text>
+<rect x="410.04" y="221.27272727272728" width="71.92" height="128.72727272727272" rx="8" fill="#4d82e0"/>
+<text x="446.0" y="211.27272727272728" font-size="16" font-weight="700" fill="#111113" text-anchor="middle">29.5</text>
+<text x="446.0" y="374" font-size="13.5" font-weight="500" fill="#111113" text-anchor="middle">2022-23</text>
+<rect x="526.04" y="219.0909090909091" width="71.92" height="130.9090909090909" rx="8" fill="#34a56f"/>
+<text x="562.0" y="209.0909090909091" font-size="16" font-weight="700" fill="#111113" text-anchor="middle">30.0</text>
+<text x="562.0" y="374" font-size="13.5" font-weight="500" fill="#111113" text-anchor="middle">2023-24</text>
+<rect x="642.04" y="131.8181818181818" width="71.92" height="218.1818181818182" rx="8" fill="none" stroke="#e63059" stroke-width="2.5" stroke-dasharray="6 5"/>
+<text x="678.0" y="121.81818181818181" font-size="16" font-weight="700" fill="#111113" text-anchor="middle">50</text>
+<text x="678.0" y="374" font-size="13.5" font-weight="500" fill="#111113" text-anchor="middle">2035</text>
+<text x="678.0" y="392" font-size="13.5" font-weight="400" fill="#5c5c64" text-anchor="middle">Goal</text>
+</svg>

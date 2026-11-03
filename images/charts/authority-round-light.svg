@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 640" width="760" height="640" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">How a round runs</title><desc id="d">Students register, the authority triggers the run, reviews the result and authorises publication.</desc>
+<text x="24" y="38" font-size="21" font-weight="700" fill="#111113" text-anchor="start">How a round runs</text>
+<text x="24" y="62" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="start">From set-up to a published result</text>
+<rect x="40" y="90" width="310" height="56" rx="14" fill="#f6f6f8" stroke="#4d82e0" stroke-width="2.5"/>
+<text x="195.0" y="124.0" font-size="14" font-weight="700" fill="#111113" text-anchor="middle">Students register and submit choices</text>
+<rect x="40" y="172" width="310" height="56" rx="14" fill="#f6f6f8" stroke="#ee9d2b" stroke-width="2.5"/>
+<text x="195.0" y="206.0" font-size="14" font-weight="700" fill="#111113" text-anchor="middle">Authority triggers the allocation run</text>
+<rect x="40" y="254" width="310" height="76" rx="14" fill="#f6f6f8" stroke="#8a5cf0" stroke-width="2.5"/>
+<text x="195.0" y="279.0" font-size="15.5" font-weight="700" fill="#111113" text-anchor="middle">Matching engine runs</text>
+<text x="195.0" y="301.0" font-size="13" font-weight="400" fill="#5c5c64" text-anchor="middle">with the seat matrix and rules</text>
+<text x="195.0" y="320.0" font-size="13" font-weight="400" fill="#5c5c64" text-anchor="middle">exactly as set</text>
+<rect x="40" y="356" width="310" height="56" rx="14" fill="#f6f6f8" stroke="#8a5cf0" stroke-width="2.5"/>
+<text x="195.0" y="390.0" font-size="15" font-weight="700" fill="#111113" text-anchor="middle">Result goes to the authority</text>
+<line x1="195.0" y1="146" x2="195.0" y2="172" stroke="#5c5c64" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M195.0,172.0 L190.2,162.1 L199.8,162.1 Z" fill="#5c5c64"/>
+<line x1="195.0" y1="228" x2="195.0" y2="254" stroke="#5c5c64" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M195.0,254.0 L190.2,244.1 L199.8,244.1 Z" fill="#5c5c64"/>
+<line x1="195.0" y1="330" x2="195.0" y2="356" stroke="#5c5c64" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M195.0,356.0 L190.2,346.1 L199.8,346.1 Z" fill="#5c5c64"/>
+<line x1="195.0" y1="412" x2="195.0" y2="440" stroke="#5c5c64" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M195.0,440.0 L190.2,430.1 L199.8,430.1 Z" fill="#5c5c64"/>
+<path d="M195.0,440.0 L330.0,490 L195.0,540.0 L60.0,490 Z" fill="#f6f6f8" stroke="#8a8a94" stroke-width="2.5"/>
+<text x="195.0" y="486" font-size="13.5" font-weight="600" fill="#111113" text-anchor="middle">Authority reviews</text>
+<text x="195.0" y="504" font-size="13.5" font-weight="600" fill="#111113" text-anchor="middle">and authorises</text>
+<line x1="330.0" y1="490" x2="424" y2="490" stroke="#e63059" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M424.0,490.0 L414.1,494.8 L414.1,485.2 Z" fill="#e63059"/>
+<text x="375" y="478" font-size="13.5" font-weight="600" fill="#e63059" text-anchor="middle">Needs a fix</text>
+<rect x="426" y="458" width="306" height="64" rx="14" fill="#f6f6f8" stroke="#e63059" stroke-width="2.5"/>
+<text x="579.0" y="486.5" font-size="15.5" font-weight="700" fill="#111113" text-anchor="middle">Sent back for correction</text>
+<text x="579.0" y="508.5" font-size="13.5" font-weight="400" fill="#5c5c64" text-anchor="middle">Nothing publishes without approval</text>
+<line x1="195.0" y1="540" x2="195.0" y2="568" stroke="#34a56f" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M195.0,568.0 L190.2,558.1 L199.8,558.1 Z" fill="#34a56f"/>
+<text x="241.0" y="560" font-size="13.5" font-weight="600" fill="#34a56f" text-anchor="middle">Approved</text>
+<rect x="40" y="570" width="310" height="52" rx="14" fill="#f6f6f8" stroke="#34a56f" stroke-width="2.5"/>
+<text x="195.0" y="602.0" font-size="15.5" font-weight="700" fill="#111113" text-anchor="middle">Result published to students</text>
+<rect x="412" y="90" width="318" height="240" rx="14" fill="#f6f6f8" stroke="#dcdce2" stroke-width="2"/>
+<text x="432" y="120" font-size="15.5" font-weight="700" fill="#111113" text-anchor="start">Always in the authority's hands</text>
+<circle cx="440" cy="156" r="5" fill="#ee9d2b"/>
+<text x="456" y="161" font-size="15" font-weight="500" fill="#111113" text-anchor="start">Eligibility rules</text>
+<circle cx="440" cy="196" r="5" fill="#ee9d2b"/>
+<text x="456" y="201" font-size="15" font-weight="500" fill="#111113" text-anchor="start">Reservation mandates</text>
+<circle cx="440" cy="236" r="5" fill="#ee9d2b"/>
+<text x="456" y="241" font-size="15" font-weight="500" fill="#111113" text-anchor="start">The seat matrix</text>
+<circle cx="440" cy="276" r="5" fill="#ee9d2b"/>
+<text x="456" y="281" font-size="15" font-weight="500" fill="#111113" text-anchor="start">Round timing and publication</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">Today: websites that do not talk to each other</title><desc id="d">A student registers and uploads documents on JoSAA, the state CET and the institute portal, with no data sharing between them.</desc>
+<text x="24" y="38" font-size="21" font-weight="700" fill="#111113" text-anchor="start">Today: websites that do not talk to each other</text>
+<text x="24" y="62" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="start">Unnati's current counselling journey</text>
+<circle cx="100" cy="215" r="46" fill="#4d82e0"/>
+<text x="100" y="221" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">Unnati</text>
+<rect x="470" y="82" width="220" height="62" rx="14" fill="#f6f6f8" stroke="#8a8a94" stroke-width="2.5"/>
+<text x="580.0" y="119.0" font-size="16.5" font-weight="700" fill="#111113" text-anchor="middle">JoSAA</text>
+<line x1="148" y1="215" x2="466" y2="113" stroke="#4d82e0" stroke-width="2" stroke-linecap="round"/>
+<path d="M466.0,113.0 L458.0,120.6 L455.1,111.5 Z" fill="#4d82e0"/>
+<rect x="470" y="182" width="220" height="62" rx="14" fill="#f6f6f8" stroke="#8a8a94" stroke-width="2.5"/>
+<text x="580.0" y="219.0" font-size="16.5" font-weight="700" fill="#111113" text-anchor="middle">State CET</text>
+<line x1="148" y1="215" x2="466" y2="213" stroke="#4d82e0" stroke-width="2" stroke-linecap="round"/>
+<path d="M466.0,213.0 L456.1,217.8 L456.1,208.3 Z" fill="#4d82e0"/>
+<rect x="470" y="282" width="220" height="62" rx="14" fill="#f6f6f8" stroke="#8a8a94" stroke-width="2.5"/>
+<text x="580.0" y="319.0" font-size="16.5" font-weight="700" fill="#111113" text-anchor="middle">Institute portal</text>
+<line x1="148" y1="215" x2="466" y2="313" stroke="#4d82e0" stroke-width="2" stroke-linecap="round"/>
+<path d="M466.0,313.0 L455.1,314.7 L457.9,305.5 Z" fill="#4d82e0"/>
+<text x="300" y="160" font-size="14" font-weight="600" fill="#4d82e0" text-anchor="middle">Registers and uploads documents</text>
+<line x1="580" y1="144" x2="580" y2="174" stroke="#e63059" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="580" y1="244" x2="580" y2="274" stroke="#e63059" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5 4"/>
+<text x="592" y="168" font-size="13.5" font-weight="700" fill="#e63059" text-anchor="start">No data sharing</text>
+<text x="592" y="268" font-size="13.5" font-weight="700" fill="#e63059" text-anchor="start">No data sharing</text>
+</svg>

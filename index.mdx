@@ -1,5 +1,6 @@
 ---
 title: "Superadmission Docs"
+sidebarTitle: "Home"
 description: "Documentation for Superadmission, the coordination layer above India's counselling systems."
 mode: "custom"
 ---
@@ -7,41 +8,52 @@ mode: "custom"
 <div className="sa-page">
 
   <section className="sa-hero">
-    <h1 className="sa-title">One coordination layer for every counselling system in India</h1>
 
-    <p className="sa-lede">
-      Superadmission sits above existing counselling systems like JoSAA and MCC.
-      Students keep one verified profile, institutions keep one verified record,
-      and every seat decision can be traced.
-    </p>
+    <div className="sa-hero-copy">
+      <span className="sa-pill">
+        <Icon icon="book-open" size={14} />
+        Documentation
+      </span>
 
-    <div className="sa-actions">
-      <a className="sa-button" href="/understanding-admissions/how-admissions-in-india-actually-work">Start reading</a>
-      <a className="sa-button sa-button-ghost" href="/superadmission/what-is-superadmission">What is Superadmission</a>
+      <h1 className="sa-title">One coordination layer for every counselling system in India</h1>
+
+      <p className="sa-lede">
+        Superadmission sits above existing counselling systems like JoSAA and MCC.
+        Students keep one verified profile, institutions keep one verified record,
+        and every seat decision can be traced.
+      </p>
+
+      <div className="sa-actions">
+        <a className="sa-button" href="/understanding-admissions/how-admissions-in-india-actually-work">Start reading</a>
+        <a className="sa-button sa-button-ghost" href="/superadmission/what-is-superadmission">What is Superadmission</a>
+      </div>
+
+      <p className="sa-or">
+        Or go straight to
+        <a href="/superadmission/praveshai">PraveshAI</a>
+        <a href="/superadmission/manifest">Manifest</a>
+        <a href="/superadmission/digital-spot-round-environment">Digital Spot Round</a>
+        <a href="/faqs/general-faqs">FAQs</a>
+      </p>
     </div>
 
-    <p className="sa-or">
-      Or go straight to
-      <a href="/superadmission/praveshai">PraveshAI</a>
-      <a href="/superadmission/manifest">Manifest</a>
-      <a href="/superadmission/digital-spot-round-environment">Digital Spot Round</a>
-      <a href="/faqs/general-faqs">FAQs</a>
-    </p>
-
-    <div className="sa-stats">
-      <div className="sa-stat">
-        <span className="sa-stat-num">4.33 crore</span>
-        <span className="sa-stat-label">students go through admissions every year</span>
+    <div className="sa-board">
+      <p className="sa-board-head">The scale of admissions in India</p>
+      <div className="sa-board-row">
+        <span className="sa-board-num">4.50 crore</span>
+        <span className="sa-board-label">students enrolled in higher education</span>
       </div>
-      <div className="sa-stat">
-        <span className="sa-stat-num">58,600+</span>
-        <span className="sa-stat-label">institutions across the country</span>
+      <div className="sa-board-row">
+        <span className="sa-board-num">59,500+</span>
+        <span className="sa-board-label">colleges, universities and other institutions</span>
       </div>
-      <div className="sa-stat">
-        <span className="sa-stat-num">40+</span>
-        <span className="sa-stat-label">counselling bodies running separate processes</span>
+      <div className="sa-board-row">
+        <span className="sa-board-num">40+</span>
+        <span className="sa-board-label">counselling bodies running separate processes</span>
       </div>
+      <p className="sa-board-foot">Source: AISHE 2023-24, Ministry of Education.</p>
     </div>
+
   </section>
 
   <section className="sa-section">
@@ -52,8 +64,8 @@ mode: "custom"
     <div className="sa-paths">
 
       <div className="sa-path">
-        <a className="sa-panel sa-panel-amber" href="/understanding-admissions/how-admissions-in-india-actually-work" aria-label="Understanding Admissions">
-          <Icon icon="graduation-cap" size={44} />
+        <a className="sa-art sa-art-amber" href="/understanding-admissions/how-admissions-in-india-actually-work" aria-label="Understanding Admissions">
+          <span className="sa-art-tile"><Icon icon="graduation-cap" size={38} color="#ffffff" /></span>
         </a>
         <a className="sa-path-title" href="/understanding-admissions/how-admissions-in-india-actually-work">Understanding Admissions</a>
         <p className="sa-path-text">How admissions in India work today, and why the current system is hard to run.</p>
@@ -65,8 +77,8 @@ mode: "custom"
       </div>
 
       <div className="sa-path">
-        <a className="sa-panel sa-panel-blue" href="/superadmission/what-is-superadmission" aria-label="Superadmission">
-          <Icon icon="layers" size={44} />
+        <a className="sa-art sa-art-blue" href="/superadmission/what-is-superadmission" aria-label="Superadmission">
+          <span className="sa-art-tile"><Icon icon="layers" size={38} color="#ffffff" /></span>
         </a>
         <a className="sa-path-title" href="/superadmission/what-is-superadmission">Superadmission</a>
         <p className="sa-path-text">The vision, the platform, and how institutions and authorities use it.</p>
@@ -78,8 +90,8 @@ mode: "custom"
       </div>
 
       <div className="sa-path">
-        <a className="sa-panel sa-panel-green" href="/faqs/general-faqs" aria-label="FAQs">
-          <Icon icon="message-circle-question" size={44} />
+        <a className="sa-art sa-art-green" href="/faqs/general-faqs" aria-label="FAQs">
+          <span className="sa-art-tile"><Icon icon="message-circle" size={38} color="#ffffff" /></span>
         </a>
         <a className="sa-path-title" href="/faqs/general-faqs">FAQs</a>
         <p className="sa-path-text">Straight answers, written for each group of people involved.</p>
@@ -104,7 +116,7 @@ mode: "custom"
         <span className="sa-tile sa-tile-lime"><Icon icon="play" size={22} /></span>
         <span className="sa-quick-body">
           <span className="sa-quick-title">Playground</span>
-          <span className="sa-quick-text">Try PraveshAI yourself.</span>
+          <span className="sa-quick-text">Open the Playground.</span>
         </span>
       </a>
     </div>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">Reporting day: three checks, done instantly</title><desc id="d">A single-use code is scanned. Payment, allotment and duplicate admission are checked. All pass confirms reporting. Any fail flags for review.</desc>
+<text x="24" y="38" font-size="21" font-weight="700" fill="#f4f4f6" text-anchor="start">Reporting day: three checks, done instantly</text>
+<text x="24" y="62" font-size="14" font-weight="400" fill="#a9a9b2" text-anchor="start">The student still comes in person with original documents</text>
+<rect x="24" y="80" width="200" height="76" rx="14" fill="#1b1b20" stroke="#6f9cf0" stroke-width="2.5"/>
+<text x="124.0" y="114.5" font-size="15.5" font-weight="700" fill="#f4f4f6" text-anchor="middle">Student arrives</text>
+<text x="124.0" y="136.5" font-size="13.5" font-weight="400" fill="#a9a9b2" text-anchor="middle">with original documents</text>
+<rect x="24" y="196" width="200" height="76" rx="14" fill="#1b1b20" stroke="#f7b955" stroke-width="2.5"/>
+<text x="124.0" y="230.5" font-size="15.5" font-weight="700" fill="#f4f4f6" text-anchor="middle">Institution scans</text>
+<text x="124.0" y="252.5" font-size="13.5" font-weight="400" fill="#a9a9b2" text-anchor="middle">a single-use code</text>
+<line x1="124" y1="158" x2="124" y2="194" stroke="#a9a9b2" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M124.0,194.0 L119.2,184.1 L128.8,184.1 Z" fill="#a9a9b2"/>
+<rect x="284" y="70" width="212" height="70" rx="14" fill="#1b1b20" stroke="#a58bff" stroke-width="2.5"/>
+<text x="390.0" y="101.5" font-size="15" font-weight="700" fill="#f4f4f6" text-anchor="middle">Payment</text>
+<text x="390.0" y="123.5" font-size="13" font-weight="400" fill="#a9a9b2" text-anchor="middle">actually cleared</text>
+<line x1="226" y1="234" x2="288" y2="105" stroke="#a9a9b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M288.0,105.0 L288.0,116.0 L279.4,111.9 Z" fill="#a9a9b2"/>
+<rect x="284" y="162" width="212" height="70" rx="14" fill="#1b1b20" stroke="#a58bff" stroke-width="2.5"/>
+<text x="390.0" y="193.5" font-size="15" font-weight="700" fill="#f4f4f6" text-anchor="middle">Allotment still valid</text>
+<text x="390.0" y="215.5" font-size="13" font-weight="400" fill="#a9a9b2" text-anchor="middle">not withdrawn or expired</text>
+<line x1="226" y1="234" x2="288" y2="197" stroke="#a9a9b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M288.0,197.0 L281.9,206.2 L277.0,198.0 Z" fill="#a9a9b2"/>
+<rect x="284" y="254" width="212" height="70" rx="14" fill="#1b1b20" stroke="#a58bff" stroke-width="2.5"/>
+<text x="390.0" y="285.5" font-size="15" font-weight="700" fill="#f4f4f6" text-anchor="middle">No duplicate</text>
+<text x="390.0" y="307.5" font-size="13" font-weight="400" fill="#a9a9b2" text-anchor="middle">admission held elsewhere</text>
+<line x1="226" y1="234" x2="288" y2="289" stroke="#a9a9b2" stroke-width="2" stroke-linecap="round"/>
+<path d="M288.0,289.0 L277.4,286.0 L283.8,278.8 Z" fill="#a9a9b2"/>
+<line x1="522" y1="105" x2="522" y2="287" stroke="#33333b" stroke-width="3" stroke-linecap="round"/>
+<line x1="502" y1="105" x2="522" y2="105" stroke="#33333b" stroke-width="3" stroke-linecap="round"/>
+<line x1="502" y1="197" x2="522" y2="197" stroke="#33333b" stroke-width="3" stroke-linecap="round"/>
+<line x1="502" y1="289" x2="522" y2="289" stroke="#33333b" stroke-width="3" stroke-linecap="round"/>
+<rect x="580" y="84" width="162" height="96" rx="14" fill="#1b1b20" stroke="#58cf97" stroke-width="2.5"/>
+<text x="661.0" y="119.0" font-size="15" font-weight="700" fill="#f4f4f6" text-anchor="middle">All three pass</text>
+<text x="661.0" y="141.0" font-size="13" font-weight="400" fill="#a9a9b2" text-anchor="middle">Reporting is</text>
+<text x="661.0" y="160.0" font-size="13" font-weight="400" fill="#a9a9b2" text-anchor="middle">confirmed on the spot</text>
+<rect x="580" y="232" width="162" height="110" rx="14" fill="#1b1b20" stroke="#f7b955" stroke-width="2.5"/>
+<text x="661.0" y="264.5" font-size="15" font-weight="700" fill="#f4f4f6" text-anchor="middle">Any one fails</text>
+<text x="661.0" y="286.5" font-size="13" font-weight="400" fill="#a9a9b2" text-anchor="middle">Flagged for a staff</text>
+<text x="661.0" y="305.5" font-size="13" font-weight="400" fill="#a9a9b2" text-anchor="middle">member to check,</text>
+<text x="661.0" y="324.5" font-size="13" font-weight="400" fill="#a9a9b2" text-anchor="middle">not silently rejected</text>
+<line x1="522" y1="130" x2="578" y2="130" stroke="#58cf97" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M578.0,130.0 L568.1,134.8 L568.1,125.2 Z" fill="#58cf97"/>
+<line x1="522" y1="287" x2="578" y2="287" stroke="#f7b955" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="6 4"/>
+<path d="M578.0,287.0 L568.1,291.8 L568.1,282.2 Z" fill="#f7b955"/>
+<text x="24" y="400" font-size="13.5" font-weight="400" fill="#a9a9b2" text-anchor="start">A student is never turned away automatically. The system tells the staff member exactly what to check.</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" width="760" height="250" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">A live view of every round</title><desc id="d">Registered, documents verified, choices locked, allotted, reported.</desc>
+<text x="24" y="38" font-size="21" font-weight="700" fill="#111113" text-anchor="start">A live view of every round</text>
+<text x="24" y="62" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="start">Where students are, while the round is still open</text>
+<rect x="14" y="96" width="126" height="70" rx="14" fill="#f6f6f8" stroke="#4d82e0" stroke-width="2.5"/>
+<text x="77.0" y="137.0" font-size="15.5" font-weight="700" fill="#111113" text-anchor="middle">Registered</text>
+<line x1="144" y1="131" x2="160" y2="131" stroke="#5c5c64" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M160.0,131.0 L150.1,135.8 L150.1,126.2 Z" fill="#5c5c64"/>
+<rect x="164" y="96" width="126" height="70" rx="14" fill="#f6f6f8" stroke="#4d82e0" stroke-width="2.5"/>
+<text x="227.0" y="127.5" font-size="15.5" font-weight="700" fill="#111113" text-anchor="middle">Documents</text>
+<text x="227.0" y="149.5" font-size="13.5" font-weight="400" fill="#5c5c64" text-anchor="middle">verified</text>
+<line x1="294" y1="131" x2="310" y2="131" stroke="#5c5c64" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M310.0,131.0 L300.1,135.8 L300.1,126.2 Z" fill="#5c5c64"/>
+<rect x="314" y="96" width="126" height="70" rx="14" fill="#f6f6f8" stroke="#8a5cf0" stroke-width="2.5"/>
+<text x="377.0" y="127.5" font-size="15.5" font-weight="700" fill="#111113" text-anchor="middle">Choices</text>
+<text x="377.0" y="149.5" font-size="13.5" font-weight="400" fill="#5c5c64" text-anchor="middle">locked</text>
+<line x1="444" y1="131" x2="460" y2="131" stroke="#5c5c64" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M460.0,131.0 L450.1,135.8 L450.1,126.2 Z" fill="#5c5c64"/>
+<rect x="464" y="96" width="126" height="70" rx="14" fill="#f6f6f8" stroke="#ee9d2b" stroke-width="2.5"/>
+<text x="527.0" y="137.0" font-size="15.5" font-weight="700" fill="#111113" text-anchor="middle">Allotted</text>
+<line x1="594" y1="131" x2="610" y2="131" stroke="#5c5c64" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M610.0,131.0 L600.1,135.8 L600.1,126.2 Z" fill="#5c5c64"/>
+<rect x="614" y="96" width="126" height="70" rx="14" fill="#f6f6f8" stroke="#34a56f" stroke-width="2.5"/>
+<text x="677.0" y="137.0" font-size="15.5" font-weight="700" fill="#111113" text-anchor="middle">Reported</text>
+<text x="380" y="206" font-size="14.5" font-weight="700" fill="#111113" text-anchor="middle">A big gap between two stages shows where students are stalling.</text>
+<text x="380" y="228" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="middle">The authority can act while the round is still open.</text>
+</svg>

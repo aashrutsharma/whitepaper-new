@@ -1,5 +1,108 @@
 ---
 title: "How Superadmission Handles Student Data"
+description: "The Indian laws that decide what Superadmission may do with a student's identity, documents and category data."
+icon: "shield-check"
+mode: "wide"
 ---
 
-Content for this page is coming soon.
+<Info>
+Superadmission holds a student's Aadhaar-linked identity, category, marksheets, rank and seat allotment. India has specific laws about what may happen to information like that. This page explains them plainly.
+</Info>
+
+## Two words to know
+
+<CardGroup cols={2}>
+  <Card title="Data fiduciary" icon="building-2">
+    The organisation that decides why and how personal data is used. Superadmission is one.
+  </Card>
+  <Card title="Data principal" icon="user">
+    The person the data is about. A student, like Unnati, is one.
+  </Card>
+</CardGroup>
+
+Every rule below is about what the first owes the second.
+
+## The main law: the DPDP Act
+
+The <Tooltip tip="The Digital Personal Data Protection Act, 2023, is India's main law on how personal data can be collected, used and stored.">DPDP Act</Tooltip> sets four duties.
+
+<CardGroup cols={2}>
+  <Card title="Consent, asked properly" icon="check-check">
+    A student must actively agree before a profile is created, and again before a specific document is shared with a specific counselling body. Not one blanket agreement buried in the terms.
+  </Card>
+  <Card title="Only for the reason collected" icon="target">
+    A category certificate shared for seat allocation cannot quietly be reused for something else.
+  </Card>
+  <Card title="Only what is needed" icon="filter">
+    No collecting information just in case. If a field is not needed for admission, it is not asked for.
+  </Card>
+  <Card title="Her data, her rights" icon="key">
+    A student can see everything held about them, ask for a correction, and request deletion. A grievance officer handles these requests within a set time.
+  </Card>
+</CardGroup>
+
+<Note>
+The detailed DPDP Rules were notified in November 2025. Their duties are being phased in over about 18 months. The older version of this page said the Rules were still being drafted. It should be checked against the current Rules.
+</Note>
+
+## Category data gets extra care
+
+A student's category decides which seats they can get under reservation. Domicile and income certificates are treated with the same caution as category data.
+
+<Tip>
+It is collected only where a seat's eligibility depends on it. It is never shared with a counselling body the student has not joined. The documents behind it sit behind stricter access controls than a photo or a marksheet.
+</Tip>
+
+## Two older laws still apply
+
+<CardGroup cols={2}>
+  <Card title="IT Act, 2000" icon="scroll-text">
+    Makes electronic admission letters legally valid and makes platforms liable for data breaches. So student data is encrypted in transit and at rest, with tight control over who can access it.
+  </Card>
+  <Card title="Aadhaar Act, 2016" icon="fingerprint">
+    Strictly regulates identity checks. Superadmission never stores Aadhaar numbers or biometric data. Verification happens inside UIDAI's own system. Aadhaar stays optional.
+  </Card>
+</CardGroup>
+
+## How long data is kept
+
+<CardGroup cols={2}>
+  <Card title="Cycle plus 1 year" icon="calendar">
+    Profile and documents. The extra year covers a dispute that comes up after the cycle ends.
+  </Card>
+  <Card title="7 years" icon="archive">
+    Allotment records and audit logs. Long enough for institutional record-keeping and regulatory review.
+  </Card>
+  <Card title="7 years" icon="indian-rupee">
+    Payment records. The standard period under India's financial record-keeping rules.
+  </Card>
+  <Card title="30 days" icon="trash-2">
+    Deleted data. Once a student asks for deletion, it is gone from active systems within 30 days.
+  </Card>
+</CardGroup>
+
+## Things still being worked out
+
+<AccordionGroup>
+  <Accordion title="Is Superadmission a Significant Data Fiduciary?" icon="info">
+    DPDP has a stricter category for organisations that handle very large volumes of sensitive data. Whether Superadmission would count at national scale needs a regulatory decision. It cannot be decided alone.
+  </Accordion>
+  <Accordion title="The legal basis for sharing a verified document" icon="info">
+    When a document verified through Superadmission is shared with, say, a state CET, is that covered by the original consent? Or is a fresh, separate consent needed for that handoff? This depends on how the Rules are applied and is not fully settled.
+  </Accordion>
+  <Accordion title="Category data rules that differ by state" icon="map-pin">
+    Some states have their own rules for caste certificate data. Superadmission's approach has to be checked against each state's rules, not assumed to be covered by one national standard.
+  </Accordion>
+  <Accordion title="Who is liable if a verification is wrong?" icon="scale">
+    If the system wrongly accepts a fake certificate, or wrongly rejects a real one, whose responsibility is it? Superadmission's, the authority's or the student's? This needs legal analysis, and possibly insurance, before it can be answered with confidence.
+  </Accordion>
+</AccordionGroup>
+
+<CardGroup cols={2}>
+  <Card title="Data Ownership and Consent" icon="key" href="/superadmission/data-ownership-and-consent">
+    Who controls what, and how consent works.
+  </Card>
+  <Card title="Security and Privacy" icon="lock" href="/superadmission/security-and-privacy">
+    How the data is protected and who can see it.
+  </Card>
+</CardGroup>

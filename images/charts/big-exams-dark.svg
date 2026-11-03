@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 352" width="760" height="352" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">One exam, a lot of students</title><desc id="d">Bar chart of registered candidates: Gaokao 133.5 lakh, NEET UG 22.8 lakh, JEE Main 15.4 lakh, CUET UG 13.5 lakh.</desc>
+<text x="24" y="38" font-size="21" font-weight="700" fill="#f4f4f6" text-anchor="start">One exam, a lot of students</text>
+<text x="24" y="62" font-size="14" font-weight="400" fill="#a9a9b2" text-anchor="start">Students registered, in lakh (1 lakh = 100,000)</text>
+<text x="24" y="116" font-size="16" font-weight="600" fill="#f4f4f6" text-anchor="start">Gaokao (China), 2025</text>
+<rect x="264" y="96" width="361" height="30" rx="8" fill="#26262c"/>
+<rect x="264" y="96" width="361.0" height="30" rx="8" fill="#ff5b80"/>
+<text x="635.0" y="117" font-size="15" font-weight="700" fill="#f4f4f6" text-anchor="start">133.5 lakh</text>
+<text x="24" y="174" font-size="16" font-weight="600" fill="#f4f4f6" text-anchor="start">NEET UG (India), 2025</text>
+<rect x="264" y="154" width="361" height="30" rx="8" fill="#26262c"/>
+<rect x="264" y="154" width="61.65393258426967" height="30" rx="8" fill="#58cf97"/>
+<text x="335.6539325842697" y="175" font-size="15" font-weight="700" fill="#f4f4f6" text-anchor="start">22.8 lakh</text>
+<text x="24" y="232" font-size="16" font-weight="600" fill="#f4f4f6" text-anchor="start">JEE Main (India), 2025</text>
+<rect x="264" y="212" width="361" height="30" rx="8" fill="#26262c"/>
+<rect x="264" y="212" width="41.6434456928839" height="30" rx="8" fill="#6f9cf0"/>
+<text x="315.6434456928839" y="233" font-size="15" font-weight="700" fill="#f4f4f6" text-anchor="start">15.4 lakh</text>
+<text x="24" y="290" font-size="16" font-weight="600" fill="#f4f4f6" text-anchor="start">CUET UG (India), 2024</text>
+<rect x="264" y="270" width="361" height="30" rx="8" fill="#26262c"/>
+<rect x="264" y="270" width="36.50561797752809" height="30" rx="8" fill="#f7b955"/>
+<text x="310.5056179775281" y="291" font-size="15" font-weight="700" fill="#f4f4f6" text-anchor="start">13.5 lakh</text>
+</svg>

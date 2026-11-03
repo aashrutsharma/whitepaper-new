@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">The platform at a glance</title><desc id="d">A student side, a PraveshAI core, and an authority and college side.</desc>
+<text x="24" y="38" font-size="21" font-weight="700" fill="#f4f4f6" text-anchor="start">The platform at a glance</text>
+<text x="24" y="62" font-size="14" font-weight="400" fill="#a9a9b2" text-anchor="start">Who sees what, and what runs underneath</text>
+<rect x="24" y="92" width="224" height="270" rx="14" fill="#1b1b20" stroke="#6f9cf0" stroke-width="2.5"/>
+<rect x="24" y="92" width="224" height="48" rx="14" fill="#6f9cf0"/>
+<rect x="24" y="118" width="224" height="22" rx="0" fill="#6f9cf0"/>
+<text x="136" y="123" font-size="15.5" font-weight="700" fill="#ffffff" text-anchor="middle">What a student sees</text>
+<circle cx="44" cy="170" r="4.5" fill="#6f9cf0"/>
+<text x="58" y="175" font-size="14" font-weight="500" fill="#f4f4f6" text-anchor="start">One verified profile</text>
+<circle cx="44" cy="206" r="4.5" fill="#6f9cf0"/>
+<text x="58" y="211" font-size="14" font-weight="500" fill="#f4f4f6" text-anchor="start">One document vault</text>
+<circle cx="44" cy="242" r="4.5" fill="#6f9cf0"/>
+<text x="58" y="247" font-size="14" font-weight="500" fill="#f4f4f6" text-anchor="start">One dashboard</text>
+<circle cx="44" cy="278" r="4.5" fill="#6f9cf0"/>
+<text x="58" y="283" font-size="14" font-weight="500" fill="#f4f4f6" text-anchor="start">Odds next to each choice</text>
+<line x1="250" y1="227" x2="286" y2="227" stroke="#a9a9b2" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M286.0,227.0 L276.1,231.8 L276.1,222.2 Z" fill="#a9a9b2"/>
+<rect x="268" y="92" width="224" height="270" rx="14" fill="#1b1b20" stroke="#f7b955" stroke-width="2.5"/>
+<rect x="268" y="92" width="224" height="48" rx="14" fill="#f7b955"/>
+<rect x="268" y="118" width="224" height="22" rx="0" fill="#f7b955"/>
+<text x="380" y="123" font-size="15.5" font-weight="700" fill="#ffffff" text-anchor="middle">What runs underneath</text>
+<circle cx="288" cy="170" r="4.5" fill="#f7b955"/>
+<text x="302" y="175" font-size="14" font-weight="500" fill="#f4f4f6" text-anchor="start">Identity checks</text>
+<circle cx="288" cy="206" r="4.5" fill="#f7b955"/>
+<text x="302" y="211" font-size="14" font-weight="500" fill="#f4f4f6" text-anchor="start">Document verification</text>
+<circle cx="288" cy="242" r="4.5" fill="#f7b955"/>
+<text x="302" y="247" font-size="14" font-weight="500" fill="#f4f4f6" text-anchor="start">Guidance and chatbot</text>
+<circle cx="288" cy="278" r="4.5" fill="#f7b955"/>
+<text x="302" y="283" font-size="14" font-weight="500" fill="#f4f4f6" text-anchor="start">Seat allocation matching</text>
+<circle cx="288" cy="314" r="4.5" fill="#f7b955"/>
+<text x="302" y="319" font-size="14" font-weight="500" fill="#f4f4f6" text-anchor="start">Deadlines kept in sync</text>
+<line x1="494" y1="227" x2="530" y2="227" stroke="#a9a9b2" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M530.0,227.0 L520.1,231.8 L520.1,222.2 Z" fill="#a9a9b2"/>
+<rect x="512" y="92" width="224" height="270" rx="14" fill="#1b1b20" stroke="#58cf97" stroke-width="2.5"/>
+<rect x="512" y="92" width="224" height="48" rx="14" fill="#58cf97"/>
+<rect x="512" y="118" width="224" height="22" rx="0" fill="#58cf97"/>
+<text x="624" y="123" font-size="15.5" font-weight="700" fill="#ffffff" text-anchor="middle">Authorities and colleges</text>
+<circle cx="532" cy="170" r="4.5" fill="#58cf97"/>
+<text x="546" y="175" font-size="14" font-weight="500" fill="#f4f4f6" text-anchor="start">Set rules and seat matrix</text>
+<circle cx="532" cy="206" r="4.5" fill="#58cf97"/>
+<text x="546" y="211" font-size="14" font-weight="500" fill="#f4f4f6" text-anchor="start">Review and publish results</text>
+<circle cx="532" cy="242" r="4.5" fill="#58cf97"/>
+<text x="546" y="247" font-size="14" font-weight="500" fill="#f4f4f6" text-anchor="start">Live view of the round</text>
+<circle cx="532" cy="278" r="4.5" fill="#58cf97"/>
+<text x="546" y="283" font-size="14" font-weight="500" fill="#f4f4f6" text-anchor="start">Reporting-day check</text>
+<text x="380" y="394" font-size="14" font-weight="400" fill="#a9a9b2" text-anchor="middle">PraveshAI is the part that does the thinking underneath the screens a student uses.</text>
+</svg>

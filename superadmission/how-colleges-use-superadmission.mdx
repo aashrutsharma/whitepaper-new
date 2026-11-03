@@ -1,5 +1,85 @@
 ---
 title: "How Colleges Use Superadmission"
+description: "The two moments in a college's day: a confirmed allotment arrives, and a student reports in person."
+icon: "school"
+mode: "wide"
 ---
 
-Content for this page is coming soon.
+<Info>
+A college's part comes down to **two moments**. And it does not need to change how it runs its own systems.
+</Info>
+
+<img src="/images/college.svg" alt="" style={{width: '96px', height: '96px'}} />
+
+## Moment one: a confirmed allotment arrives
+
+The instant a student's payment clears for a seat at the college, a record is sent over automatically.
+
+<CardGroup cols={2}>
+  <Card title="Identity and category" icon="user-check">
+    The student's verified identity and the category their seat falls under.
+  </Card>
+  <Card title="Programme and round" icon="list-ordered">
+    Which programme, and which round of counselling the seat was allotted in.
+  </Card>
+  <Card title="Document status" icon="file-check">
+    Confirmation that the required documents are verified, with a reference to each one. The raw files are not sent unless the college needs them.
+  </Card>
+  <Card title="Payment confirmation" icon="indian-rupee">
+    Proof that the seat payment has cleared, not just been started.
+  </Card>
+</CardGroup>
+
+<Tip>
+This is extra information arriving early. It does not replace the system the college already runs.
+</Tip>
+
+## Moment two: reporting day
+
+The student still comes in person with original documents, as before. What changes is what happens at the desk.
+
+<Frame caption="If something does not line up, a staff member checks it by hand.">
+  <img className="block dark:hidden" src="/images/charts/reporting-day-light.svg" alt="A single-use code is scanned. Payment, allotment and duplicate admission are checked. All pass confirms reporting. Any fail flags for review." />
+  <img className="hidden dark:block" src="/images/charts/reporting-day-dark.svg" alt="A single-use code is scanned. Payment, allotment and duplicate admission are checked. All pass confirms reporting. Any fail flags for review." />
+</Frame>
+
+<Note>
+The student is not turned away automatically. The system tells the person at the desk exactly what to check.
+</Note>
+
+## If a seat goes unclaimed
+
+If the reporting window closes and a seat was never confirmed, the seat is reported back into the system automatically. That feeds the next round or a spot round. The admissions office does not have to notice an empty seat days later.
+
+## What does not change
+
+<CardGroup cols={3}>
+  <Card title="Internal records" icon="database">
+    How a college manages its own student database stays as it is.
+  </Card>
+  <Card title="Fees and academics" icon="graduation-cap">
+    Fee collection and everything after admission stay as they are.
+  </Card>
+  <Card title="Reporting upward" icon="landmark">
+    What a college reports to its university, board or regulator is unchanged.
+  </Card>
+</CardGroup>
+
+## Two ways to connect
+
+<CardGroup cols={2}>
+  <Card title="A simple web view" icon="monitor">
+    Handle confirmed allotments and reporting-day checks through a web page. No integration and no technical team needed.
+  </Card>
+  <Card title="An API connection" icon="plug">
+    For colleges with their own systems. An <Tooltip tip="An API is a way for two computer systems to talk to each other directly.">API</Tooltip> is a direct link between two systems. Confirmed allotments flow straight into the student database. Nobody types anything twice.
+  </Card>
+</CardGroup>
+
+<Info>
+A college can start with the web view and move to the API later. Nothing already set up is lost.
+</Info>
+
+<Card title="Next: How Counselling Authorities Use Superadmission" icon="landmark" href="/superadmission/how-counselling-authorities-use-superadmission" horizontal>
+  The other side of the same round.
+</Card>

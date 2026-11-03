@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 352" width="760" height="352" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">How many choices fit in one application?</title><desc id="d">Bar chart: Common App allows 20 colleges, Parcoursup 10 wishes, UCAS 5 choices. India uses a separate list for each counselling site.</desc>
+<text x="24" y="38" font-size="21" font-weight="700" fill="#111113" text-anchor="start">How many choices fit in one application?</text>
+<text x="24" y="62" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="start">Colleges or courses a student can list at one time</text>
+<text x="24" y="116" font-size="16" font-weight="600" fill="#111113" text-anchor="start">Common App (USA)</text>
+<rect x="264" y="96" width="361" height="30" rx="8" fill="#ececf0"/>
+<rect x="264" y="96" width="361.0" height="30" rx="8" fill="#4d82e0"/>
+<text x="635.0" y="117" font-size="15" font-weight="700" fill="#111113" text-anchor="start">20 colleges</text>
+<text x="24" y="174" font-size="16" font-weight="600" fill="#111113" text-anchor="start">Parcoursup (France)</text>
+<rect x="264" y="154" width="361" height="30" rx="8" fill="#ececf0"/>
+<rect x="264" y="154" width="180.5" height="30" rx="8" fill="#8a5cf0"/>
+<text x="454.5" y="175" font-size="15" font-weight="700" fill="#111113" text-anchor="start">10 wishes</text>
+<text x="24" y="232" font-size="16" font-weight="600" fill="#111113" text-anchor="start">UCAS (UK)</text>
+<rect x="264" y="212" width="361" height="30" rx="8" fill="#ececf0"/>
+<rect x="264" y="212" width="90.25" height="30" rx="8" fill="#ee9d2b"/>
+<text x="364.25" y="233" font-size="15" font-weight="700" fill="#111113" text-anchor="start">5 choices</text>
+<text x="24" y="290" font-size="16" font-weight="600" fill="#111113" text-anchor="start">India</text>
+<rect x="264" y="270" width="472" height="30" rx="8" fill="none" stroke="#8a8a94" stroke-width="1.5" stroke-dasharray="5 5"/>
+<text x="278" y="290" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="start" font-style="italic">A separate list on each counselling site</text>
+</svg>

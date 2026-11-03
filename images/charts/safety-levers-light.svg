@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">Four levers for the unexpected</title><desc id="d">Pause, extend, close and rollback. Rollback needs more than one authorised person.</desc>
+<text x="24" y="38" font-size="21" font-weight="700" fill="#111113" text-anchor="start">Four levers for the unexpected</text>
+<text x="24" y="62" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="start">What can change mid-round, and who is told</text>
+<rect x="20" y="92" width="165" height="200" rx="14" fill="#f6f6f8" stroke="#ee9d2b" stroke-width="2.5"/>
+<rect x="20" y="92" width="165" height="46" rx="14" fill="#ee9d2b"/>
+<rect x="20" y="116" width="165" height="22" rx="0" fill="#ee9d2b"/>
+<text x="102" y="123" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">Pause</text>
+<text x="102" y="168" font-size="14" font-weight="400" fill="#111113" text-anchor="middle">Students see a clear</text>
+<text x="102" y="190" font-size="14" font-weight="400" fill="#111113" text-anchor="middle">message and, where</text>
+<text x="102" y="212" font-size="14" font-weight="400" fill="#111113" text-anchor="middle">possible, when it</text>
+<text x="102" y="234" font-size="14" font-weight="400" fill="#111113" text-anchor="middle">will resume.</text>
+<rect x="205" y="92" width="165" height="200" rx="14" fill="#f6f6f8" stroke="#4d82e0" stroke-width="2.5"/>
+<rect x="205" y="92" width="165" height="46" rx="14" fill="#4d82e0"/>
+<rect x="205" y="116" width="165" height="22" rx="0" fill="#4d82e0"/>
+<text x="287" y="123" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">Extend</text>
+<text x="287" y="168" font-size="14" font-weight="400" fill="#111113" text-anchor="middle">Every affected student</text>
+<text x="287" y="190" font-size="14" font-weight="400" fill="#111113" text-anchor="middle">is told at once, on</text>
+<text x="287" y="212" font-size="14" font-weight="400" fill="#111113" text-anchor="middle">the same dashboard</text>
+<text x="287" y="234" font-size="14" font-weight="400" fill="#111113" text-anchor="middle">they already use.</text>
+<rect x="390" y="92" width="165" height="200" rx="14" fill="#f6f6f8" stroke="#8a8a94" stroke-width="2.5"/>
+<rect x="390" y="92" width="165" height="46" rx="14" fill="#8a8a94"/>
+<rect x="390" y="116" width="165" height="22" rx="0" fill="#8a8a94"/>
+<text x="472" y="123" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">Close</text>
+<text x="472" y="168" font-size="14" font-weight="400" fill="#111113" text-anchor="middle">A deliberate action</text>
+<text x="472" y="190" font-size="14" font-weight="400" fill="#111113" text-anchor="middle">by the authority,</text>
+<text x="472" y="212" font-size="14" font-weight="400" fill="#111113" text-anchor="middle">with a record of</text>
+<text x="472" y="234" font-size="14" font-weight="400" fill="#111113" text-anchor="middle">who and when.</text>
+<rect x="575" y="92" width="165" height="200" rx="14" fill="#f6f6f8" stroke="#e63059" stroke-width="2.5"/>
+<rect x="575" y="92" width="165" height="46" rx="14" fill="#e63059"/>
+<rect x="575" y="116" width="165" height="22" rx="0" fill="#e63059"/>
+<text x="657" y="123" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">Rollback</text>
+<text x="657" y="168" font-size="14" font-weight="400" fill="#111113" text-anchor="middle">Needs more than one</text>
+<text x="657" y="190" font-size="14" font-weight="400" fill="#111113" text-anchor="middle">authorised person.</text>
+<text x="657" y="212" font-size="14" font-weight="400" fill="#111113" text-anchor="middle">Students are told</text>
+<text x="657" y="234" font-size="14" font-weight="400" fill="#111113" text-anchor="middle">directly.</text>
+<rect x="600" y="252" width="115" height="26" rx="13" fill="none" stroke="#e63059" stroke-width="1.8"/>
+<text x="657" y="270" font-size="12.5" font-weight="700" fill="#e63059" text-anchor="middle">Most disruptive</text>
+<text x="24" y="330" font-size="13.5" font-weight="400" fill="#5c5c64" text-anchor="start">Every one is logged: who did it, when and why.</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">A realistic order of work</title><desc id="d">Regulatory groundwork, build what needs no permission, a state pilot, central authorities, then production one piece at a time.</desc>
+<text x="24" y="38" font-size="21" font-weight="700" fill="#111113" text-anchor="start">A realistic order of work</text>
+<text x="24" y="62" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="start">Each step builds on the one before</text>
+<rect x="24" y="90" width="340" height="58" rx="14" fill="#f6f6f8" stroke="#4d82e0" stroke-width="2.5"/>
+<text x="194.0" y="115.5" font-size="15" font-weight="700" fill="#111113" text-anchor="middle">1. Regulatory groundwork</text>
+<text x="194.0" y="137.5" font-size="13" font-weight="400" fill="#5c5c64" text-anchor="middle">Starts now and runs the whole time</text>
+<rect x="112" y="164" width="340" height="58" rx="14" fill="#f6f6f8" stroke="#8a5cf0" stroke-width="2.5"/>
+<text x="282.0" y="189.5" font-size="15" font-weight="700" fill="#111113" text-anchor="middle">2. Build what needs no permission</text>
+<text x="282.0" y="211.5" font-size="13" font-weight="400" fill="#5c5c64" text-anchor="middle">Profile, documents, guidance, allocation tests</text>
+<rect x="200" y="238" width="340" height="58" rx="14" fill="#f6f6f8" stroke="#ee9d2b" stroke-width="2.5"/>
+<text x="370.0" y="263.5" font-size="15" font-weight="700" fill="#111113" text-anchor="middle">3. A state-level pilot</text>
+<text x="370.0" y="285.5" font-size="13" font-weight="400" fill="#5c5c64" text-anchor="middle">Real results without a central yes</text>
+<rect x="288" y="312" width="340" height="58" rx="14" fill="#f6f6f8" stroke="#e63059" stroke-width="2.5"/>
+<text x="458.0" y="337.5" font-size="15" font-weight="700" fill="#111113" text-anchor="middle">4. Talk to central authorities</text>
+<text x="458.0" y="359.5" font-size="13" font-weight="400" fill="#5c5c64" text-anchor="middle">With real numbers to show</text>
+<rect x="376" y="386" width="340" height="58" rx="14" fill="#f6f6f8" stroke="#34a56f" stroke-width="2.5"/>
+<text x="546.0" y="411.5" font-size="15" font-weight="700" fill="#111113" text-anchor="middle">5. Expand one piece at a time</text>
+<text x="546.0" y="433.5" font-size="13" font-weight="400" fill="#5c5c64" text-anchor="middle">Each integration after its own pilot</text>
+</svg>
