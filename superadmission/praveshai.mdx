@@ -1,13 +1,11 @@
 ---
 title: "PraveshAI"
-description: "The part of Superadmission that does the thinking, and what it is not allowed to decide alone."
+description: "The part of Superadmission that does the thinking and guides students."
 icon: "cpu"
 mode: "wide"
 ---
 
-<Info>
 PraveshAI is **not a separate product** a student signs up for. It is the part of Superadmission that does the thinking work underneath the profile, the dashboard and the choice-filling screen.
-</Info>
 
 <Frame caption="Everything that happens automatically in Superadmission is done by PraveshAI.">
   <img className="block dark:hidden" src="/images/charts/praveshai-functions-light.svg" alt="A profile and dashboard feed PraveshAI, which handles identity checks, document verification, choice guidance and chatbot, seat allocation matching and deadlines." />
@@ -30,7 +28,7 @@ PraveshAI is **not a separate product** a student signs up for. It is the part o
     Watches every deadline across every connected system. Warns a student before two deadlines collide.
   </Card>
   <Card title="A chatbot on verified data" icon="message-circle">
-    Answers factual questions from Manifest's registry. Answers personal questions using only what the student shared.
+    Answers factual questions from Manifest's registry. Answers personalised questions using only the student shared data like marks and rank.
   </Card>
   <Card title="Seat matching" icon="shuffle" href="/superadmission/counselling-and-seat-allocation">
     Proposes who gets which seat. The authority reviews it before anything is published.
@@ -48,9 +46,7 @@ PraveshAI is **not a separate product** a student signs up for. It is the part o
 This is a historical estimate. A rank that cleared a cutoff last year may not clear it this year. Demand and seat counts change every cycle.
 </Warning>
 
-<Tip>
-PraveshAI never changes, reorders or locks in a student's list. It gives data-backed guidance. The student decides.
-</Tip>
+> PraveshAI never changes, reorders or locks in a student's list. It gives data-backed guidance. The student decides.
 
 ## The chatbot, two kinds of questions
 
@@ -63,17 +59,6 @@ PraveshAI never changes, reorders or locks in a student's list. It gives data-ba
   </Card>
 </CardGroup>
 
-## Where a person steps in
-
-<Frame caption="If a decision could change whether a student gets a seat, a person reviews it first.">
-  <img className="block dark:hidden" src="/images/charts/human-checkpoints-light.svg" alt="Four checkpoints: document verification, publishing an allotment, grievances, and pause, extend or rollback." />
-  <img className="hidden dark:block" src="/images/charts/human-checkpoints-dark.svg" alt="Four checkpoints: document verification, publishing an allotment, grievances, and pause, extend or rollback." />
-</Frame>
-
-<Note>
-PraveshAI does not publish an allotment on its own. It does not make a final call on a document it is unsure about. It does not resolve a grievance. A person does each of these.
-</Note>
-
-<Card title="Next: Manifest" icon="database" href="/superadmission/manifest" horizontal>
+<Card title="Next: [Manifest](/superadmission/manifest)" icon="database" horizontal href="/superadmission/manifest">
   The data layer PraveshAI reads first.
 </Card>

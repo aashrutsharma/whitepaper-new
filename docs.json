@@ -103,46 +103,60 @@
       {
         "tab": "Superadmission",
         "icon": "layers",
-        "groups": [
+        "anchors": [
           {
-            "group": "The Vision",
-            "pages": [
-              "superadmission/what-is-superadmission",
-              "superadmission/why-india-needs-superadmission",
-              "superadmission/the-thought-behind-superadmission",
-              "superadmission/our-mission-and-vision",
-              "superadmission/superadmission-as-digital-public-infrastructure"
+            "anchor": "Superadmission",
+            "groups": [
+              {
+                "group": "The Vision",
+                "pages": [
+                  "superadmission/what-is-superadmission",
+                  "superadmission/why-india-needs-superadmission",
+                  "superadmission/the-thought-behind-superadmission",
+                  "superadmission/our-mission-and-vision",
+                  "superadmission/superadmission-as-digital-public-infrastructure"
+                ]
+              },
+              {
+                "group": "How It Works",
+                "pages": [
+                  "superadmission/the-superadmission-platform",
+                  "superadmission/unified-profile-and-documents",
+                  "superadmission/unified-dashboard",
+                  "superadmission/counselling-and-seat-allocation",
+                  "superadmission/digital-spot-round-environment"
+                ]
+              },
+              {
+                "group": "For Institutions",
+                "pages": [
+                  "superadmission/how-colleges-use-superadmission",
+                  "superadmission/how-counselling-authorities-use-superadmission",
+                  "superadmission/institutional-onboarding",
+                  "superadmission/monitoring-admissions"
+                ]
+              },
+              {
+                "group": "Trust and Privacy",
+                "pages": [
+                  "superadmission/how-superadmission-handles-student-data",
+                  "superadmission/data-ownership-and-consent",
+                  "superadmission/security-and-privacy",
+                  "superadmission/digital-infrastructure-and-integrations"
+                ]
+              }
             ]
           },
           {
-            "group": "How It Works",
+            "anchor": "Pravesh AI",
             "pages": [
-              "superadmission/the-superadmission-platform",
-              "superadmission/praveshai",
-              "superadmission/manifest",
-              "superadmission/digital-spot-round-environment",
-              "superadmission/unified-profile-and-documents",
-              "superadmission/unified-dashboard",
-              "superadmission/counselling-and-seat-allocation"
+              "superadmission/praveshai"
             ]
           },
           {
-            "group": "For Institutions",
+            "anchor": "Manifest",
             "pages": [
-              "superadmission/how-colleges-use-superadmission",
-              "superadmission/how-counselling-authorities-use-superadmission",
-              "superadmission/institutional-onboarding",
-              "superadmission/managing-admissions",
-              "superadmission/monitoring-admissions"
-            ]
-          },
-          {
-            "group": "Trust and Privacy",
-            "pages": [
-              "superadmission/how-superadmission-handles-student-data",
-              "superadmission/data-ownership-and-consent",
-              "superadmission/security-and-privacy",
-              "superadmission/digital-infrastructure-and-integrations"
+              "superadmission/manifest"
             ]
           }
         ]
