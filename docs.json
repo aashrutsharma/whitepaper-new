@@ -102,9 +102,9 @@
       {
         "tab": "Superadmission",
         "icon": "layers",
-        "groups": [
+        "anchors": [
           {
-            "group": "The Vision",
+            "anchor": "The Vision",
             "pages": [
               "superadmission/what-is-superadmission",
               "superadmission/why-india-needs-superadmission",
@@ -114,7 +114,7 @@
             ]
           },
           {
-            "group": "How It Works",
+            "anchor": "How It Works",
             "pages": [
               "superadmission/the-superadmission-platform",
               "superadmission/praveshai",
@@ -126,7 +126,7 @@
             ]
           },
           {
-            "group": "For Institutions",
+            "anchor": "For Institutions",
             "pages": [
               "superadmission/how-colleges-use-superadmission",
               "superadmission/how-counselling-authorities-use-superadmission",
@@ -136,12 +136,23 @@
             ]
           },
           {
-            "group": "Trust and Privacy",
+            "anchor": "Trust and Privacy",
             "pages": [
               "superadmission/how-superadmission-handles-student-data",
               "superadmission/data-ownership-and-consent",
               "superadmission/security-and-privacy",
               "superadmission/digital-infrastructure-and-integrations"
+            ]
+          },
+          {
+            "anchor": "manifest",
+            "groups": [
+              {
+                "group": "manifest",
+                "pages": [
+                  "what-is-manifest"
+                ]
+              }
             ]
           }
         ]
