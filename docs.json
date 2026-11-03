@@ -189,7 +189,7 @@
         "tab": "Playground",
         "icon": "play",
         "pages": [
-          "title-playground-description-explore-interactive-demonstrations-and-see-how-superadmission-could-simplify-the-college-admission-journey-icon-name-play-circle-style-regular-library-lucide-mode-wide"
+          "playground/playground"
         ]
       }
     ]
