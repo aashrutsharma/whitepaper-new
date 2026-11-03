@@ -6,21 +6,18 @@ mode: "custom"
 ---
 
 <div className="sa-page">
-
   <section className="sa-hero">
-
     <div className="sa-hero-copy">
       <span className="sa-pill">
         <Icon icon="book-open" size={14} />
+
         Documentation
       </span>
 
-      <h1 className="sa-title">One coordination layer for every counselling system in India</h1>
+      <h1 className="sa-title">One platform for the world’s largest admission ecosystem.</h1>
 
       <p className="sa-lede">
-        Superadmission sits above existing counselling systems like JoSAA and MCC.
-        Students keep one verified profile, institutions keep one verified record,
-        and every seat decision can be traced.
+        Superadmission brings India's diverse admission pathways into one place. From discovering colleges and understanding eligibility to navigating counselling and securing a seat, we are making the journey to higher education simpler, clearer and more accessible.
       </p>
 
       <div className="sa-actions">
@@ -29,31 +26,159 @@ mode: "custom"
       </div>
 
       <p className="sa-or">
-        Or go straight to
-        <a href="/superadmission/praveshai">PraveshAI</a>
-        <a href="/superadmission/manifest">Manifest</a>
-        <a href="/superadmission/digital-spot-round-environment">Digital Spot Round</a>
-        <a href="/faqs/general-faqs">FAQs</a>
+        Or go straight to experience superadmission at
+        <a href="https://app.mintlify.com/superadmission/superadmission-docs/~/Playground-cdf6ea1b-e06a-4741-980c-e0868548e8b8">Playground</a>
       </p>
     </div>
 
-    <div className="sa-board">
-      <p className="sa-board-head">The scale of admissions in India</p>
-      <div className="sa-board-row">
-        <span className="sa-board-num">4.50 crore</span>
-        <span className="sa-board-label">students enrolled in higher education</span>
-      </div>
-      <div className="sa-board-row">
-        <span className="sa-board-num">59,500+</span>
-        <span className="sa-board-label">colleges, universities and other institutions</span>
-      </div>
-      <div className="sa-board-row">
-        <span className="sa-board-num">40+</span>
-        <span className="sa-board-label">counselling bodies running separate processes</span>
-      </div>
-      <p className="sa-board-foot">Source: AISHE 2023-24, Ministry of Education.</p>
-    </div>
+    <Tabs>
+      <Tab title="Student Journey">
+        <div className="h-[520px] overflow-y-auto overscroll-contain pr-4 pt-6">
+          <h2 className="text-2xl font-semibold mt-6">
+            Your journey to college, in one place.
+          </h2>
 
+          <p className="text-muted mt-3 leading-relaxed">
+            From exploring your options to securing a seat, understand every step of your admission journey.
+          </p>
+
+          <div className="mt-8 space-y-7">
+            {[
+              ["Discover opportunities", "Explore colleges, courses and admission pathways across India."],
+              ["Understand your eligibility", "Find out which programmes and institutions match your qualifications."],
+              ["Navigate admissions", "Keep track of applications, counselling processes, deadlines and updates."],
+              ["Secure your admission", "Follow seat allocation, acceptance and final admission requirements."]
+              ].map(([title, description], index) => (
+              <div className="flex gap-4" key={title}>
+              <div className="flex-shrink-0 flex items-center justify-center w-9 h-9 rounded-full bg-gray-100 dark:bg-gray-800 text-sm font-semibold">
+                {index + 1}
+              </div>
+              <div className="pt-1">
+                <h3 className="font-semibold">{title}</h3>
+                <p className="text-muted mt-2 leading-relaxed">{description}</p>
+              </div>
+              </div>
+              ))}
+          </div>
+
+          <p className="text-xs text-muted mt-8">
+            Admission processes vary across institutions and counselling authorities.
+          </p>
+        </div>
+      </Tab>
+
+      <Tab title="Manifest">
+        <div className="h-[520px] overflow-y-auto overscroll-contain pr-4 pt-6">
+          <p className="text-sm text-muted">SUPERADMISSION / MANIFEST</p>
+
+          <h2 className="text-2xl font-semibold mt-6">
+            Your academic identity, beyond a single application.
+          </h2>
+
+          <p className="text-muted mt-3 leading-relaxed">
+            A unified student profile designed to bring your academic details, achievements and documents together.
+          </p>
+
+          <div className="grid grid-cols-2 gap-3 mt-7">
+            <Card title="Academic records" icon="book-open">
+              Your qualifications, marks and academic history.
+            </Card>
+
+            <Card title="Documents" icon="file-text">
+              Important certificates and application documents.
+            </Card>
+
+            <Card title="Achievements" icon="award">
+              Entrance exams, scores and other accomplishments.
+            </Card>
+
+            <Card title="Student profile" icon="user-round">
+              Your information in one organised profile.
+            </Card>
+          </div>
+
+          <div className="mt-6 rounded-xl border p-4">
+            <p className="font-semibold">One student profile.</p>
+
+            <p className="text-muted mt-1">
+              Less repeated data entry across admission journeys.
+            </p>
+          </div>
+        </div>
+      </Tab>
+
+      <Tab title="PraveshAI">
+        <div className="h-[520px] overflow-y-auto overscroll-contain pr-4 pt-6">
+          <p className="text-sm text-muted">SUPERADMISSION / PRAVESHAI</p>
+
+          <h2 className="text-2xl font-semibold mt-6">
+            Make better-informed admission decisions.
+          </h2>
+
+          <p className="text-muted mt-3 leading-relaxed">
+            An AI-powered admission assistant designed to help students understand their options and make sense of complex admission processes.
+          </p>
+
+          <div className="mt-8 space-y-3">
+            <Card title="Explore colleges and courses" icon="search">
+              Discover options based on your interests and qualifications.
+            </Card>
+
+            <Card title="Understand eligibility" icon="clipboard-check">
+              Make sense of admission requirements and criteria.
+            </Card>
+
+            <Card title="Understand counselling" icon="git-branch">
+              Get help understanding choices, cut-offs and admission steps.
+            </Card>
+
+            <Card title="Get answers" icon="message-circle">
+              Ask questions and understand the admission process in simpler language.
+            </Card>
+          </div>
+
+          <p className="text-xs text-muted mt-6">
+            AI guidance supports student decisions. Official admission rules and notifications remain authoritative.
+          </p>
+        </div>
+      </Tab>
+
+      <Tab title="Admissions">
+        <div className="h-[520px] overflow-y-auto overscroll-contain pr-4 pt-6">
+          <p className="text-sm text-muted">SUPERADMISSION / ADMISSIONS</p>
+
+          <h2 className="text-2xl font-semibold mt-6">
+            Multiple pathways. A clearer admission experience.
+          </h2>
+
+          <p className="text-muted mt-3 leading-relaxed">
+            Understand the different stages of admissions across entrance examinations, counselling systems and institutions.
+          </p>
+
+          <div className="mt-8 space-y-3">
+            <Card title="Entrance examinations" icon="clipboard-check">
+              JEE, NEET, CUET and other examination pathways.
+            </Card>
+
+            <Card title="Counselling systems" icon="git-branch">
+              Understand choice filling, seat allocation, cut-offs and counselling rounds.
+            </Card>
+
+            <Card title="Institutions" icon="landmark">
+              Explore universities, colleges and participating institutions.
+            </Card>
+
+            <Card title="Admission milestones" icon="calendar-check">
+              Follow important dates, offers, acceptance and reporting requirements.
+            </Card>
+          </div>
+
+          <p className="text-xs text-muted mt-6">
+            Admission processes differ across examinations, institutions and counselling authorities.
+          </p>
+        </div>
+      </Tab>
+    </Tabs>
   </section>
 
   <section className="sa-section">
@@ -62,26 +187,33 @@ mode: "custom"
     <p className="sa-sub">Pick the path that fits what you need to understand first.</p>
 
     <div className="sa-paths">
-
       <div className="sa-path">
         <a className="sa-art sa-art-amber" href="/understanding-admissions/how-admissions-in-india-actually-work" aria-label="Understanding Admissions">
-          <span className="sa-art-tile"><Icon icon="graduation-cap" size={38} color="#ffffff" /></span>
+          <span className="sa-art-tile">
+            <Icon icon="graduation-cap" size={38} color="#ffffff" />
+          </span>
         </a>
+
         <a className="sa-path-title" href="/understanding-admissions/how-admissions-in-india-actually-work">Understanding Admissions</a>
         <p className="sa-path-text">How admissions in India work today, and why the current system is hard to run.</p>
+
         <ul className="sa-links">
           <li><a href="/understanding-admissions/how-admissions-in-india-actually-work">How admissions in India actually work</a></li>
           <li><a href="/understanding-admissions/what-is-counselling">What is counselling</a></li>
-          <li><a href="/understanding-admissions/glossary">Glossary</a></li>
+          <li><a href="/understanding-admissions/education-policy-and-digital-india">Education policy and digital India</a></li>
         </ul>
       </div>
 
       <div className="sa-path">
         <a className="sa-art sa-art-blue" href="/superadmission/what-is-superadmission" aria-label="Superadmission">
-          <span className="sa-art-tile"><Icon icon="layers" size={38} color="#ffffff" /></span>
+          <span className="sa-art-tile">
+            <Icon icon="layers" size={38} color="#ffffff" />
+          </span>
         </a>
+
         <a className="sa-path-title" href="/superadmission/what-is-superadmission">Superadmission</a>
         <p className="sa-path-text">The vision, the platform, and how institutions and authorities use it.</p>
+
         <ul className="sa-links">
           <li><a href="/superadmission/what-is-superadmission">What is Superadmission</a></li>
           <li><a href="/superadmission/the-superadmission-platform">The Superadmission platform</a></li>
@@ -91,32 +223,44 @@ mode: "custom"
 
       <div className="sa-path">
         <a className="sa-art sa-art-green" href="/faqs/general-faqs" aria-label="FAQs">
-          <span className="sa-art-tile"><Icon icon="message-circle" size={38} color="#ffffff" /></span>
+          <span className="sa-art-tile">
+            <Icon icon="message-circle" size={38} color="#ffffff" />
+          </span>
         </a>
+
         <a className="sa-path-title" href="/faqs/general-faqs">FAQs</a>
         <p className="sa-path-text">Straight answers, written for each group of people involved.</p>
+
         <ul className="sa-links">
           <li><a href="/faqs/for-students">For students</a></li>
           <li><a href="/faqs/for-parents">For parents</a></li>
           <li><a href="/faqs/for-counselling-authorities">For counselling authorities</a></li>
         </ul>
       </div>
-
     </div>
 
     <div className="sa-quick">
       <a className="sa-quick-card" href="/newsstand">
-        <span className="sa-tile sa-tile-red"><Icon icon="newspaper" size={22} /></span>
+        <span className="sa-tile sa-tile-red">
+          <Icon icon="newspaper" size={22} />
+        </span>
+
         <span className="sa-quick-body">
-          <span className="sa-quick-title">Newsstand</span>
-          <span className="sa-quick-text">Coverage and media mentions about Superadmission.</span>
+          <span className="sa-quick-title">News Stand</span>
+
+          <span className="sa-quick-text">Track the latest admission updates, policy reforms, and exam news in real time.</span>
         </span>
       </a>
+
       <a className="sa-quick-card" href="https://superadmission.com/pravesh">
-        <span className="sa-tile sa-tile-lime"><Icon icon="play" size={22} /></span>
+        <span className="sa-tile sa-tile-lime">
+          <Icon icon="play" size={22} />
+        </span>
+
         <span className="sa-quick-body">
           <span className="sa-quick-title">Playground</span>
-          <span className="sa-quick-text">Open the Playground.</span>
+
+          <span className="sa-quick-text">Experience interactive demonstrations of different parts of the platform.</span>
         </span>
       </a>
     </div>
@@ -128,9 +272,9 @@ mode: "custom"
     <p className="sa-sub">How the system runs, who uses it, and how data is protected.</p>
 
     <div className="sa-groups">
-
       <div className="sa-group">
         <h3 className="sa-group-title">How it works</h3>
+
         <ul className="sa-links">
           <li><a href="/superadmission/the-superadmission-platform">The Superadmission platform</a></li>
           <li><a href="/superadmission/praveshai">PraveshAI</a></li>
@@ -142,6 +286,7 @@ mode: "custom"
 
       <div className="sa-group">
         <h3 className="sa-group-title">For institutions</h3>
+
         <ul className="sa-links">
           <li><a href="/superadmission/how-colleges-use-superadmission">How colleges use Superadmission</a></li>
           <li><a href="/superadmission/how-counselling-authorities-use-superadmission">How counselling authorities use it</a></li>
@@ -153,6 +298,7 @@ mode: "custom"
 
       <div className="sa-group">
         <h3 className="sa-group-title">Trust and privacy</h3>
+
         <ul className="sa-links">
           <li><a href="/superadmission/how-superadmission-handles-student-data">How student data is handled</a></li>
           <li><a href="/superadmission/data-ownership-and-consent">Data ownership and consent</a></li>
@@ -160,8 +306,6 @@ mode: "custom"
           <li><a href="/superadmission/digital-infrastructure-and-integrations">Digital infrastructure and integrations</a></li>
         </ul>
       </div>
-
     </div>
   </section>
-
 </div>

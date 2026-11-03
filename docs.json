@@ -179,7 +179,7 @@
         ]
       },
       {
-        "tab": "Newsstand",
+        "tab": "News Stand",
         "icon": "newspaper",
         "pages": [
           "newsstand"
@@ -188,7 +188,9 @@
       {
         "tab": "Playground",
         "icon": "play",
-        "href": "https://superadmission.com/pravesh"
+        "pages": [
+          "title-playground-description-explore-interactive-demonstrations-and-see-how-superadmission-could-simplify-the-college-admission-journey-icon-name-play-circle-style-regular-library-lucide-mode-wide"
+        ]
       }
     ]
   },
