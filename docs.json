@@ -140,9 +140,7 @@
                 "group": "Trust and Privacy",
                 "pages": [
                   "superadmission/how-superadmission-handles-student-data",
-                  "superadmission/data-ownership-and-consent",
-                  "superadmission/security-and-privacy",
-                  "superadmission/digital-infrastructure-and-integrations"
+                  "superadmission/data-ownership-and-consent"
                 ]
               }
             ]
