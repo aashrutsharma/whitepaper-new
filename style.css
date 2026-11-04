@@ -370,3 +370,18 @@
   .sa-groups { grid-template-columns: 1fr; }
   .sa-quick { grid-template-columns: 1fr; }
 }
+
+#navbar a[href="https://YOUR-LINK-HERE"] {
+  background-color: var(--primary, #111111);
+  color: #ffffff !important;
+  padding: 0.4rem 1rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-decoration: none;
+}
+
+#navbar a[href="https://YOUR-LINK-HERE"]:hover {
+  opacity: 0.9;
+}
