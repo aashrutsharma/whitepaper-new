@@ -187,10 +187,7 @@
       },
       {
         "tab": "Playground",
-        "icon": "play",
-        "pages": [
-          "playground/playground"
-        ]
+        "icon": "play"
       }
     ]
   },
