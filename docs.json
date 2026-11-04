@@ -101,65 +101,6 @@
         ]
       },
       {
-        "tab": "Superadmission",
-        "icon": "layers",
-        "anchors": [
-          {
-            "anchor": "Superadmission",
-            "groups": [
-              {
-                "group": "The Vision",
-                "pages": [
-                  "superadmission/what-is-superadmission",
-                  "superadmission/why-india-needs-superadmission",
-                  "superadmission/the-thought-behind-superadmission",
-                  "superadmission/our-mission-and-vision",
-                  "superadmission/superadmission-as-digital-public-infrastructure"
-                ]
-              },
-              {
-                "group": "How It Works",
-                "pages": [
-                  "superadmission/the-superadmission-platform",
-                  "superadmission/unified-profile-and-documents",
-                  "superadmission/unified-dashboard",
-                  "superadmission/counselling-and-seat-allocation",
-                  "superadmission/digital-spot-round-environment"
-                ]
-              },
-              {
-                "group": "For Institutions",
-                "pages": [
-                  "superadmission/how-colleges-use-superadmission",
-                  "superadmission/how-counselling-authorities-use-superadmission",
-                  "superadmission/institutional-onboarding",
-                  "superadmission/monitoring-admissions"
-                ]
-              },
-              {
-                "group": "Trust and Privacy",
-                "pages": [
-                  "superadmission/how-superadmission-handles-student-data",
-                  "superadmission/data-ownership-and-consent"
-                ]
-              }
-            ]
-          },
-          {
-            "anchor": "Pravesh AI",
-            "pages": [
-              "superadmission/praveshai"
-            ]
-          },
-          {
-            "anchor": "Manifest",
-            "pages": [
-              "superadmission/manifest"
-            ]
-          }
-        ]
-      },
-      {
         "tab": "FAQs",
         "icon": "message-circle",
         "groups": [
