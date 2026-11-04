@@ -1,0 +1,195 @@
+---
+title: "Superadmission Docs"
+description: "Documentation for Superadmission, the coordination layer above India's counselling systems."
+sidebarTitle: "home demo"
+mode: "custom"
+---
+
+import { PromptPanel } from "/snippets/agent-prompt-panel.jsx"
+
+export const HomeLink = ({ href, icon, children }) => (
+  <a className="sm-home-link" href={href}>
+    <span className="sm-home-link-icon"><Icon icon={icon} size={12} /></span>
+    <span>{children}</span>
+  </a>
+)
+
+export const PathCard = ({ title, description, href, image, children }) => (
+  <div className="sm-home-card">
+    <a className="sm-home-card-media" href={href} aria-label={title}>
+      <img src={image} alt="" />
+    </a>
+    <div className="sm-home-card-body">
+      <a className="sm-home-card-title" href={href}>{title}</a>
+      <p className="sm-home-card-desc">{description}</p>
+      <div className="sm-home-links">{children}</div>
+    </div>
+  </div>
+)
+
+export const ListCard = ({ title, children }) => (
+  <div className="sm-home-card sm-home-list-card">
+    <div className="sm-home-card-body">
+      <div className="sm-home-card-title">{title}</div>
+      <div className="sm-home-links">{children}</div>
+    </div>
+  </div>
+)
+
+export const STUDENT_JOURNEY = `Your journey to college, in one place.
+
+From exploring your options to securing a seat, understand every step of your admission journey.
+
+1. Discover opportunities
+Explore colleges, courses and admission pathways across India.
+
+2. Understand your eligibility
+Find out which programmes and institutions match your qualifications.
+
+3. Navigate admissions
+Keep track of applications, counselling processes, deadlines and updates.
+
+4. Secure your admission
+Follow seat allocation, acceptance and final admission requirements.
+
+Admission processes vary across institutions and counselling authorities.`
+
+export const MANIFEST = `SUPERADMISSION / MANIFEST
+
+Your academic identity, beyond a single application.
+
+A unified student profile that brings your academic details, achievements and documents together.
+
+Academic records: your qualifications, marks and academic history.
+Documents: important certificates and application documents.
+Achievements: entrance exams, scores and other accomplishments.
+Student profile: your information in one organised profile.
+
+One student profile. Less repeated data entry across admission journeys.`
+
+export const PRAVESHAI = `SUPERADMISSION / PRAVESHAI
+
+Make better-informed admission decisions.
+
+An AI-powered admission assistant that helps students understand their options and make sense of complex admission processes.
+
+Explore colleges and courses: discover options based on your interests and qualifications.
+Understand eligibility: make sense of admission requirements and criteria.
+Understand counselling: get help with choices, cut-offs and admission steps.
+Get answers: ask questions and understand the process in simpler language.
+
+AI guidance supports student decisions. Official admission rules and notifications remain authoritative.`
+
+export const ADMISSIONS = `SUPERADMISSION / ADMISSIONS
+
+Multiple pathways. A clearer admission experience.
+
+Understand the different stages of admissions across entrance examinations, counselling systems and institutions.
+
+Entrance examinations: JEE, NEET, CUET and other examination pathways.
+Counselling systems: choice filling, seat allocation, cut-offs and counselling rounds.
+Institutions: explore universities, colleges and participating institutions.
+Admission milestones: important dates, offers, acceptance and reporting requirements.
+
+Admission processes differ across examinations, institutions and counselling authorities.`
+
+<div className="sm-home">
+  <section className="sm-home-hero">
+    <div className="sm-home-hero-copy">
+      <h1 className="sm-home-title sm-home-title-split">
+        <span>One platform</span> <span className="sm-home-title-muted">for the world’s largest admission ecosystem.</span>
+      </h1>
+
+      <p className="sm-home-lede">
+        Superadmission brings India's diverse admission pathways into one place. From discovering colleges and understanding eligibility to navigating counselling and securing a seat, we are making the journey to higher education simpler, clearer and more accessible.
+      </p>
+
+      <div className="sm-home-actions">
+        <a href="/understanding-admissions/how-admissions-in-india-actually-work" className="sm-home-btn sm-home-btn-primary">Start reading</a>
+        <a href="/superadmission/what-is-superadmission" className="sm-home-btn sm-home-btn-secondary">What is Superadmission</a>
+      </div>
+    </div>
+
+    <div className="sm-home-sample not-prose">
+      <PromptPanel
+        tabs={[
+      { label: "Student Journey", text: STUDENT_JOURNEY, kind: "prompt" },
+      { label: "Manifest", text: MANIFEST, kind: "prompt" },
+      { label: "PraveshAI", text: PRAVESHAI, kind: "prompt" },
+      { label: "Admissions", text: ADMISSIONS, kind: "prompt" },
+    ]}
+      />
+    </div>
+  </section>
+
+  <section className="sm-home-section">
+    <p className="sm-home-label">Start here</p>
+    <h2 className="sm-home-heading">Choose where to begin</h2>
+    <p className="sm-home-sub">Pick the path that fits what you need to understand first.</p>
+
+    <div className="sm-home-grid sm-home-grid-3">
+      <PathCard title="Understanding Admissions" description="How admissions in India work today, and why the current system is hard to run." href="/understanding-admissions/how-admissions-in-india-actually-work" image="">
+        <HomeLink href="/understanding-admissions/how-admissions-in-india-actually-work" icon="graduation-cap">How admissions in India actually work</HomeLink>
+        <HomeLink href="/understanding-admissions/what-is-counselling" icon="git-branch">What is counselling</HomeLink>
+        <HomeLink href="/understanding-admissions/education-policy-and-digital-india" icon="landmark">Education policy and digital India</HomeLink>
+      </PathCard>
+
+      <PathCard title="Superadmission" description="The vision, the platform, and how institutions and authorities use it." href="/superadmission/what-is-superadmission" image="">
+        <HomeLink href="/superadmission/what-is-superadmission" icon="book-open">What is Superadmission</HomeLink>
+        <HomeLink href="/superadmission/the-superadmission-platform" icon="layers">The Superadmission platform</HomeLink>
+        <HomeLink href="/superadmission/institutional-onboarding" icon="clipboard-check">Institutional onboarding</HomeLink>
+      </PathCard>
+
+      <PathCard title="FAQs" description="Straight answers, written for each group of people involved." href="/faqs/general-faqs" image="">
+        <HomeLink href="/faqs/for-students" icon="message-circle">For students</HomeLink>
+        <HomeLink href="/faqs/for-parents" icon="user-round">For parents</HomeLink>
+        <HomeLink href="/faqs/for-counselling-authorities" icon="landmark">For counselling authorities</HomeLink>
+      </PathCard>
+    </div>
+  </section>
+
+  <section className="sm-home-section">
+    <p className="sm-home-label">Details</p>
+    <h2 className="sm-home-heading">Explore the details</h2>
+    <p className="sm-home-sub">How the system runs, who uses it, and how data is protected.</p>
+
+    <div className="sm-home-grid sm-home-grid-3">
+      <ListCard title="How it works">
+        <HomeLink href="/superadmission/the-superadmission-platform" icon="layers">The Superadmission platform</HomeLink>
+        <HomeLink href="/superadmission/praveshai" icon="search">PraveshAI</HomeLink>
+        <HomeLink href="/superadmission/manifest" icon="file-text">Manifest</HomeLink>
+        <HomeLink href="/superadmission/digital-spot-round-environment" icon="calendar-check">Digital Spot Round Environment</HomeLink>
+        <HomeLink href="/superadmission/counselling-and-seat-allocation" icon="git-branch">Counselling and seat allocation</HomeLink>
+      </ListCard>
+
+      <ListCard title="For institutions">
+        <HomeLink href="/superadmission/how-colleges-use-superadmission" icon="landmark">How colleges use Superadmission</HomeLink>
+        <HomeLink href="/superadmission/how-counselling-authorities-use-superadmission" icon="git-branch">How counselling authorities use it</HomeLink>
+        <HomeLink href="/superadmission/institutional-onboarding" icon="clipboard-check">Institutional onboarding</HomeLink>
+        <HomeLink href="/superadmission/managing-admissions" icon="file-text">Managing admissions</HomeLink>
+        <HomeLink href="/superadmission/monitoring-admissions" icon="calendar-check">Monitoring admissions</HomeLink>
+      </ListCard>
+
+      <ListCard title="Trust and privacy">
+        <HomeLink href="/superadmission/how-superadmission-handles-student-data" icon="user-round">How student data is handled</HomeLink>
+        <HomeLink href="/superadmission/data-ownership-and-consent" icon="clipboard-check">Data ownership and consent</HomeLink>
+        <HomeLink href="/superadmission/security-and-privacy" icon="award">Security and privacy</HomeLink>
+        <HomeLink href="/superadmission/digital-infrastructure-and-integrations" icon="layers">Digital infrastructure and integrations</HomeLink>
+      </ListCard>
+    </div>
+  </section>
+
+  <section className="sm-home-section">
+    <p className="sm-home-label">More</p>
+    <h2 className="sm-home-heading">Stay updated and try it</h2>
+    <p className="sm-home-sub">Follow admission news and see the platform in action.</p>
+
+    <div className="sm-home-grid sm-home-grid-2">
+      <ListCard title="News Stand">
+        <HomeLink href="/newsstand" icon="newspaper">Latest admission updates</HomeLink>
+        <HomeLink href="/newsstand" icon="landmark">Policy reforms</HomeLink>
+        <HomeLink href="/newsstand" icon="clipboard-check">Exam news</HomeLink>
+      </ListCard>
+    </div>
+  </section>
+</div>

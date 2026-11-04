@@ -5,8 +5,6 @@ description: "Documentation for Superadmission, the coordination layer above Ind
 mode: "custom"
 ---
 
-import { PromptPanel } from "/snippets/agent-prompt-panel.jsx"
-
 export const HomeLink = ({ href, icon, children }) => (
   <a className="sm-home-link" href={href}>
     <span className="sm-home-link-icon"><Icon icon={icon} size={12} /></span>
@@ -36,62 +34,103 @@ export const ListCard = ({ title, children }) => (
   </div>
 )
 
-export const STUDENT_JOURNEY = `Your journey to college, in one place.
-
-From exploring your options to securing a seat, understand every step of your admission journey.
-
-1. Discover opportunities
-Explore colleges, courses and admission pathways across India.
-
-2. Understand your eligibility
-Find out which programmes and institutions match your qualifications.
-
-3. Navigate admissions
-Keep track of applications, counselling processes, deadlines and updates.
-
-4. Secure your admission
-Follow seat allocation, acceptance and final admission requirements.
-
-Admission processes vary across institutions and counselling authorities.`
-
-export const MANIFEST = `SUPERADMISSION / MANIFEST
-
-Your academic identity, beyond a single application.
-
-A unified student profile that brings your academic details, achievements and documents together.
-
-Academic records: your qualifications, marks and academic history.
-Documents: important certificates and application documents.
-Achievements: entrance exams, scores and other accomplishments.
-Student profile: your information in one organised profile.
-
-One student profile. Less repeated data entry across admission journeys.`
-
-export const PRAVESHAI = `SUPERADMISSION / PRAVESHAI
-
-Make better-informed admission decisions.
-
-An AI-powered admission assistant that helps students understand their options and make sense of complex admission processes.
-
-Explore colleges and courses: discover options based on your interests and qualifications.
-Understand eligibility: make sense of admission requirements and criteria.
-Understand counselling: get help with choices, cut-offs and admission steps.
-Get answers: ask questions and understand the process in simpler language.
-
-AI guidance supports student decisions. Official admission rules and notifications remain authoritative.`
-
-export const ADMISSIONS = `SUPERADMISSION / ADMISSIONS
-
-Multiple pathways. A clearer admission experience.
-
-Understand the different stages of admissions across entrance examinations, counselling systems and institutions.
-
-Entrance examinations: JEE, NEET, CUET and other examination pathways.
-Counselling systems: choice filling, seat allocation, cut-offs and counselling rounds.
-Institutions: explore universities, colleges and participating institutions.
-Admission milestones: important dates, offers, acceptance and reporting requirements.
-
-Admission processes differ across examinations, institutions and counselling authorities.`
+export const HeroPanel = () => {
+  const tabs = [
+    {
+      label: "Student Journey",
+      title: "Your journey to college, in one place.",
+      intro: "From exploring your options to securing a seat, understand every step of your admission journey.",
+      items: [
+        ["1. Discover opportunities", "Explore colleges, courses and admission pathways across India."],
+        ["2. Understand your eligibility", "Find out which programmes and institutions match your qualifications."],
+        ["3. Navigate admissions", "Keep track of applications, counselling processes, deadlines and updates."],
+        ["4. Secure your admission", "Follow seat allocation, acceptance and final admission requirements."],
+      ],
+      note: "Admission processes vary across institutions and counselling authorities.",
+    },
+    {
+      label: "Manifest",
+      kicker: "SUPERADMISSION / MANIFEST",
+      title: "Your academic identity, beyond a single application.",
+      intro: "A unified student profile designed to bring your academic details, achievements and documents together.",
+      items: [
+        ["Academic records", "Your qualifications, marks and academic history."],
+        ["Documents", "Important certificates and application documents."],
+        ["Achievements", "Entrance exams, scores and other accomplishments."],
+        ["Student profile", "Your information in one organised profile."],
+      ],
+      note: "One student profile. Less repeated data entry across admission journeys.",
+    },
+    {
+      label: "PraveshAI",
+      kicker: "SUPERADMISSION / PRAVESHAI",
+      title: "Make better-informed admission decisions.",
+      intro: "An AI-powered admission assistant designed to help students understand their options and make sense of complex admission processes.",
+      items: [
+        ["Explore colleges and courses", "Discover options based on your interests and qualifications."],
+        ["Understand eligibility", "Make sense of admission requirements and criteria."],
+        ["Understand counselling", "Get help understanding choices, cut-offs and admission steps."],
+        ["Get answers", "Ask questions and understand the admission process in simpler language."],
+      ],
+      note: "AI guidance supports student decisions. Official admission rules and notifications remain authoritative.",
+    },
+    {
+      label: "Admissions",
+      kicker: "SUPERADMISSION / ADMISSIONS",
+      title: "Multiple pathways. A clearer admission experience.",
+      intro: "Understand the different stages of admissions across entrance examinations, counselling systems and institutions.",
+      items: [
+        ["Entrance examinations", "JEE, NEET, CUET and other examination pathways."],
+        ["Counselling systems", "Understand choice filling, seat allocation, cut-offs and counselling rounds."],
+        ["Institutions", "Explore universities, colleges and participating institutions."],
+        ["Admission milestones", "Follow important dates, offers, acceptance and reporting requirements."],
+      ],
+      note: "Admission processes differ across examinations, institutions and counselling authorities.",
+    },
+  ];
+  const [active, setActive] = useState(0);
+  const t = tabs[active];
+  const gap = <span className="sm-prompt-line">{"\u00a0"}</span>;
+  return (
+    <div className="sm-prompt-panel">
+      <div className="sm-prompt-header">
+        <div className="sm-prompt-tabs" role="tablist">
+          {tabs.map((tab, i) => (
+            <button
+              key={tab.label}
+              type="button"
+              role="tab"
+              className="sm-prompt-tab"
+              aria-selected={i === active}
+              onClick={() => setActive(i)}
+            >
+              {tab.label}
+            </button>
+          ))}
+        </div>
+      </div>
+      <div className="sm-prompt-body">
+        <pre className="sm-prompt-scroll">
+          {t.kicker ? <span className="sm-prompt-line sm-prompt-muted">{t.kicker}</span> : null}
+          {t.kicker ? gap : null}
+          <span className="sm-prompt-line sm-prompt-heading">{t.title}</span>
+          {gap}
+          <span className="sm-prompt-line">{t.intro}</span>
+          {gap}
+          {t.items.map((item) => (
+            <span key={item[0]}>
+              <span className="sm-prompt-line sm-prompt-heading">{item[0]}</span>
+              <span className="sm-prompt-line">{item[1]}</span>
+              {gap}
+            </span>
+          ))}
+          <span className="sm-prompt-line sm-prompt-muted">{t.note}</span>
+        </pre>
+        <div className="sm-prompt-fade" />
+      </div>
+    </div>
+  );
+}
 
 <div className="sm-home">
   <section className="sm-home-hero">
@@ -111,14 +150,7 @@ Admission processes differ across examinations, institutions and counselling aut
     </div>
 
     <div className="sm-home-sample not-prose">
-      <PromptPanel
-        tabs={[
-        { label: "Student Journey", text: STUDENT_JOURNEY, kind: "prompt" },
-        { label: "Manifest", text: MANIFEST, kind: "prompt" },
-        { label: "PraveshAI", text: PRAVESHAI, kind: "prompt" },
-        { label: "Admissions", text: ADMISSIONS, kind: "prompt" },
-      ]}
-      />
+      <HeroPanel />
     </div>
   </section>
 
@@ -181,8 +213,8 @@ Admission processes differ across examinations, institutions and counselling aut
 
   <section className="sm-home-section">
     <p className="sm-home-label">More</p>
-    <h2 className="sm-home-heading">Stay updated and try it</h2>
-    <p className="sm-home-sub">Follow admission news and see the platform in action.</p>
+    <h2 className="sm-home-heading">Stay updated</h2>
+    <p className="sm-home-sub">Follow admission news, policy reforms and exam updates.</p>
 
     <div className="sm-home-grid sm-home-grid-2">
       <ListCard title="News Stand">

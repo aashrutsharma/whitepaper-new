@@ -80,16 +80,16 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Overview",
+        "icon": "house",
+        "pages": [
+          "index"
+        ]
+      },
+      {
         "tab": "Understanding Admissions",
         "icon": "graduation-cap",
         "groups": [
-          {
-            "group": "Overview",
-            "icon": "house",
-            "pages": [
-              "index"
-            ]
-          },
           {
             "group": "Understanding Admissions",
             "pages": [
@@ -170,18 +170,6 @@
             "group": "News Stand",
             "pages": [
               "newsstand"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Playground",
-        "icon": "play",
-        "groups": [
-          {
-            "group": "Playground",
-            "pages": [
-              "playground/playground"
             ]
           }
         ]
