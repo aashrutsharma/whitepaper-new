@@ -1998,7 +1998,7 @@ html:has(.sm-home) a:has(> img.nav-logo)::after {
 }
 
 /* Early Access: green */
-#navbar a[href="PASTE-EARLY-ACCESS-URL-HERE"] {
+#navbar a[href="https://YOUR-LINK-HERE"] {
   background-color: #16a34a !important;
   color: #ffffff !important;
   padding: 0.4rem 1rem !important;
@@ -2007,6 +2007,6 @@ html:has(.sm-home) a:has(> img.nav-logo)::after {
   text-decoration: none !important;
 }
 
-#navbar a[href="PASTE-EARLY-ACCESS-URL-HERE"]:hover {
+#navbar a[href="https://YOUR-LINK-HERE"]:hover {
   background-color: #12803b !important;
 }
