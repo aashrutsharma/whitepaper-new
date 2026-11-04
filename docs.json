@@ -65,6 +65,10 @@
         "icon": "linkedin",
         "href": "https://www.linkedin.com/company/superadmission/",
         "label": ""
+      },
+      {
+        "href": "https://YOUR-LINK-HERE",
+        "label": "EARLY ACCESS"
       }
     ],
     "primary": {
@@ -74,18 +78,18 @@
     }
   },
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Overview",
+        "group": "Overview",
         "icon": "house",
         "pages": [
           "index"
         ]
       },
       {
-        "tab": "Understanding Admissions",
+        "group": "Understanding Admissions",
         "icon": "graduation-cap",
-        "groups": [
+        "pages": [
           {
             "group": "Understanding Admissions",
             "pages": [
@@ -101,9 +105,9 @@
         ]
       },
       {
-        "tab": "FAQs",
+        "group": "FAQs",
         "icon": "message-circle",
-        "groups": [
+        "pages": [
           {
             "group": "FAQs",
             "pages": [
@@ -118,15 +122,16 @@
         ]
       },
       {
-        "tab": "News Stand",
+        "group": "News Stand",
         "icon": "newspaper",
         "pages": [
           "newsstand"
         ]
       },
       {
-        "tab": "Playground",
-        "icon": "play"
+        "group": "Playground",
+        "icon": "play",
+        "pages": []
       }
     ]
   },
