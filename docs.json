@@ -78,18 +78,18 @@
     }
   },
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "Overview",
-        "icon": "house",
-        "pages": [
-          "index"
-        ]
-      },
-      {
-        "group": "Understanding Admissions",
+        "tab": "Understanding Admissions",
         "icon": "graduation-cap",
-        "pages": [
+        "groups": [
+          {
+            "group": "Overview",
+            "icon": "house",
+            "pages": [
+              "index"
+            ]
+          },
           {
             "group": "Understanding Admissions",
             "pages": [
@@ -105,9 +105,50 @@
         ]
       },
       {
-        "group": "FAQs",
+        "tab": "Superadmission",
+        "icon": "layers",
+        "groups": [
+          {
+            "group": "The Vision",
+            "pages": [
+              "superadmission/what-is-superadmission"
+            ]
+          },
+          {
+            "group": "How It Works",
+            "pages": [
+              "superadmission/the-superadmission-platform",
+              "superadmission/praveshai",
+              "superadmission/manifest",
+              "superadmission/digital-spot-round-environment",
+              "superadmission/counselling-and-seat-allocation"
+            ]
+          },
+          {
+            "group": "For Institutions",
+            "pages": [
+              "superadmission/how-colleges-use-superadmission",
+              "superadmission/how-counselling-authorities-use-superadmission",
+              "superadmission/institutional-onboarding",
+              "superadmission/managing-admissions",
+              "superadmission/monitoring-admissions"
+            ]
+          },
+          {
+            "group": "Trust and Privacy",
+            "pages": [
+              "superadmission/how-superadmission-handles-student-data",
+              "superadmission/data-ownership-and-consent",
+              "superadmission/security-and-privacy",
+              "superadmission/digital-infrastructure-and-integrations"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "FAQs",
         "icon": "message-circle",
-        "pages": [
+        "groups": [
           {
             "group": "FAQs",
             "pages": [
@@ -122,16 +163,28 @@
         ]
       },
       {
-        "group": "News Stand",
+        "tab": "News Stand",
         "icon": "newspaper",
-        "pages": [
-          "newsstand"
+        "groups": [
+          {
+            "group": "News Stand",
+            "pages": [
+              "newsstand"
+            ]
+          }
         ]
       },
       {
-        "group": "Playground",
+        "tab": "Playground",
         "icon": "play",
-        "pages": []
+        "groups": [
+          {
+            "group": "Playground",
+            "pages": [
+              "playground/playground"
+            ]
+          }
+        ]
       }
     ]
   },
