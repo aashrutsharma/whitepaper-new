@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 290" width="760" height="290" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
-<title id="t">How PraveshAI shows your chances</title><desc id="d">High, moderate and low bands based on past cutoffs.</desc>
-<text x="24" y="38" font-size="21" font-weight="700" fill="#f4f4f6" text-anchor="start">How PraveshAI shows your chances</text>
-<text x="24" y="62" font-size="14" font-weight="400" fill="#a9a9b2" text-anchor="start">Three bands, not a percentage</text>
-<rect x="20" y="96" width="225" height="110" rx="14" fill="#1b1b20" stroke="#58cf97" stroke-width="2.5"/>
-<rect x="36" y="112" width="92" height="28" rx="14" fill="#58cf97"/>
-<text x="82" y="132" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">High</text>
-<text x="36" y="168" font-size="14.5" font-weight="400" fill="#f4f4f6" text-anchor="start">Your rank is safely</text>
-<text x="36" y="189" font-size="14.5" font-weight="400" fill="#f4f4f6" text-anchor="start">within past cutoffs.</text>
-<rect x="265" y="96" width="225" height="110" rx="14" fill="#1b1b20" stroke="#f7b955" stroke-width="2.5"/>
-<rect x="281" y="112" width="92" height="28" rx="14" fill="#f7b955"/>
-<text x="327" y="132" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Moderate</text>
-<text x="281" y="168" font-size="14.5" font-weight="400" fill="#f4f4f6" text-anchor="start">Your rank is right on</text>
-<text x="281" y="189" font-size="14.5" font-weight="400" fill="#f4f4f6" text-anchor="start">the edge of past cutoffs.</text>
-<rect x="510" y="96" width="225" height="110" rx="14" fill="#1b1b20" stroke="#ff5b80" stroke-width="2.5"/>
-<rect x="526" y="112" width="92" height="28" rx="14" fill="#ff5b80"/>
-<text x="572" y="132" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Low</text>
-<text x="526" y="168" font-size="14.5" font-weight="400" fill="#f4f4f6" text-anchor="start">Your rank is well</text>
-<text x="526" y="189" font-size="14.5" font-weight="400" fill="#f4f4f6" text-anchor="start">beyond past cutoffs.</text>
-<text x="24" y="238" font-size="13.5" font-weight="400" fill="#a9a9b2" text-anchor="start">A historical estimate, not a promise. It updates as new data comes in during the round.</text>
-<text x="24" y="258" font-size="13.5" font-weight="400" fill="#a9a9b2" text-anchor="start">A number like 73% would give a false sense of certainty, so bands are used.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 270" width="760" height="270" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">How PraveshAI tags your chances</title><desc id="d">High, Mid and Low tags show a student's chance of securing a seat.</desc>
+<text x="24" y="38" font-size="21" font-weight="700" fill="#f4f4f6" text-anchor="start">How PraveshAI tags your chances</text>
+<text x="24" y="62" font-size="14" font-weight="400" fill="#a9a9b2" text-anchor="start">Three tags, shown next to each choice</text>
+<rect x="20" y="96" width="225" height="106" rx="14" fill="#1b1b20" stroke="#58cf97" stroke-width="2.5"/>
+<rect x="36" y="112" width="80" height="28" rx="14" fill="#58cf97"/>
+<text x="76" y="132" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">High</text>
+<text x="36" y="168" font-size="14.5" font-weight="400" fill="#f4f4f6" text-anchor="start">A high chance of</text>
+<text x="36" y="189" font-size="14.5" font-weight="400" fill="#f4f4f6" text-anchor="start">securing this seat.</text>
+<rect x="265" y="96" width="225" height="106" rx="14" fill="#1b1b20" stroke="#f7b955" stroke-width="2.5"/>
+<rect x="281" y="112" width="80" height="28" rx="14" fill="#f7b955"/>
+<text x="321" y="132" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Mid</text>
+<text x="281" y="168" font-size="14.5" font-weight="400" fill="#f4f4f6" text-anchor="start">A moderate chance of</text>
+<text x="281" y="189" font-size="14.5" font-weight="400" fill="#f4f4f6" text-anchor="start">securing this seat.</text>
+<rect x="510" y="96" width="225" height="106" rx="14" fill="#1b1b20" stroke="#ff5b80" stroke-width="2.5"/>
+<rect x="526" y="112" width="80" height="28" rx="14" fill="#ff5b80"/>
+<text x="566" y="132" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Low</text>
+<text x="526" y="168" font-size="14.5" font-weight="400" fill="#f4f4f6" text-anchor="start">A low chance of</text>
+<text x="526" y="189" font-size="14.5" font-weight="400" fill="#f4f4f6" text-anchor="start">securing this seat.</text>
+<text x="24" y="232" font-size="13.5" font-weight="400" fill="#a9a9b2" text-anchor="start">Tags use historical estimates, like previous year cutoffs and rank trends.</text>
+<text x="24" y="252" font-size="13.5" font-weight="400" fill="#a9a9b2" text-anchor="start">A number like 73% would give a false sense of certainty.</text>
 </svg>

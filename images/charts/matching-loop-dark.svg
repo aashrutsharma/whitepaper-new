@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
 <title id="t">How seats get matched</title><desc id="d">Student lists and seat orders go into a matching process that repeats until no better match exists.</desc>
 <text x="24" y="38" font-size="21" font-weight="700" fill="#f4f4f6" text-anchor="start">How seats get matched</text>
-<text x="24" y="62" font-size="14" font-weight="400" fill="#a9a9b2" text-anchor="start">Deferred acceptance, in one picture</text>
+<text x="24" y="62" font-size="14" font-weight="400" fill="#a9a9b2" text-anchor="start">How students and seats get matched, in one picture</text>
 <rect x="24" y="92" width="210" height="74" rx="14" fill="#1b1b20" stroke="#6f9cf0" stroke-width="2.5"/>
 <text x="129.0" y="125.5" font-size="15.5" font-weight="700" fill="#f4f4f6" text-anchor="middle">Students' ranked</text>
 <text x="129.0" y="147.5" font-size="13.5" font-weight="400" fill="#a9a9b2" text-anchor="middle">preference lists</text>

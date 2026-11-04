@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
-<title id="t">Built on what India already has</title><desc id="d">Public digital systems at the bottom, Superadmission in the middle, counselling authorities and institutions on top.</desc>
-<text x="24" y="38" font-size="21" font-weight="700" fill="#111113" text-anchor="start">Built on what India already has</text>
+<title id="t">Built on public systems India already has</title><desc id="d">Public digital systems at the bottom, Superadmission in the middle, counselling authorities and institutions on top.</desc>
+<text x="24" y="38" font-size="21" font-weight="700" fill="#111113" text-anchor="start">Built on public systems India already has</text>
 <text x="24" y="62" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="start">Three layers, from the ground up</text>
 <rect x="24" y="92" width="712" height="80" rx="14" fill="#f6f6f8" stroke="#34a56f" stroke-width="2.5"/>
 <text x="380" y="126" font-size="17" font-weight="700" fill="#111113" text-anchor="middle">Counselling authorities and institutions</text>
 <text x="380" y="150" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="middle">They keep their own rules, seats and decisions</text>
 <rect x="24" y="196" width="712" height="80" rx="14" fill="#f6f6f8" stroke="#ee9d2b" stroke-width="2.5"/>
 <text x="380" y="230" font-size="17" font-weight="700" fill="#111113" text-anchor="middle">Superadmission</text>
-<text x="380" y="254" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="middle">Manifest, the platform and PraveshAI</text>
+<text x="380" y="254" font-size="14" font-weight="400" fill="#5c5c64" text-anchor="middle">Manifest, the Console and PraveshAI</text>
 <rect x="24" y="300" width="712" height="80" rx="14" fill="#f6f6f8" stroke="#4d82e0" stroke-width="2.5"/>
-<text x="380" y="330" font-size="17" font-weight="700" fill="#111113" text-anchor="middle">What India already has</text>
+<text x="380" y="330" font-size="17" font-weight="700" fill="#111113" text-anchor="middle">Public systems Superadmission uses</text>
 <rect x="112" y="342" width="120" height="28" rx="14" fill="none" stroke="#4d82e0" stroke-width="1.8"/>
 <text x="172" y="361" font-size="14" font-weight="600" fill="#4d82e0" text-anchor="middle">Aadhaar</text>
 <rect x="252" y="342" width="120" height="28" rx="14" fill="none" stroke="#4d82e0" stroke-width="1.8"/>
@@ -17,7 +17,7 @@
 <rect x="392" y="342" width="120" height="28" rx="14" fill="none" stroke="#4d82e0" stroke-width="1.8"/>
 <text x="452" y="361" font-size="14" font-weight="600" fill="#4d82e0" text-anchor="middle">APAAR</text>
 <rect x="532" y="342" width="120" height="28" rx="14" fill="none" stroke="#4d82e0" stroke-width="1.8"/>
-<text x="592" y="361" font-size="14" font-weight="600" fill="#4d82e0" text-anchor="middle">DPDP Act</text>
+<text x="592" y="361" font-size="14" font-weight="600" fill="#4d82e0" text-anchor="middle">UPI</text>
 <line x1="380" y1="298" x2="380" y2="280" stroke="#5c5c64" stroke-width="2.2" stroke-linecap="round"/>
 <path d="M380.0,280.0 L384.8,289.9 L375.2,289.9 Z" fill="#5c5c64"/>
 <line x1="380" y1="194" x2="380" y2="176" stroke="#5c5c64" stroke-width="2.2" stroke-linecap="round"/>
