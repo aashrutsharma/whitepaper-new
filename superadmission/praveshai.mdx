@@ -1,64 +1,64 @@
 ---
 title: "PraveshAI"
-description: "The part of Superadmission that does the thinking and guides students."
+description: "The thinking and guidance layer of Superadmission."
 icon: "cpu"
 mode: "wide"
 ---
 
-PraveshAI is **not a separate product** a student signs up for. It is the part of Superadmission that does the thinking work underneath the profile, the dashboard and the choice-filling screen.
+PraveshAI is the thinking and guidance layer of Superadmission. Its sole purpose is to give every student verified and correct guidance at the right time, so they do not have to rely on paid counsellors, word of mouth, unverified resources.
 
-<Frame caption="Everything that happens automatically in Superadmission is done by PraveshAI.">
-  <img className="block dark:hidden" src="/images/charts/praveshai-functions-light.svg" alt="A profile and dashboard feed PraveshAI, which handles identity checks, document verification, choice guidance and chatbot, seat allocation matching and deadlines." />
-  <img className="hidden dark:block" src="/images/charts/praveshai-functions-dark.svg" alt="A profile and dashboard feed PraveshAI, which handles identity checks, document verification, choice guidance and chatbot, seat allocation matching and deadlines." />
-</Frame>
+## Real-time guidance
 
-## What it does
-
-<CardGroup cols={2}>
-  <Card title="Identity and profile" icon="user-check" href="/superadmission/unified-profile-and-documents">
-    Verifies who a student is once. That one profile is what every connected counselling system reads.
-  </Card>
-  <Card title="Document workflows" icon="file-check" href="/superadmission/unified-profile-and-documents">
-    Checks documents, pulls what it can from DigiLocker, and sends anything uncertain to a person.
-  </Card>
-  <Card title="Guidance and support" icon="lightbulb">
-    Shows realistic chances for each choice, based on rank, category and real past cutoffs.
-  </Card>
-  <Card title="Smart alerts" icon="bell" href="/superadmission/unified-dashboard">
-    Watches every deadline across every connected system. Warns a student before two deadlines collide.
-  </Card>
-  <Card title="A chatbot on verified data" icon="message-circle">
-    Answers factual questions from Manifest's registry. Answers personalised questions using only the student shared data like marks and rank.
-  </Card>
-  <Card title="Seat matching" icon="shuffle" href="/superadmission/counselling-and-seat-allocation">
-    Proposes who gets which seat. The authority reviews it before anything is published.
-  </Card>
-</CardGroup>
-
-## How chances are shown
-
-<Frame caption="Chances are based on past cutoffs.">
-  <img className="block dark:hidden" src="/images/charts/odds-bands-light.svg" alt="Three bands: High, Moderate and Low, based on past cutoffs." />
-  <img className="hidden dark:block" src="/images/charts/odds-bands-dark.svg" alt="Three bands: High, Moderate and Low, based on past cutoffs." />
-</Frame>
-
-<Warning>
-This is a historical estimate. A rank that cleared a cutoff last year may not clear it this year. Demand and seat counts change every cycle.
-</Warning>
-
-> PraveshAI never changes, reorders or locks in a student's list. It gives data-backed guidance. The student decides.
-
-## The chatbot, two kinds of questions
+Students can ask PraveshAI questions about a specific college or personalised guidance.
 
 <CardGroup cols={2}>
   <Card title="Factual questions" icon="database" href="/superadmission/manifest">
-    "What is the fee for computer science at this college?" The answer comes from Manifest. It traces back to a government source or a disclosed method. If the data is incomplete, the chatbot says so instead of guessing.
+    "What is the fee for computer science at this college?" The answer comes from [Manifest](/superadmission/manifest). It traces back to a government source or a disclosed method. If the data is incomplete, the chatbot says so instead of guessing.
   </Card>
+
   <Card title="Personal questions" icon="user">
-    "Which of these is better for me?" It uses only what the student has added to their profile, or shared in the chat. It explains why an option fits. It does not pick one for them.
+    "Which of these is better for me?" It uses only what is present on student's profile(Rank, Category etc.), or shared in the chat(such as desired course). It explains why an option fits. 
   </Card>
 </CardGroup>
 
-<Card title="Next: [Manifest](/superadmission/manifest)" icon="database" horizontal href="/superadmission/manifest">
-  The data layer PraveshAI reads first.
-</Card>
+## Help with choice filling
+
+One of PraveshAI's key roles is assisting during choice filling. While a student fills in choices, a tag appears next to each choice they add to their preference list. The tags are **Low**, **Mid** and **High**. They show the student's chances of securing that program or seat.
+
+<Frame caption="The tags shown next to each choice.">
+  <img
+    className="block dark:hidden"
+    alt="High, Mid and Low tags show a student's chance of securing a seat."
+    src="/images/charts/odds-bands-light.svg"
+  />
+  <img
+    className="hidden dark:block"
+    alt="High, Mid and Low tags show a student's chance of securing a seat."
+    src="/images/charts/odds-bands-dark.svg"
+  />
+</Frame>
+
+<Note>
+  The tags are tiers instead of numbers like 73%, because numbers give a false sense of certainty. The tiers are based on historical estimates, such as previous year cutoffs and rank trends.
+</Note>
+
+## Help with the next step
+
+PraveshAI also helps a student work out what to do next.
+
+<Tabs>
+  <Tab title="During counselling">
+    - Whether to <Tooltip tip="Float means you keep this seat for now, and can be moved to a better choice on your list in a later round.">float</Tooltip>, <Tooltip tip="Freeze means you accept the seat and stop looking for a better one.">freeze</Tooltip> or accept the seat.
+  </Tab>
+  <Tab title="After counselling">
+    Whether they need to make a fee payment, or withdraw from a seat if they have secured more than one. This saves students money. It also nudges students to vacate seats, so fewer seats stay vacant after counselling.
+  </Tab>
+</Tabs>
+
+## What else PraveshAI can do
+
+- Help a student raise a grievance, and write emails and grievance reports on their behalf.
+- Edit the student's calendar and sync it to Google Calendar.
+- Set up smart alerts in advance such as which deadline is coming up and requires instant action.
+- Make a demo choice list.
+- Apply that choice list to the actual choice filling or preference tab, once the student gives permission with their security PIN.

@@ -1,79 +1,62 @@
 ---
 title: "What is Superadmission?"
-description: "Superadmission is a unified digital public infrastructure (DPI) protocol proposed for India's higher education system. It addresses the various challenges in Indian admission ecosystem by connecting students, colleges, and separate counselling authorities into a connected network. "
+description: "A unified digital public infrastructure (DPI) protocol proposed for India's higher education system. "
 icon: "layers"
 mode: "wide"
 ---
 
-## Three parts, one system
+Superadmission is a platform designed to make higher education admissions simpler, more transparent and centralised, for both students and authorities. We bring India's diverse admission pathways into one place and simplify everything from discovering colleges, understanding eligibility, navigating counselling and securing a seat all on one <Tooltip tip="A technological infrastructure or website that modifies its behavior, content, or presentation in real time based on user context, interactions, or incoming data">dynamic platform.</Tooltip>
+
+## Superadmission essentially has three parts:
 
 <Frame>
-  <img className="block dark:hidden" src="/images/charts/three-layers-light.svg" alt="Three connected boxes: Manifest, Superadmission and PraveshAI." />
-  <img className="hidden dark:block" src="/images/charts/three-layers-dark.svg" alt="Three connected boxes: Manifest, Superadmission and PraveshAI." />
+  <img
+    className="block dark:hidden"
+    alt="Three connected boxes: Manifest, Console and PraveshAI."
+    src="/images/charts/three-layers-light.svg"
+  />
+  <img
+    className="hidden dark:block"
+    alt="Three connected boxes: Manifest, Console and PraveshAI."
+    src="/images/charts/three-layers-dark.svg"
+  />
 </Frame>
 
-<CardGroup cols={3}>
-  <Card title="Manifest" icon="database" href="/superadmission/manifest">
-    A registry of India's higher education institutions. It answers all questions related to any college/university. 
-  </Card>
-  <Card title="Superadmission" icon="layers" href="/superadmission/the-superadmission-platform">
-    The platform a student uses. It answers one question: how does a student actually get admitted?
-  </Card>
-  <Card title="PraveshAI" icon="cpu" href="/superadmission/praveshai">
-    The thinking layer. It is the guidance layer that advices what should this student do, given their rank and preferences?
-  </Card>
-</CardGroup>
+1. **Manifest.** A repository of all colleges, universities and standalone institutions in India, with extensive verified information about each of them. [Read more about Manifest](/superadmission/manifest).
+2. **Superadmission Console.** The platform where students register and create one admission profile that gives them access to every counselling. They use it to secure the best college their scores and preferences allow.
+3. **PraveshAI.** The guidance layer of Superadmission. It advises students through the counselling process: understanding their choices, finding the options best suited to them and navigating admissions across different counselling bodies. [Read more about PraveshAI](/superadmission/praveshai).
 
-## One journey, two ways
+## A digital public infrastructure
 
-Unnati is a student eligible for JoSAA and for her state CET. Here is her journey today, and with Superadmission.
+Superadmission is designed as a digital public infrastructure (DPI).
 
-<img
-  className="block dark:hidden"
-  alt="Six steps today beside six steps with Superadmission, from registering to accepting one allotment."
-  src="/images/charts/today-vs-superadmission-light.svg"
-/>
-<img
-  className="hidden dark:block"
-  alt="Six steps today beside six steps with Superadmission, from registering to accepting one allotment."
-  src="/images/charts/today-vs-superadmission-dark.svg"
-/>
+A DPI is a shared system. It is not a single product but an underlying set of rules.
 
-## What changes for a student
+To understand this, think about <Tooltip tip="The Unified Payments Interface is a system that lets you transfer money instantly between bank accounts using just your mobile number. It is not a product made by one bank. Every bank and every payment app builds on top of the same shared system.">UPI</Tooltip>.
 
-<CardGroup cols={2}>
-  <Card title="One profile" icon="user-check" href="/superadmission/unified-profile-and-documents">
-    Student verifies their identity once through Aadhaar/APAAR/Govt. ID. Every counselling system she connects reads from that one profile.
-  </Card>
-  <Card title="Documents fetched once" icon="file-check" href="/superadmission/unified-profile-and-documents">
-    A document is fetched once from <Tooltip tip="DigiLocker is the government's digital document locker. Boards and universities place signed, verified copies of certificates there.">DigiLocker</Tooltip>, or uploaded once. It is checked once and reused everywhere.
-  </Card>
-  <Card title="One dashboard" icon="layout-dashboard" href="/superadmission/unified-dashboard">
-    Every counselling's deadlines and results are in one place, instead of many multiple websites.
-  </Card>
-  <Card title="Advice, not decisions" icon="lightbulb" href="/superadmission/praveshai">
-    PraveshAI shows her chances next to each choice during choice filling and also helps if students get stuck during any other stage of counselling.
-  </Card>
-</CardGroup>
+A DPI defines how systems are allowed to talk to each other, what format data moves in, and what gets verified and how. Anyone who follows these rules can build something on top of it. The goal is universal access. A farmer and a bank use the same UPI rails, not two different systems built for two different budgets.
 
-<Note>
-Not every document is on DigiLocker yet. Category certificates and domicile proofs still vary by state. Where a document is not there, the student uploads it once.
-</Note>
-
-## Who stays in charge
-
-<CardGroup cols={3}>
-  <Card title="The authority" icon="landmark">
-    Sets the rules, reviews the result and decides when to publish.
-  </Card>
-  <Card title="A person" icon="user-check">
-    Reviews anything that could change whether a student gets a seat.
-  </Card>
-  <Card title="The student" icon="user">
-    Chooses the order of the list and confirms every real action.
-  </Card>
-</CardGroup>
-
-<Card title="Next: Why India Needs Superadmission" icon="flag" href="/superadmission/why-india-needs-superadmission" horizontal>
-  See what goes wrong in admissions today.
+<Card title="To understand this, think about UPI" type="tip">
+  A DPI defines how systems are allowed to talk to each other, what format data moves in, and what gets verified and how. Anyone who follows these rules can build something on top of it. The goal is universal access. A farmer and a bank use the same UPI rails, not two different systems built for two different budgets.
 </Card>
+
+Superadmission follows the same idea. It brings all counselling and admission authorities, and students from every background, onto one platform.
+
+<Info>
+  The goal is that merit is the only true decider of admission and college seats. Lack of accessibility, lack of guidance and complex procedures should not become a barrier for any student.
+</Info>
+
+<Frame caption="Superadmission sits on top of public systems that already exist.">
+  <img
+    className="block dark:hidden"
+    alt="Three layers: public systems at the bottom, Superadmission in the middle, counselling authorities and institutions on top."
+    src="/images/charts/dpi-stack-light.svg"
+  />
+  <img
+    className="hidden dark:block"
+    alt="Three layers: public systems at the bottom, Superadmission in the middle, counselling authorities and institutions on top."
+    src="/images/charts/dpi-stack-dark.svg"
+  />
+</Frame>
+
+Superadmission also uses other public infrastructures, such as <Tooltip tip="Aadhaar is a 12-digit identity number issued to residents of India.">Aadhaar</Tooltip>, <Tooltip tip="DigiLocker is the government's digital document locker. Boards and universities place signed, verified copies of certificates there.">DigiLocker</Tooltip>, <Tooltip tip="APAAR is the Automated Permanent Academic Account Registry. It is a single academic ID that follows a student through school and every degree after it.">APAAR</Tooltip> and UPI. Read more about them on [Education Policy and Digital India](/understanding-admissions/education-policy-and-digital-india).

@@ -2,69 +2,55 @@
 title: "How Colleges Use Superadmission"
 icon: "school"
 mode: "wide"
+description: "The two points where a college interacts with Superadmission."
 ---
 
-## Moment one: a confirmed allotment arrives
+Colleges interact with Superadmission only in the later stages of admission, after counselling.
 
-The instant a student's payment clears for a seat at the college, a record is sent over automatically.
-
-<CardGroup cols={2}>
-  <Card title="Identity and category" icon="user-check">
-    The student's verified identity and the category their seat falls under.
-  </Card>
-  <Card title="Programme and round" icon="list-ordered">
-    Which programme, and which round of counselling the seat was allotted in.
-  </Card>
-  <Card title="Document status" icon="file-check">
-    Confirmation that the required documents are verified, with a reference to each one. The raw files are not sent unless the college needs them.
-  </Card>
-  <Card title="Payment confirmation" icon="indian-rupee">
-    Proof that the seat payment has cleared, not just been started.
-  </Card>
-</CardGroup>
-
-## Moment two: reporting day
-
-The student still comes in person with original documents, as before. What changes is what happens at the desk.
-
-<Frame caption="If something does not line up, a staff member checks it by hand.">
-  <img className="block dark:hidden" src="/images/charts/reporting-day-light.svg" alt="A single-use code is scanned. Payment, allotment and duplicate admission are checked. All pass confirms reporting. Any fail flags for review." />
-  <img className="hidden dark:block" src="/images/charts/reporting-day-dark.svg" alt="A single-use code is scanned. Payment, allotment and duplicate admission are checked. All pass confirms reporting. Any fail flags for review." />
+<Frame caption="A college's two points of interaction, both after counselling.">
+  <img
+    className="block dark:hidden"
+    alt="Allotment is confirmed when payment clears. On reporting day staff scan a QR code. An unscanned QR code makes the seat unclaimed."
+    src="/images/charts/college-touchpoints-light.svg"
+  />
+  <img
+    className="hidden dark:block"
+    alt="Allotment is confirmed when payment clears. On reporting day staff scan a QR code. An unscanned QR code makes the seat unclaimed."
+    src="/images/charts/college-touchpoints-dark.svg"
+  />
 </Frame>
 
-## If a seat goes unclaimed
+## Allotment confirmed
 
-If the reporting window closes and a seat was never confirmed, the seat is reported back into the system automatically. That feeds the next round or a spot round. The admissions office does not have to notice an empty seat days later.
+The first point of interaction is when an allotment is confirmed. When a student's payment clears for a seat at the college, a record is sent to the college automatically. It includes:
 
-## What does not change
+- The student's identity and other personal information, already verified.
+- The program and the round of counselling in which the seat was allotted.
+- The document status, which shows whether all documents are verified.
+- The documents the student used, such as Aadhaar, APAAR or another form of identity.
+- The payment confirmation, which is proof that the seat payment has cleared.
 
-<CardGroup cols={3}>
-  <Card title="Internal records" icon="database">
-    How a college manages its own student database stays as it is.
-  </Card>
-  <Card title="Fees and academics" icon="graduation-cap">
-    Fee collection and everything after admission stay as they are.
-  </Card>
-  <Card title="Reporting upward" icon="landmark">
-    What a college reports to its university, board or regulator is unchanged.
-  </Card>
-</CardGroup>
+## Reporting day
 
-## Two ways to connect
+The second point of interaction is reporting day, when the student reports to the college in person. Each student gets a unique QR code that contains all their information and the required sign-in remarks. To mark a student as reported, college staff only need to scan the QR code.
 
-<CardGroup cols={2}>
-  <Card title="A simple web view" icon="monitor">
-    Handle confirmed allotments and reporting-day checks through a web page. No integration and no technical team needed.
-  </Card>
-  <Card title="An API connection" icon="plug">
-    For colleges with their own systems. An <Tooltip tip="An API is a way for two computer systems to talk to each other directly.">API</Tooltip> is a direct link between two systems. Confirmed allotments flow straight into the student database. Nobody types anything twice.
-  </Card>
-</CardGroup>
+<Frame>
+  <img
+    className="block dark:hidden"
+    alt="A single-use code is scanned. Payment, allotment and duplicate admission are checked. All pass confirms reporting. Any fail flags for review."
+    src="/images/charts/reporting-day-light.svg"
+  />
+  <img
+    className="hidden dark:block"
+    alt="A single-use code is scanned. Payment, allotment and duplicate admission are checked. All pass confirms reporting. Any fail flags for review."
+    src="/images/charts/reporting-day-dark.svg"
+  />
+</Frame>
+
+## When a student does not report
+
+The college does not have to track this manually or pass the information to the platform or the counselling authority. If a QR code stays unscanned, the seat is automatically treated as unclaimed and fed back into the system for the next round or the spot round.
 
 <Info>
-We're developing our system in a way that a college can start with the web view and move to the API later. Nothing already set up is lost.
+The admission office does not have to keep track of unclaimed seats by hand.
 </Info>
-
-<Card title="Next: How Counselling Authorities Use Superadmission" icon="landmark" href="/superadmission/how-counselling-authorities-use-superadmission" horizontal>
-  The other side of the same round.
-</Card>

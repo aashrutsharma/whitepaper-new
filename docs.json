@@ -111,7 +111,8 @@
           {
             "group": "The Vision",
             "pages": [
-              "superadmission/what-is-superadmission"
+              "superadmission/what-is-superadmission",
+              "superadmission/our-mission-and-vision"
             ]
           },
           {
@@ -120,18 +121,8 @@
               "superadmission/the-superadmission-platform",
               "superadmission/praveshai",
               "superadmission/manifest",
-              "superadmission/digital-spot-round-environment",
-              "superadmission/counselling-and-seat-allocation"
-            ]
-          },
-          {
-            "group": "For Institutions",
-            "pages": [
-              "superadmission/how-colleges-use-superadmission",
               "superadmission/how-counselling-authorities-use-superadmission",
-              "superadmission/institutional-onboarding",
-              "superadmission/managing-admissions",
-              "superadmission/monitoring-admissions"
+              "superadmission/how-colleges-use-superadmission"
             ]
           },
           {

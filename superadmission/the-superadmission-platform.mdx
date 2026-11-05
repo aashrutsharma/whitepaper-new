@@ -1,59 +1,80 @@
 ---
 title: "The Superadmission Platform"
-description: "How the platform fits together, and what Student does at each step of her journey."
+description: "A student's journey on Superadmission."
 icon: "blocks"
 mode: "wide"
 ---
 
-<Frame>
-  <img className="block dark:hidden" src="/images/charts/platform-map-light.svg" alt="Three columns: what a student sees, what runs underneath, and what authorities and colleges see." />
-  <img className="hidden dark:block" src="/images/charts/platform-map-dark.svg" alt="Three columns: what a student sees, what runs underneath, and what authorities and colleges see." />
-</Frame>
-
-## The building blocks
-
-<CardGroup cols={2}>
-  <Card title="Unified profile and documents" icon="user-check" href="/superadmission/unified-profile-and-documents">
-    One verified identity. One document vault. Read by every connected counselling system.
-  </Card>
-  <Card title="Unified dashboard" icon="layout-dashboard" href="/superadmission/unified-dashboard">
-    Deadlines and results from every counselling, in one place.
-  </Card>
-  <Card title="PraveshAI" icon="cpu" href="/superadmission/praveshai">
-    Identity checks, document checks, guidance, seat matching and deadline tracking.
-  </Card>
-  <Card title="Tools for authorities and colleges" icon="landmark" href="/superadmission/how-counselling-authorities-use-superadmission">
-    Run a round, watch it live, and confirm students when they arrive.
-  </Card>
-</CardGroup>
-
-Continuning our example of Unnati,
-
-She's still eligible for both a JoSAA counselling through her JEE rank and a state counselling through her state CET rank, exactly the situation from the Counselling page. This time, she's doing it with Superadmission.
+Everything a student does on Superadmission happens in one place.
 
 <Steps>
-  <Step title="She creates one profile">
-    Unnati verifies her identity through an Aadhaar-linked OTP, the same way she'd log into most government services. Her basic details, name, date of birth, category, are pulled in and confirmed once. This profile is what every counselling system wil see when see connects to them afterwards.
+  <Step title="Create one admission profile" icon="user-plus">
+    The student creates a single admission profile using <Tooltip tip="Aadhaar is a 12-digit identity number issued to residents of India.">Aadhaar</Tooltip>, <Tooltip tip="APAAR is the Automated Permanent Academic Account Registry. It is a single academic ID that follows a student through school and every degree after it.">APAAR</Tooltip> and other IDs. Single login and <Tooltip tip="Single sign-on lets you log in once and use the same login across services.">single sign-on</Tooltip> options are available.
   </Step>
-  <Step title="She connects both counsellings she's eligible for">
-    She adds JoSAA and her state CET to her profile. Each connection asks for her specific consent, she's agreeing to share her verified information with that particular system, not handing over blanket access to everything.
+  <Step title="Documents are fetched automatically" icon="file-down">
+    Mark sheets, scorecards, and identity and category certificates are fetched automatically. Certificates come from <Tooltip tip="DigiLocker is the government's digital document locker. Boards and universities place signed, verified copies of certificates there.">DigiLocker</Tooltip>. For any certificate that is not on DigiLocker, the student uploads it once. This completes profile creation, and this one profile follows the student through the whole admission journey.
   </Step>
-  <Step title="Her documents get verified once">
-    Her Class 12 marksheet and category certificate are fetched from DigiLocker where available. What isn't available there, she uploads once. Everything is checked a single time. Both JoSAA and her state CET see the same "verified" status, neither one re-runs the check independently.
+  <Step title="Documents are verified once" icon="file-check">
+    Each document is verified one time. After that, it is accepted by every participating counselling.
   </Step>
-  <Step title="She fills her preferences, with PraveshAI showing her the odds">
-    As she builds her list of colleges and branches for both counsellings, PraveshAI shows a probability next to each one, based on her rank, her category, and how similar ranks landed in past years. She still decides the order. Nothing gets added or removed on her behalf.
+  <Step title="Create a security PIN" icon="lock">
+    Along with the profile, the student creates a security PIN. It is used across the platform for actions such as accepting a seat, making a fee payment and locking a choice filling list.
   </Step>
-  <Step title="She locks her list, with one dashboard tracking both deadlines">
-    JoSAA's locking window and her state CET's happen to fall two days apart. Her dashboard shows both, sorted by which is closer, with a clear warning since the gap between them is tight enough to be risky if she isn't paying attention.
+  <Step title="Enter the unified dashboard" icon="layout-dashboard">
+    The unified dashboard gives access to every counselling the student is eligible for. They can see and manage all the counselling they choose to take part in, at the same time.
   </Step>
-  <Step title="Both results land on the same screen">
-    When allotments are released, she sees her JoSAA result and her state result side by side, instead of logging into two separate portals to piece it together herself.
+  <Step title="Manage every counselling" icon="list-checks">
+    From the dashboard, the student can fill choices, accept seats and pay fees for each counselling. A shared calendar helps them manage several counselling processes at once.
   </Step>
-  <Step title="She accepts one, and gets guided through withdrawing from the other">
-    She decides to accept her JoSAA seat. Superadmission walks her through exactly what withdrawing from her state CET seat requires, since forgetting that step is one of the most common ways students accidentally lose deposits or lock themselves out of later rounds.
+  <Step title="Set alerts and reminders" icon="bell">
+    Alerts and personalised reminders can be easily set up, these go to the student's phone number and email, so they do not miss important information.
   </Step>
-  <Step title="Reporting day, in person, exactly as before">
-    She still shows up to her college physically, with her original documents, the same as any student would. The difference is what happens when she arrives: the institute scans a single code, and her payment, her allotment, and the absence of any duplicate admission elsewhere are all confirmed in seconds, instead of a staff member manually checking each one.
+  <Step title="Get support" icon="life-buoy">
+    If anything does not look right, the student can contact support or raise a grievance on the platform itself.
+  </Step>
+  <Step title="Ask PraveshAI" icon="cpu">
+    For any admission-related query, such as the opportunities and options they have, the student can ask PraveshAI. [Read more about PraveshAI](/superadmission/praveshai).
+  </Step>
+  <Step title="Join digital spot rounds" icon="timer">
+    Many counselling bodies currently run spot rounds for leftover seats in person. On Superadmission, students can take part in these digital spot rounds on the platform.
+  </Step>
+  <Step title="Accept seat and recieve allocation letter + Reporting QR" icon="timer">
+    At Last the student can accept seat, pay fees and recieve the allotment letter.This is accompnied by a unique time bound QR code to make their physical reporting at alloted college quick and efficient. Incase of multiple Acceptance, students are reminded before time to withdraw undesired seat.
   </Step>
 </Steps>
+
+## The shared calendar
+
+The shared calendar puts the deadlines of different counselling on one timeline. This is done to make sure students don't miss anything and are well prepared for the upcoming counselling rounds and deadlines.
+
+<Frame>
+  <img
+    className="block dark:hidden"
+    alt="A JoSAA acceptance window closes on a Tuesday at 11:59 PM and a state CET window closes on a Thursday at 5:00 PM."
+    src="/images/charts/deadline-clash-light.svg"
+  />
+  <img
+    className="hidden dark:block"
+    alt="A JoSAA acceptance window closes on a Tuesday at 11:59 PM and a state CET window closes on a Thursday at 5:00 PM."
+    src="/images/charts/deadline-clash-dark.svg"
+  />
+</Frame>
+
+Students can perform all of these actions without requiring different login IDs, multiple document uploads, or editing and entering their information again and again over different counseling platforms. All of this is available to them on a single dynamic platform that is easy to understand and use, **_available in multiple Indian languages_**, along with accesibility features such as dark mode, contrast variance etc., for a smoother experience.
+
+## One platform instead of many
+
+Students can do all of this without multiple login IDs, repeated document uploads, or entering their information again and again on different counselling platforms. Everything is on one platform that is easy to understand and use. It is available in multiple Indian languages, with extras such as dark mode and contrast variance for a smoother experience.
+
+<Frame caption="One counselling journey, today and on Superadmission.">
+  <img
+    className="block dark:hidden"
+    alt="Six steps today beside six steps on Superadmission, from registering to accepting one allotment."
+    src="/images/charts/today-vs-superadmission-light.svg"
+  />
+  <img
+    className="hidden dark:block"
+    alt="Six steps today beside six steps on Superadmission, from registering to accepting one allotment."
+    src="/images/charts/today-vs-superadmission-dark.svg"
+  />
+</Frame>

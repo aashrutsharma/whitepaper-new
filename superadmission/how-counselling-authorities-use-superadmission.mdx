@@ -1,60 +1,52 @@
 ---
 title: "How Counselling Authorities Use Superadmission"
-description: "How an authority sets up, runs, reviews and publishes a round."
+description: "How an authority sets up, runs, reviews and publishes a round on Superadmission."
 icon: "landmark"
 mode: "wide"
 ---
 
-<img src="/images/authority.svg" alt="" style={{width: '96px', height: '96px'}} />
+A counselling authority, or any body that conducts admissions, can set up a round, run seat allocation, and review and publish the results through the Superadmission Admin Portal.
 
-## Where the time goes today
-
-Seat matching is mechanical. Ranks go in, seats come out, using rules the authority already set. The time goes into everything around it.
-
-<CardGroup cols={3}>
-  <Card title="Re-checking documents" icon="files">
-    Verifying documents another system may have already checked.
-  </Card>
-  <Card title="Chasing stalled students" icon="user-x">
-    Students who stopped halfway through a step.
-  </Card>
-  <Card title="Answering grievances" icon="message-square-warning">
-    Many trace back to unclear communication, not a wrong outcome.
-  </Card>
-</CardGroup>
-
-## What changes day to day with Superadmission
-
-<CardGroup cols={3}>
-  <Card title="Less manual work" icon="check-check">
-    Far fewer documents to verify from scratch.
-  </Card>
-  <Card title="Fewer disputes" icon="handshake">
-    The system removes much of the confusion that causes student errors and an assisted  grievance management system is being created to handle and sort grievances 
-  </Card>
-  <Card title="Real-time updates" icon="activity">
-    A live view of how the round is going is provided along with actions to stop/pause a round.
-  </Card>
-</CardGroup>
-
-## How a round runs
-
-<Frame caption="Nothing publishes without the authority's approval.">
+<Frame caption="How a round runs.">
   <img className="block dark:hidden" src="/images/charts/authority-round-light.svg" alt="Students register, the authority triggers the run, the matching engine runs, the authority reviews, and the result is published or sent back for correction." />
   <img className="hidden dark:block" src="/images/charts/authority-round-dark.svg" alt="Students register, the authority triggers the run, the matching engine runs, the authority reviews, and the result is published or sent back for correction." />
 </Frame>
 
-## The verification queue
+## How Superadmission assists counselling bodies
 
-Documents are scored and sorted before they reach a person. Most clear automatically. Only genuinely uncertain ones are surfaced, and each comes flagged with what looks off. So reviewers do not start from a blank page.
+<AccordionGroup>
+  <Accordion title="Running the allocation algorithm and allocating seats.">
+    The authority portal gives real-time updates and a live view of how any counselling round is going, with actions to rerun and publish results.
+  </Accordion>
 
-See how the score works on [Unified Profile and Documents](/superadmission/unified-profile-and-documents).
+  <Accordion title="Verifying documents through DigiLocker or manual review.">
+    This means less manual work, because many documents arrive pre-verified. The documents that the platform still marks for human review come with notes on what looks unclear or incorrect, so reviewers do not have to start from scratch.
+  </Accordion>
 
-<CardGroup cols={2}>
-  <Card title="Managing admissions" icon="sliders-horizontal" href="/superadmission/managing-admissions">
-    Set up a round, and use the safety levers when something changes.
-  </Card>
-  <Card title="Monitoring admissions" icon="activity" href="/superadmission/monitoring-admissions">
-    The live view, alerts and round-to-round comparison.
-  </Card>
-</CardGroup>
+  <Accordion title="Managing and answering grievances.">
+    There are fewer disputes, since the portal removes much of the confusion that causes student errors. An assisted grievance management system is being built to handle and sort grievances.
+  </Accordion>
+
+  <Accordion>
+  </Accordion>
+</AccordionGroup>
+
+## What the authority controls
+
+The counselling authority alone handles:
+
+- Eligibility rules, applied exactly as configured during seat allocation.
+- Reservation mandates, category percentages and quotas. These are the authority's own policy, and it can set and change them as it requires.
+- The <Tooltip tip="The seat matrix is the full list of seats, by college, course and category.">seat matrix</Tooltip>.
+- Running seat allocation rounds and publishing results, on whatever timeline the authority chooses.
+
+## The live view of a round
+
+Through interactive graphs and charts, the live view shows how many seats are filling under each program and category, the students' acceptance rate and the time taken across the process. Authorities can also compare different allocation rounds through the portal.
+
+Alerts are sent when anything needs attention:
+
+- If an allocation run fails, the authority is alerted promptly.
+- If the verification queue backs up, it is flagged and the authority is informed.
+- If a grievance needs urgent attention, or its <Tooltip tip="A service level agreement is the time limit within which a grievance must be answered or solved.">SLA</Tooltip> is about to expire.
+- If a deadline is near and many registered students have not yet logged their choices, the authority sees it ahead of time and can choose to extend the deadline if required.
