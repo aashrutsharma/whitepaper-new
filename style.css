@@ -2037,16 +2037,15 @@ html:has(.sm-home) a:has(> img.nav-logo)::after {
   width: auto !important;
   max-height: none !important;
 }
-.sm-prompt-venn {
+.sm-hero-image {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  padding: 16px;
+  width: 100%;
 }
 
-.sm-prompt-venn img {
+.sm-hero-image img {
   width: 100%;
-  max-width: 420px;
+  max-width: 520px;
   height: auto;
 }
