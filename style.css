@@ -1981,52 +1981,52 @@ html:has(.sm-home) a:has(> img.nav-logo)::after {
 	color: var(--sm-text-2);
 }
 
-/* Talk to Founders: Darker Grey */
-#navbar a[href="https://cal.com"] {
-  background-color: #374151 !important; /* Entire button color */
-  color: #ffffff !important;
+/* ==========================================================================
+   1. TALK TO FOUNDERS BUTTON (Dark Charcoal Gray)
+   ========================================================================== */
+#navbar a[href*="talk-to-founders"] {
+  background-color: #374151 !important; /* Dark Gray Base */
   border-radius: 10px !important;
-  display: inline-flex !important; /* Ensures seamless layout alignment */
-  align-items: center !important;
-}
-
-/* Force all inner text/icons to have a transparent background */
-#navbar a[href="https://cal.com"] > * {
-  background-color: transparent !important; 
-  color: #ffffff !important;
-}
-
-/* Hover States */
-#navbar a[href="https://cal.com"]:hover {
-  background-color: #1f2937 !important; /* Entire button hover color */
-}
-
-#navbar a[href="https://cal.com"]:hover > * {
-  background-color: transparent !important;
-}
-
-
-/* Early Access: Lighter Grey */
-#navbar a[href="https://YOUR-LINK-HERE"] {
-  background-color: #e5e7eb !important; 
-  color: #1f2937 !important; 
-  padding: 0.4rem 1rem !important;
-  border-radius: 10px !important;
-  font-weight: 500 !important;
-  text-decoration: none !important;
   display: inline-flex !important;
   align-items: center !important;
+  padding: 0.4rem 1rem !important;
+  text-decoration: none !important;
 }
 
-#navbar a[href="https://YOUR-LINK-HERE"] > * {
+/* Force text and inner icons to stay readable (White) */
+#navbar a[href*="talk-to-founders"],
+#navbar a[href*="talk-to-founders"] * {
   background-color: transparent !important;
-  color: #1f2937 !important;
+  color: #ffffff !important; 
 }
 
+/* Hover State */
+#navbar a[href*="talk-to-founders"]:hover {
+  background-color: #1f2937 !important; /* Deeper Dark Gray */
+}
+
+
+/* ==========================================================================
+   2. EARLY ACCESS BUTTON (Light Cool Gray)
+   ========================================================================== */
+#navbar a[href="https://YOUR-LINK-HERE"] {
+  background-color: #e5e7eb !important; /* Light Gray Base */
+  border-radius: 10px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 0.4rem 1rem !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+}
+
+/* Force text and inner elements to stay highly readable (Dark Gray) */
+#navbar a[href="https://YOUR-LINK-HERE"],
+#navbar a[href="https://YOUR-LINK-HERE"] * {
+  background-color: transparent !important;
+  color: #1f2937 !important; 
+}
+
+/* Hover State */
 #navbar a[href="https://YOUR-LINK-HERE"]:hover {
-  background-color: #d1d5db !important; 
-}
-
-#navbar a[href="https://YOUR-LINK-HERE"]:hover > * {
-  background-color: transparent !important;
+  background-color: #d1d5db !important; /* Slightly Darker Gray */
 }
