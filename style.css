@@ -1981,10 +1981,10 @@ html:has(.sm-home) a:has(> img.nav-logo)::after {
 	color: var(--sm-text-2);
 }
 
-/* Talk to Founders: blue */
+/* Talk to Founders: Darker Grey */
 #navbar a[href="https://cal.com/aashrut/talk-to-founders"],
 #navbar a[href="https://cal.com/aashrut/talk-to-founders"] > * {
-  background-color: #1f5fd1 !important;
+  background-color: #374151 !important; /* Dark grey */
   color: #ffffff !important;
 }
 
@@ -1994,13 +1994,13 @@ html:has(.sm-home) a:has(> img.nav-logo)::after {
 
 #navbar a[href="https://cal.com/aashrut/talk-to-founders"]:hover,
 #navbar a[href="https://cal.com/aashrut/talk-to-founders"]:hover > * {
-  background-color: #184fb0 !important;
+  background-color: #1f2937 !important; /* Deeper dark grey for hover */
 }
 
-/* Early Access: green */
+/* Early Access: Lighter Grey */
 #navbar a[href="https://YOUR-LINK-HERE"] {
-  background-color: #16a34a !important;
-  color: #ffffff !important;
+  background-color: #e5e7eb !important; /* Light grey */
+  color: #1f2937 !important; /* Dark text for contrast on light background */
   padding: 0.4rem 1rem !important;
   border-radius: 10px !important;
   font-weight: 500 !important;
@@ -2008,5 +2008,6 @@ html:has(.sm-home) a:has(> img.nav-logo)::after {
 }
 
 #navbar a[href="https://YOUR-LINK-HERE"]:hover {
-  background-color: #12803b !important;
+  background-color: #d1d5db !important; /* Slightly darker light grey for hover */
+  color: #111827 !important;
 }
