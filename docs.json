@@ -8,8 +8,8 @@
     "dark": "#C1C1C1"
   },
   "logo": {
-    "light": "/images/superadmission-whnitepaper.svg",
-    "dark": "/images/superadmission-whnitepaper_dark.svg"
+    "light": "/images/superadmission-wordmark-light.png",
+    "dark": "/images/superadmission-wordmark-dark.png"
   },
   "favicon": {
     "light": "/images/1B_SVG_ICONONLY_PRAVESH.svg",
@@ -128,7 +128,7 @@
           {
             "group": "Trust and Security",
             "pages": [
-              "untitled-page-2"
+              "superadmission/trust-and-security"
             ]
           }
         ]
