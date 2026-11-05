@@ -1981,55 +1981,52 @@ html:has(.sm-home) a:has(> img.nav-logo)::after {
 	color: var(--sm-text-2);
 }
 
-/* ==========================================================================
-   1. EARLY ACCESS BUTTON (Penultimate Navigation Anchor)
-   ========================================================================== */
-#navbar a:nth-last-of-type(2) {
-  background-color: #e5e7eb !important; /* Light Gray Base */
+/* Talk to Founders: Darker Grey */
+#navbar a[href="https://cal.com"] {
+  background-color: #374151 !important; /* Entire button color */
+  color: #ffffff !important;
   border-radius: 10px !important;
+  display: inline-flex !important; /* Ensures seamless layout alignment */
+  align-items: center !important;
+}
+
+/* Force all inner text/icons to have a transparent background */
+#navbar a[href="https://cal.com"] > * {
+  background-color: transparent !important; 
+  color: #ffffff !important;
+}
+
+/* Hover States */
+#navbar a[href="https://cal.com"]:hover {
+  background-color: #1f2937 !important; /* Entire button hover color */
+}
+
+#navbar a[href="https://cal.com"]:hover > * {
+  background-color: transparent !important;
+}
+
+
+/* Early Access: Lighter Grey */
+#navbar a[href="https://YOUR-LINK-HERE"] {
+  background-color: #e5e7eb !important; 
+  color: #1f2937 !important; 
+  padding: 0.4rem 1rem !important;
+  border-radius: 10px !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
   display: inline-flex !important;
   align-items: center !important;
-  padding: 0.4rem 1rem !important;
-  text-decoration: none !important;
-  font-weight: 500 !important;
 }
 
-/* Force light mode text appearance in all themes */
-#navbar a:nth-last-of-type(2),
-#navbar a:nth-last-of-type(2) *,
-#navbar a:nth-last-of-type(2) span {
+#navbar a[href="https://YOUR-LINK-HERE"] > * {
   background-color: transparent !important;
-  color: #1f2937 !important; /* Dark Gray Text */
+  color: #1f2937 !important;
 }
 
-/* Hover State */
-#navbar a:nth-last-of-type(2):hover {
+#navbar a[href="https://YOUR-LINK-HERE"]:hover {
   background-color: #d1d5db !important; 
 }
 
-
-/* ==========================================================================
-   2. TALK TO FOUNDERS BUTTON (Last Navigation Anchor)
-   ========================================================================== */
-#navbar a:last-of-type {
-  background-color: #374151 !important; /* Dark Gray Base */
-  border-radius: 10px !important;
-  display: inline-flex !important;
-  align-items: center !important;
-  padding: 0.4rem 1rem !important;
-  text-decoration: none !important;
-}
-
-/* Force dark mode text appearance in all themes */
-#navbar a:last-of-type,
-#navbar a:last-of-type *,
-#navbar a:last-of-type span {
+#navbar a[href="https://YOUR-LINK-HERE"]:hover > * {
   background-color: transparent !important;
-  color: #ffffff !important; /* White Text */
 }
-
-/* Hover State */
-#navbar a:last-of-type:hover {
-  background-color: #1f2937 !important; 
-}
-
