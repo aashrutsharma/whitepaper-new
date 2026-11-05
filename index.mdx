@@ -34,94 +34,11 @@ export const ListCard = ({ title, children }) => (
   </div>
 )
 
-export const HeroPanel = () => {
-  const tabs = [
-    {
-      label: "Without Superadmission",
-      kicker: "WITHOUT SUPERADMISSION",
-      title: "One student managing multiple portals for one colege seat.",
-      intro: "You have the rank. Now the paperwork starts.",
-      items: [
-        ["1. Too many options", "150+ exams. 40+ counselling portals. Your guide is a YouTube video and a cousin's advice."],
-        ["2. A new account, again", "Every portal wants its own login, its own documents and the same details typed in once more."],
-        ["3. A calendar in your head", "Two to six portals are open at once. Each has its own dates. You check every website by hand."],
-        ["4. Result day", "Thousands of students open the same page at the same minute. It freezes."],
-        ["5. The payment page", "The timer runs. The gateway crashes. A file will not upload. The seat goes to the next rank."],
-      ],
-      note: "The rank was good yet not enough to ensure smooth and deserved admission",
-    },
-    {
-      label: "With Superadmission",
-      kicker: "WITH SUPERADMISSION",
-      title: "One place for every counselling.",
-      intro: "Same exams. Same ranks. A much calmer season.",
-      items: [
-        ["1. Create one profile", "Sign up with Aadhaar or APAAR. Documents arrive automatically from DigiLocker."],
-        ["2. Ask PraveshAI", "Get answers about any college from verified data or get personalised guidance as per your rank and preferences"],
-        ["3. One dashboard", "Every counselling you qualify for, side by side. One calendar for every deadline."],
-        ["4. Reminders that find you", "Alerts reach your phone and email before a deadline closes."],
-        ["5. Accept and pay", "Accept a seat or pay a fee with your security PIN, from the same dashboard."],
-        ["6. Report in seconds", "Show your QR code at the college. Staff scan it, and you are marked as reported."],
-      ],
-      note: "No repeat logins or uploads. No ill-infomred decisions and don't worry about missing an opportunity or the site crashing.",
-    },
-    {
-      label: "The three parts",
-      venn: true,
-      alt: "A Venn diagram of three overlapping circles: Manifest, PraveshAI and Superadmission.",
-    },
-  ];
-  const [active, setActive] = useState(0);
-  const t = tabs[active];
-  const gap = <span className="sm-prompt-line">{"\u00a0"}</span>;
-  return (
-    <div className="sm-prompt-panel">
-      <div className="sm-prompt-header">
-        <div className="sm-prompt-tabs" role="tablist">
-          {tabs.map((tab, i) => (
-            <button
-              key={tab.label}
-              type="button"
-              role="tab"
-              className="sm-prompt-tab"
-              aria-selected={i === active}
-              onClick={() => setActive(i)}
-            >
-              {tab.label}
-            </button>
-          ))}
-        </div>
-      </div>
-      <div className="sm-prompt-body">
-        {t.venn ? (
-          <div className="sm-prompt-venn">
-            <img src="/images/charts/venn-three-parts-gold (1).svg" alt={t.alt} />
-          </div>
-        ) : (
-          <>
-            <pre className="sm-prompt-scroll">
-              {t.kicker ? <span className="sm-prompt-line sm-prompt-muted">{t.kicker}</span> : null}
-              {t.kicker ? gap : null}
-              <span className="sm-prompt-line sm-prompt-heading">{t.title}</span>
-              {gap}
-              <span className="sm-prompt-line">{t.intro}</span>
-              {gap}
-              {t.items.map((item) => (
-                <span key={item[0]}>
-                  <span className="sm-prompt-line sm-prompt-heading">{item[0]}</span>
-                  <span className="sm-prompt-line">{item[1]}</span>
-                  {gap}
-                </span>
-              ))}
-              <span className="sm-prompt-line sm-prompt-muted">{t.note}</span>
-            </pre>
-            <div className="sm-prompt-fade" />
-          </>
-        )}
-      </div>
-    </div>
-  );
-}
+export const HeroPanel = () => (
+  <div className="sm-hero-image">
+    <img src="/images/charts/center-stage-3840x2160.png" alt="Snippet of Superadmission." />
+  </div>
+);
 
 <div className="sm-home">
   <section className="sm-home-hero">
