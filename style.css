@@ -2030,3 +2030,10 @@ html:has(.sm-home) a:has(> img.nav-logo)::after {
 #navbar a[href="https://YOUR-LINK-HERE"]:hover > * {
   background-color: transparent !important;
 }
+
+/* Header logo size */
+#navbar img[alt$="logo"] {
+  height: 36px !important;
+  width: auto !important;
+  max-height: none !important;
+}
