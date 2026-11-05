@@ -37,55 +37,39 @@ export const ListCard = ({ title, children }) => (
 export const HeroPanel = () => {
   const tabs = [
     {
-      label: "Student Journey",
-      title: "Your journey to college, in one place.",
-      intro: "From exploring your options to securing a seat, understand every step of your admission journey.",
+      label: "Without Superadmission",
+      kicker: "WITHOUT SUPERADMISSION",
+      title: "One rank. 40+ portals.",
+      intro: "You have the rank. Now the paperwork starts.",
       items: [
-        ["1. Discover opportunities", "Explore colleges, courses and admission pathways across India."],
-        ["2. Understand your eligibility", "Find out which programmes and institutions match your qualifications."],
-        ["3. Navigate admissions", "Keep track of applications, counselling processes, deadlines and updates."],
-        ["4. Secure your admission", "Follow seat allocation, acceptance and final admission requirements."],
+        ["1. Too many options", "150+ exams. 40+ counselling portals. Your guide is a YouTube video and a cousin's advice."],
+        ["2. A new account, again", "Every portal wants its own login, its own documents and the same details typed in once more."],
+        ["3. A calendar in your head", "Two to six portals are open at once. Each has its own dates. You check every website by hand."],
+        ["4. Result day", "Thousands of students open the same page at the same minute. It freezes."],
+        ["5. The payment page", "The timer runs. The gateway crashes. A file will not upload. The seat goes to the next rank."],
+        ["6. The first in the family", "No one at home has done this before. A high score settles for the nearest college."],
       ],
-      note: "Admission processes vary across institutions and counselling authorities.",
+      note: "The rank was enough. The process was not.",
     },
     {
-      label: "Manifest",
-      kicker: "SUPERADMISSION / MANIFEST",
-      title: "Your academic identity, beyond a single application.",
-      intro: "A unified student profile designed to bring your academic details, achievements and documents together.",
+      label: "With Superadmission",
+      kicker: "WITH SUPERADMISSION",
+      title: "One profile. Every counselling.",
+      intro: "Same exams. Same ranks. A much calmer season.",
       items: [
-        ["Academic records", "Your qualifications, marks and academic history."],
-        ["Documents", "Important certificates and application documents."],
-        ["Achievements", "Entrance exams, scores and other accomplishments."],
-        ["Student profile", "Your information in one organised profile."],
+        ["1. Create one profile", "Sign up with Aadhaar or APAAR. Documents arrive from DigiLocker. Upload a missing one once."],
+        ["2. Ask PraveshAI", "Get answers about any college from verified data. Every choice gets a Low, Mid or High tag."],
+        ["3. One dashboard", "Every counselling you qualify for, side by side. One calendar for every deadline."],
+        ["4. Reminders that find you", "Alerts reach your phone and email before a deadline closes."],
+        ["5. Accept and pay", "Accept a seat or pay a fee with your security PIN, from the same dashboard."],
+        ["6. Report in seconds", "Show your QR code at the college. Staff scan it, and you are marked as reported."],
       ],
-      note: "One student profile. Less repeated data entry across admission journeys.",
+      note: "No repeat logins. No repeat uploads. No repeat forms.",
     },
     {
-      label: "PraveshAI",
-      kicker: "SUPERADMISSION / PRAVESHAI",
-      title: "Make better-informed admission decisions.",
-      intro: "An AI-powered admission assistant designed to help students understand their options and make sense of complex admission processes.",
-      items: [
-        ["Explore colleges and courses", "Discover options based on your interests and qualifications."],
-        ["Understand eligibility", "Make sense of admission requirements and criteria."],
-        ["Understand counselling", "Get help understanding choices, cut-offs and admission steps."],
-        ["Get answers", "Ask questions and understand the admission process in simpler language."],
-      ],
-      note: "AI guidance supports student decisions. Official admission rules and notifications remain authoritative.",
-    },
-    {
-      label: "Admissions",
-      kicker: "SUPERADMISSION / ADMISSIONS",
-      title: "Multiple pathways. A clearer admission experience.",
-      intro: "Understand the different stages of admissions across entrance examinations, counselling systems and institutions.",
-      items: [
-        ["Entrance examinations", "JEE, NEET, CUET and other examination pathways."],
-        ["Counselling systems", "Understand choice filling, seat allocation, cut-offs and counselling rounds."],
-        ["Institutions", "Explore universities, colleges and participating institutions."],
-        ["Admission milestones", "Follow important dates, offers, acceptance and reporting requirements."],
-      ],
-      note: "Admission processes differ across examinations, institutions and counselling authorities.",
+      label: "The three parts",
+      venn: true,
+      alt: "A Venn diagram of three overlapping circles: Manifest, PraveshAI and Superadmission.",
     },
   ];
   const [active, setActive] = useState(0);
@@ -110,23 +94,31 @@ export const HeroPanel = () => {
         </div>
       </div>
       <div className="sm-prompt-body">
-        <pre className="sm-prompt-scroll">
-          {t.kicker ? <span className="sm-prompt-line sm-prompt-muted">{t.kicker}</span> : null}
-          {t.kicker ? gap : null}
-          <span className="sm-prompt-line sm-prompt-heading">{t.title}</span>
-          {gap}
-          <span className="sm-prompt-line">{t.intro}</span>
-          {gap}
-          {t.items.map((item) => (
-            <span key={item[0]}>
-              <span className="sm-prompt-line sm-prompt-heading">{item[0]}</span>
-              <span className="sm-prompt-line">{item[1]}</span>
+        {t.venn ? (
+          <div className="sm-prompt-venn">
+            <img src="/images/charts/venn-three-parts.svg" alt={t.alt} />
+          </div>
+        ) : (
+          <>
+            <pre className="sm-prompt-scroll">
+              {t.kicker ? <span className="sm-prompt-line sm-prompt-muted">{t.kicker}</span> : null}
+              {t.kicker ? gap : null}
+              <span className="sm-prompt-line sm-prompt-heading">{t.title}</span>
               {gap}
-            </span>
-          ))}
-          <span className="sm-prompt-line sm-prompt-muted">{t.note}</span>
-        </pre>
-        <div className="sm-prompt-fade" />
+              <span className="sm-prompt-line">{t.intro}</span>
+              {gap}
+              {t.items.map((item) => (
+                <span key={item[0]}>
+                  <span className="sm-prompt-line sm-prompt-heading">{item[0]}</span>
+                  <span className="sm-prompt-line">{item[1]}</span>
+                  {gap}
+                </span>
+              ))}
+              <span className="sm-prompt-line sm-prompt-muted">{t.note}</span>
+            </pre>
+            <div className="sm-prompt-fade" />
+          </>
+        )}
       </div>
     </div>
   );
