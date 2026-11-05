@@ -1982,34 +1982,9 @@ html:has(.sm-home) a:has(> img.nav-logo)::after {
 }
 
 /* ==========================================================================
-   1. TALK TO FOUNDERS BUTTON (Dark Charcoal Gray)
+   1. EARLY ACCESS BUTTON (Penultimate Navigation Anchor)
    ========================================================================== */
-#navbar a[href*="talk-to-founders"] {
-  background-color: #374151 !important; /* Dark Gray Base */
-  border-radius: 10px !important;
-  display: inline-flex !important;
-  align-items: center !important;
-  padding: 0.4rem 1rem !important;
-  text-decoration: none !important;
-}
-
-/* Force text and inner icons to stay readable (White) */
-#navbar a[href*="talk-to-founders"],
-#navbar a[href*="talk-to-founders"] * {
-  background-color: transparent !important;
-  color: #ffffff !important; 
-}
-
-/* Hover State */
-#navbar a[href*="talk-to-founders"]:hover {
-  background-color: #1f2937 !important; /* Deeper Dark Gray */
-}
-
-
-/* ==========================================================================
-   2. EARLY ACCESS BUTTON (Light Cool Gray)
-   ========================================================================== */
-#navbar a[href="https://YOUR-LINK-HERE"] {
+#navbar a:nth-last-of-type(2) {
   background-color: #e5e7eb !important; /* Light Gray Base */
   border-radius: 10px !important;
   display: inline-flex !important;
@@ -2019,14 +1994,42 @@ html:has(.sm-home) a:has(> img.nav-logo)::after {
   font-weight: 500 !important;
 }
 
-/* Force text and inner elements to stay highly readable (Dark Gray) */
-#navbar a[href="https://YOUR-LINK-HERE"],
-#navbar a[href="https://YOUR-LINK-HERE"] * {
+/* Force light mode text appearance in all themes */
+#navbar a:nth-last-of-type(2),
+#navbar a:nth-last-of-type(2) *,
+#navbar a:nth-last-of-type(2) span {
   background-color: transparent !important;
-  color: #1f2937 !important; 
+  color: #1f2937 !important; /* Dark Gray Text */
 }
 
 /* Hover State */
-#navbar a[href="https://YOUR-LINK-HERE"]:hover {
-  background-color: #d1d5db !important; /* Slightly Darker Gray */
+#navbar a:nth-last-of-type(2):hover {
+  background-color: #d1d5db !important; 
 }
+
+
+/* ==========================================================================
+   2. TALK TO FOUNDERS BUTTON (Last Navigation Anchor)
+   ========================================================================== */
+#navbar a:last-of-type {
+  background-color: #374151 !important; /* Dark Gray Base */
+  border-radius: 10px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 0.4rem 1rem !important;
+  text-decoration: none !important;
+}
+
+/* Force dark mode text appearance in all themes */
+#navbar a:last-of-type,
+#navbar a:last-of-type *,
+#navbar a:last-of-type span {
+  background-color: transparent !important;
+  color: #ffffff !important; /* White Text */
+}
+
+/* Hover State */
+#navbar a:last-of-type:hover {
+  background-color: #1f2937 !important; 
+}
+
