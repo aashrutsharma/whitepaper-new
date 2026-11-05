@@ -58,7 +58,7 @@
     "links": [
       {
         "icon": "x-twitter",
-        "href": "https://x.com/aashruts",
+        "href": "https://x.com/superadmissions?s=11",
         "label": ""
       },
       {
@@ -74,7 +74,7 @@
     "primary": {
       "type": "button",
       "label": "Talk to Founders",
-      "href": "https://cal.com/aashrut/talk-to-founders"
+      "href": "https://cal.com/unnati-vijay-superadmission/15min?user=unnati-vijay-superadmission"
     }
   },
   "navigation": {
@@ -166,7 +166,7 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/aashruts",
+      "x": "https://x.com/superadmissions?s=11",
       "linkedin": "https://www.linkedin.com/company/superadmission"
     },
     "links": [
@@ -200,11 +200,11 @@
         "items": [
           {
             "label": "Talk to Founders",
-            "href": "https://cal.com/aashrut/talk-to-founders"
+            "href": "https://cal.com/unnati-vijay-superadmission/15min?user=unnati-vijay-superadmission"
           },
           {
             "label": "X / Twitter",
-            "href": "https://x.com/aashruts"
+            "href": "https://x.com/superadmissions?s=11"
           },
           {
             "label": "LinkedIn",
