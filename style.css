@@ -2045,7 +2045,7 @@ html:has(.sm-home) a:has(> img.nav-logo)::after {
 }
 
 .sm-hero-image img {
-  width: 640px !important;
+  width: 680px !important;
   max-width: none !important;
   height: auto !important;
 }
