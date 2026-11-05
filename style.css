@@ -1982,32 +1982,51 @@ html:has(.sm-home) a:has(> img.nav-logo)::after {
 }
 
 /* Talk to Founders: Darker Grey */
-#navbar a[href="https://cal.com/aashrut/talk-to-founders"],
-#navbar a[href="https://cal.com/aashrut/talk-to-founders"] > * {
-  background-color: #374151 !important; /* Dark grey */
+#navbar a[href="https://cal.com"] {
+  background-color: #374151 !important; /* Entire button color */
+  color: #ffffff !important;
+  border-radius: 10px !important;
+  display: inline-flex !important; /* Ensures seamless layout alignment */
+  align-items: center !important;
+}
+
+/* Force all inner text/icons to have a transparent background */
+#navbar a[href="https://cal.com"] > * {
+  background-color: transparent !important; 
   color: #ffffff !important;
 }
 
-#navbar a[href="https://cal.com/aashrut/talk-to-founders"] {
-  border-radius: 10px !important;
+/* Hover States */
+#navbar a[href="https://cal.com"]:hover {
+  background-color: #1f2937 !important; /* Entire button hover color */
 }
 
-#navbar a[href="https://cal.com/aashrut/talk-to-founders"]:hover,
-#navbar a[href="https://cal.com/aashrut/talk-to-founders"]:hover > * {
-  background-color: #1f2937 !important; /* Deeper dark grey for hover */
+#navbar a[href="https://cal.com"]:hover > * {
+  background-color: transparent !important;
 }
+
 
 /* Early Access: Lighter Grey */
 #navbar a[href="https://YOUR-LINK-HERE"] {
-  background-color: #e5e7eb !important; /* Light grey */
-  color: #1f2937 !important; /* Dark text for contrast on light background */
+  background-color: #e5e7eb !important; 
+  color: #1f2937 !important; 
   padding: 0.4rem 1rem !important;
   border-radius: 10px !important;
   font-weight: 500 !important;
   text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+#navbar a[href="https://YOUR-LINK-HERE"] > * {
+  background-color: transparent !important;
+  color: #1f2937 !important;
 }
 
 #navbar a[href="https://YOUR-LINK-HERE"]:hover {
-  background-color: #d1d5db !important; /* Slightly darker light grey for hover */
-  color: #111827 !important;
+  background-color: #d1d5db !important; 
+}
+
+#navbar a[href="https://YOUR-LINK-HERE"]:hover > * {
+  background-color: transparent !important;
 }
