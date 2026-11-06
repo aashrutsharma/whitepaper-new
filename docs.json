@@ -5,10 +5,10 @@
   "colors": {
     "primary": "#1D6FE8",
     "light": "#FBFBFB",
-    "dark": "#222222"
+    "dark": "#171717"
   },
   "logo": {
-    "light": "/images/Whitepaper_logo_lightmode.png",
+    "light": "/images/superadmission-whnitepaper.png",
     "dark": "/images/Whitepaper_logo_darkmode.png"
   },
   "favicon": {
@@ -21,8 +21,8 @@
   },
   "background": {
     "color": {
-      "dark": "#191919",
-      "light": "#F1F1F1"
+      "dark": "#000000",
+      "light": "#FFFFFF"
     }
   },
   "icons": {
@@ -50,22 +50,6 @@
     "prompt": "Search..."
   },
   "navbar": {
-    "links": [
-      {
-        "icon": "x-twitter",
-        "href": "https://x.com/superadmissions?s=11",
-        "label": ""
-      },
-      {
-        "icon": "linkedin",
-        "href": "https://www.linkedin.com/company/superadmission/",
-        "label": ""
-      },
-      {
-        "href": "https://YOUR-LINK-HERE",
-        "label": "Early Access"
-      }
-    ],
     "primary": {
       "type": "button",
       "label": "Talk to Founders",
