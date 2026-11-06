@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Superadmission Documentation",
   "colors": {
-    "primary": "#000000",
+    "primary": "#1D6FE8",
     "light": "#FBFBFB",
-    "dark": "#C1C1C1"
+    "dark": "#222222"
   },
   "logo": {
     "light": "/images/Whitepaper_logo_lightmode.png",
@@ -21,13 +21,8 @@
   },
   "background": {
     "color": {
-      "dark": "#191919"
-    }
-  },
-  "fonts": {
-    "heading": {
-      "family": "Inter",
-      "weight": 600
+      "dark": "#191919",
+      "light": "#F1F1F1"
     }
   },
   "icons": {
