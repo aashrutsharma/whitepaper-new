@@ -2039,26 +2039,27 @@ html:has(.sm-home) img.nav-logo[src="/logo/dark.svg"] {
   height: auto !important;
 }
 
-/* Page icons beside the breadcrumb on three pages */
-html:has(.pg-icon-dashboard) li.breadcrumb-item:first-child::before,
-html:has(.pg-icon-praveshai) li.breadcrumb-item:first-child::before,
-html:has(.pg-icon-manifest) li.breadcrumb-item:first-child::before {
+/* Icon to the left of the page title on three pages */
+html:has(.pg-icon-dashboard) h1::before,
+html:has(.pg-icon-praveshai) h1::before,
+html:has(.pg-icon-manifest) h1::before {
   content: "";
   display: inline-block;
-  width: 28px;
-  height: 28px;
-  margin-right: 8px;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.3em;
+  vertical-align: -0.12em;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-html:has(.pg-icon-dashboard) li.breadcrumb-item:first-child::before {
+html:has(.pg-icon-dashboard) h1::before {
   background-image: url("/images/superadmission_for gold.png");
 }
-html:has(.pg-icon-praveshai) li.breadcrumb-item:first-child::before {
+html:has(.pg-icon-praveshai) h1::before {
   background-image: url("/images/for praveshAI.png");
 }
-html:has(.pg-icon-manifest) li.breadcrumb-item:first-child::before {
+html:has(.pg-icon-manifest) h1::before {
   background-image: url("/images/manifest _for.png");
 }
