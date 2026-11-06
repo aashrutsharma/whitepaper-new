@@ -2049,3 +2049,9 @@ html:has(.sm-home) a:has(> img.nav-logo)::after {
   max-width: none !important;
   height: auto !important;
 }
+
+/* hide the "Docs" label and its divider next to the logo */
+SELECTOR-FOR-THE-DIVIDER,
+SELECTOR-FOR-THE-DOCS-LABEL {
+  display: none !important;
+}
