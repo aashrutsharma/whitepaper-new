@@ -1970,17 +1970,6 @@ html:has(.sm-home) img.nav-logo[src="/logo/dark.svg"] {
 	height: 18px !important;
 }
 
-html:has(.sm-home) a:has(> img.nav-logo)::after {
-	content: "Docs";
-	padding-left: 10px;
-	border-left: 1px solid var(--sm-border-hover);
-	font-family: var(--sm-font-sans);
-	font-size: 15px;
-	font-weight: 500;
-	line-height: 18px;
-	color: var(--sm-text-2);
-}
-
 /* Talk to Founders: Darker Grey */
 #navbar a[href="https://cal.com"] {
   background-color: #374151 !important; /* Entire button color */
@@ -2048,10 +2037,4 @@ html:has(.sm-home) a:has(> img.nav-logo)::after {
   width: 640px !important;
   max-width: none !important;
   height: auto !important;
-}
-
-/* hide the "Docs" label and its divider next to the logo */
-SELECTOR-FOR-THE-DIVIDER,
-SELECTOR-FOR-THE-DOCS-LABEL {
-  display: none !important;
 }
