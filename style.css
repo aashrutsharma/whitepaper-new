@@ -2033,7 +2033,7 @@ html:has(.sm-home) a:has(> img.nav-logo)::after {
 
 /* Header logo size */
 #navbar img[alt$="logo"] {
-  height: 52px !important;
+  height: 48px !important;
   width: auto !important;
   max-height: none !important;
 }
