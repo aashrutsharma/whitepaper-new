@@ -2045,8 +2045,8 @@ html:has(.pg-icon-praveshai) li.breadcrumb-item:first-child::before,
 html:has(.pg-icon-manifest) li.breadcrumb-item:first-child::before {
   content: "";
   display: inline-block;
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   margin-right: 8px;
   background-size: contain;
   background-repeat: no-repeat;
