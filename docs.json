@@ -8,12 +8,12 @@
     "dark": "#C1C1C1"
   },
   "logo": {
-    "light": "/images/superadmission-wordmark-light.png",
-    "dark": "/images/superadmission-wordmark-dark.png"
+    "light": "/images/superadmission_forgold.png",
+    "dark": "/images/superadmission_forgold.png"
   },
   "favicon": {
     "light": "/images/1B_SVG_ICONONLY_PRAVESH.svg",
-    "dark": "/images/SVG_ICONONLY_PRAVESH_WHITE.png"
+    "dark": "/images/superadmission_forgold.png"
   },
   "appearance": {
     "default": "light",
