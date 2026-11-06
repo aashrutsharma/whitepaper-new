@@ -2038,3 +2038,27 @@ html:has(.sm-home) img.nav-logo[src="/logo/dark.svg"] {
   max-width: none !important;
   height: auto !important;
 }
+
+/* Page icons beside the breadcrumb on three pages */
+html:has(.pg-icon-dashboard) li.breadcrumb-item:first-child::before,
+html:has(.pg-icon-praveshai) li.breadcrumb-item:first-child::before,
+html:has(.pg-icon-manifest) li.breadcrumb-item:first-child::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+html:has(.pg-icon-dashboard) li.breadcrumb-item:first-child::before {
+  background-image: url("/images/superadmission_for gold.png");
+}
+html:has(.pg-icon-praveshai) li.breadcrumb-item:first-child::before {
+  background-image: url("/images/for praveshAI.png");
+}
+html:has(.pg-icon-manifest) li.breadcrumb-item:first-child::before {
+  background-image: url("/images/manifest _for.png");
+}
