@@ -205,8 +205,11 @@
     }
   },
   "thumbnails": {
-    "preset": "minimal",
-    "surface": "brand"
+    "preset": "classic",
+    "surface": "brand",
+    "fonts": {
+      "family": "Inter"
+    }
   },
   "fonts": {
     "heading": {
