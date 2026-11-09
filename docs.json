@@ -215,5 +215,9 @@
     "body": {
       "family": "Inter"
     }
+  },
+  "banner": {
+    "content": "This whitepaper is constantly updating as we develop and expand.",
+    "dismissible": true
   }
 }
