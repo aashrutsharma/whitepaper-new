@@ -2097,3 +2097,22 @@ html:has(.pg-icon-manifest) h1::before {
     max-height: 420px;
   }
 }
+
+.sm-home-sample {
+  padding: 0 16px 24px 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 48px), transparent);
+  mask-image: linear-gradient(to bottom, #000 calc(100% - 48px), transparent);
+}
+
+.sm-home-sample > * {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.sm-home-sample img {
+  max-width: 100%;
+  height: auto;
+}
