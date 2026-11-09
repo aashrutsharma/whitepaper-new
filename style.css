@@ -2063,3 +2063,37 @@ html:has(.pg-icon-praveshai) h1::before {
 html:has(.pg-icon-manifest) h1::before {
   background-image: url("/images/manifest _for.png");
 }
+
+/* Hero right side: fixed height, scrolls inside */
+.sm-home-sample {
+  max-height: 520px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: 12px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--sm-border-hover) transparent;
+}
+
+.sm-home-sample img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sm-home-sample::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sm-home-sample::-webkit-scrollbar-thumb {
+  background: var(--sm-border-hover);
+  border-radius: 999px;
+}
+
+.sm-home-hero {
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .sm-home-sample {
+    max-height: 420px;
+  }
+}
