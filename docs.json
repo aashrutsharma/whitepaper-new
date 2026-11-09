@@ -23,7 +23,8 @@
     "color": {
       "dark": "#000000",
       "light": "#FFFFFF"
-    }
+    },
+    "image": "/images/overview-morning.jpg"
   },
   "icons": {
     "library": "lucide"
