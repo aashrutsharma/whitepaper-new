@@ -2064,19 +2064,34 @@ html:has(.pg-icon-manifest) h1::before {
   background-image: url("/images/manifest _for.png");
 }
 
-/* Hero right side: fixed height, scrolls inside */
-.sm-home-sample {
-  max-height: 520px;
-  overflow-y: auto;
-  overscroll-behavior: contain;
-  padding-right: 12px;
-  scrollbar-width: thin;
-  scrollbar-color: var(--sm-border-hover) transparent;
+/* ===== Hero right box: scrollable, bordered, wider ===== */
+
+@media (min-width: 1025px) {
+  .sm-home {
+    max-width: 1360px;
+  }
+
+  .sm-home-hero {
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+    gap: 48px;
+    align-items: center;
+  }
 }
 
-.sm-home-sample img {
-  max-width: 100%;
-  height: auto;
+.sm-home-sample {
+  width: 100%;
+  max-height: 520px;
+  padding: 20px 32px 0 24px;
+  border: 1px solid var(--sm-border);
+  border-radius: var(--sm-radius-lg);
+  background: var(--sm-bg);
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: var(--sm-border-hover) transparent;
 }
 
 .sm-home-sample::-webkit-scrollbar {
@@ -2088,25 +2103,6 @@ html:has(.pg-icon-manifest) h1::before {
   border-radius: 999px;
 }
 
-.sm-home-hero {
-  align-items: center;
-}
-
-@media (max-width: 1024px) {
-  .sm-home-sample {
-    max-height: 420px;
-  }
-}
-
-.sm-home-sample {
-  padding: 0 16px 24px 20px;
-  overflow-x: hidden;
-  overflow-y: auto;
-  box-sizing: border-box;
-  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 48px), transparent);
-  mask-image: linear-gradient(to bottom, #000 calc(100% - 48px), transparent);
-}
-
 .sm-home-sample > * {
   max-width: 100%;
   box-sizing: border-box;
@@ -2115,4 +2111,22 @@ html:has(.pg-icon-manifest) h1::before {
 .sm-home-sample img {
   max-width: 100%;
   height: auto;
+}
+
+/* soft fade at the bottom, border stays crisp */
+.sm-home-sample::after {
+  content: "";
+  position: sticky;
+  bottom: 0;
+  display: block;
+  height: 48px;
+  margin-top: -48px;
+  background: linear-gradient(to top, var(--sm-bg), transparent);
+  pointer-events: none;
+}
+
+@media (max-width: 1024px) {
+  .sm-home-sample {
+    max-height: 420px;
+  }
 }
