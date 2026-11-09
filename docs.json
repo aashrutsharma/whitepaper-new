@@ -205,7 +205,7 @@
     }
   },
   "thumbnails": {
-    "preset": "classic",
+    "preset": "headline",
     "surface": "brand"
   },
   "fonts": {
